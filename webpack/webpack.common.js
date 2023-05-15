@@ -26,8 +26,8 @@ module.exports = {
         type: "asset/resource"
       },
       {
-        test: /\.(woff(2)?|eot|ttf|otf|svg)$/,
-        type: "asset/inline"
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: "asset/resource",
       }
     ]
   },

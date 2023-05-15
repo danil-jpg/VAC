@@ -1,0 +1,22 @@
+.btn {
+  background: #7481ff;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 14px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: 0.3s;
+  border: none;
+  padding: 15px;
+  color: #ffffff;
+  &:hover {
+    background: #6270ff;
+  }
+  &[disabled] {
+    background: #7481ff;
+  }
+}

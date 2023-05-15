@@ -19,7 +19,7 @@ module.exports = {
   ],
   rules: {
     quotes: ["error", "double"],
-    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "no-unused-vars": ["none ", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
     // "no-unused-imports": 1
   }
 }
