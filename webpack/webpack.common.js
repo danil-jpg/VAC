@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
 module.exports = {
   entry: path.resolve(__dirname, "../src/index.jsx"),
   resolve: {
-    extensions: [".tsx", ".ts", ".js"]
+    extensions: [".tsx", ".ts", ".js", ".jsx"]
   },
   module: {
     rules: [
@@ -19,7 +19,14 @@ module.exports = {
       },
       {
         test: /\.(css|sass|scss)$/,
-        use: ["style-loader", "css-loader", "sass-loader"]
+        use: ["style-loader", {
+          loader: 'css-loader',
+          options: {
+            modules: {
+              localIdentName: '[local]__[hash:base64:5]'
+            }
+          }
+        }, "sass-loader"]
       },
       {
         test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
@@ -28,7 +35,18 @@ module.exports = {
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: "asset/resource",
-      }
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
+      },
     ]
   },
   output: {

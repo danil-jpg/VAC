@@ -1,0 +1,27 @@
+.logoWr {
+  display: flex;
+  align-items: center;
+  img {
+    width: 50px;
+    height: 31.27px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 108.5%;
+    letter-spacing: 0.02em;
+    color: #7380ff;
+    margin-left: 5px;
+  }
+  @media screen and (max-width: 1200px) {
+    img {
+      width: 36px;
+      height: 22px;
+    }
+    p {
+      font-size: 20.2955px;
+      margin-left: 5px;
+    }
+  }
+}

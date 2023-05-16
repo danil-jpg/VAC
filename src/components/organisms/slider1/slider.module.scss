@@ -1,0 +1,38 @@
+.slider1 {
+  background-image: url(../../../assets/img/components/slider1/sliderBackground.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+.slider1Content {
+  display: grid;
+  grid-template-columns: 39% 51%;
+  column-gap: 126px;
+}
+.sliderSl {
+  position: relative;
+  margin-top: 176px;
+}
+.sliderText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 108.5%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 116px;
+}
+
+.slider1 .btnNonStandart {
+  background-color: white;
+  border: 1px solid transparent;
+  max-width: 200px;
+  margin-bottom: 182px;
+  margin-top: -46px;
+}
+
+.slideWr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

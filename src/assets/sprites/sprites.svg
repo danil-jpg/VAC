@@ -11,6 +11,16 @@
 				  stroke-linecap="round"
 				  stroke-linejoin="round" />
 		</symbol>
+		<symbol id="burger"
+				class="burger"
+				viewBox="0 0 37 30"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+			<path fill-rule="evenodd"
+				  clip-rule="evenodd"
+				  d="M0 2C0 0.895431 0.89543 0 2 0H35C36.1046 0 37 0.895431 37 2C37 3.10457 36.1046 4 35 4H2C0.895432 4 0 3.10457 0 2ZM0 15C0 13.8954 0.89543 13 2 13H35C36.1046 13 37 13.8954 37 15C37 16.1046 36.1046 17 35 17H2C0.895432 17 0 16.1046 0 15ZM2 26C0.89543 26 0 26.8954 0 28C0 29.1046 0.895432 30 2 30H35C36.1046 30 37 29.1046 37 28C37 26.8954 36.1046 26 35 26H2Z"
+				  fill="#41456B" />
+		</symbol>
 
 	</defs>
 </svg>
