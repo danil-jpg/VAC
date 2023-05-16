@@ -10,6 +10,14 @@
     height: 209.71px;
     left: -38px;
   }
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 265px;
+    width: 274px;
+    height: 114px;
+    left: -66px;
+    top: 401px;
+  }
 }
 
 .img2 {
@@ -21,6 +29,12 @@
     right: -181px;
     top: 233px;
   }
+  @media screen and (max-width: 767px) {
+    width: 259px;
+    height: 132px;
+    right: -81px;
+    top: 303px;
+  }
 }
 
 .descrSecWr {
@@ -30,5 +44,9 @@
 
   @media screen and (max-width: 1200px) {
     margin-bottom: 370px;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 265px;
   }
 }
