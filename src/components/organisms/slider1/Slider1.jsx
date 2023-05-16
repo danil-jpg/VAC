@@ -20,9 +20,17 @@ const Slider1 = () => {
 			position: absolute;
 			right: 5px;
 			top: 47%;
-			
+
 			@media screen and (max-width: 1200px) {
 				right: 60px;
+			};
+
+			@media screen and (max-width: 767px) {
+				right: 0px;
+				top: 51%;
+				width: 35px;
+				height: 35px;
+				background-size: contain;
 			}
 		  }
 		  
@@ -34,6 +42,14 @@ const Slider1 = () => {
 
 			@media screen and (max-width: 1200px) {
 				left: 60px;
+			};
+
+			@media screen and (max-width: 767px) {
+				left: 0px;
+				top: 51%;
+				width: 35px;
+				height: 35px;
+				background-size: contain;
 			}
 		  }
 
