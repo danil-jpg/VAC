@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./assets/styles/styles.scss";
 import Header from "./components/organisms/header/Header.jsx";
-import Slider1 from "./components/organisms/slider1/Slider1";
+import MainPage from "./components/templates/mainPage/MainPage";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Slider1 />
+      <MainPage></MainPage>
     </>
   );
 };

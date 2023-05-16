@@ -7,7 +7,6 @@ const Slider1 = () => {
   register();
 
   const params = {
-    // array with CSS styles
     injectStyles: [
       `
 		.swiper-button-next , .swiper-button-prev{
@@ -52,9 +51,6 @@ const Slider1 = () => {
 				background-size: contain;
 			}
 		  }
-
-
-		  
   			`,
     ],
   };

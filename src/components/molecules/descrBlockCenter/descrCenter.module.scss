@@ -1,0 +1,40 @@
+.descrWr {
+  background-color: white;
+  max-width: 605px;
+  min-height: 365px;
+  padding: 60px;
+  margin: 0 auto;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.descrTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  text-align: center;
+  color: #41456b;
+}
+
+.subDescr {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  text-align: center;
+  color: #7481ff;
+}
+
+.descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #606276;
+  margin-top: 20px;
+}
