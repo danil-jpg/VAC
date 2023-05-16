@@ -4,7 +4,7 @@
   background-color: #fff;
   padding: 17px 0 18px 0;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     padding: 11px 0 18px 0;
   }
 }
@@ -17,7 +17,7 @@ header .btnLin {
     padding: 15px 24px;
     margin-left: 24.1%;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }
@@ -28,7 +28,7 @@ header .btnSol {
     margin-left: 2.6%;
     padding: 15px 29px;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     padding: 10px 0px;
     margin-left: 17.1%;
     min-width: 130px;
@@ -43,7 +43,7 @@ header .btnSol {
   @media screen and (max-width: 1200px) {
     margin-left: 8.4%;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     width: 30px;
     height: 25px;
     margin-left: 7.4%;

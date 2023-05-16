@@ -20,14 +20,24 @@ const Slider1 = () => {
 			position: absolute;
 			right: 5px;
 			top: 47%;
+			
+			@media screen and (max-width: 1200px) {
+				right: 60px;
+			}
 		  }
 		  
 		  .swiper-button-prev {
 			position: absolute;
 			left: 5px;
 			top: 47%;
-			transform: rotate(180deg)
+			transform: rotate(180deg);
+
+			@media screen and (max-width: 1200px) {
+				left: 60px;
+			}
 		  }
+
+
 		  
   			`,
     ],

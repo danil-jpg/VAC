@@ -8,10 +8,17 @@
   display: grid;
   grid-template-columns: 39% 51%;
   column-gap: 126px;
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 100%;
+  }
 }
 .sliderSl {
   position: relative;
   margin-top: 176px;
+  @media screen and (max-width: 1200px) {
+    margin-top: 59px;
+  }
 }
 .sliderText {
   font-style: normal;
@@ -21,6 +28,13 @@
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-top: 116px;
+  @media screen and (max-width: 1200px) {
+    margin-top: 59px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 59px;
+  }
 }
 
 .slider1 .btnNonStandart {
@@ -29,6 +43,12 @@
   max-width: 200px;
   margin-bottom: 182px;
   margin-top: -46px;
+
+  @media screen and (max-width: 1200px) {
+    margin-top: 63px;
+    margin: 63px auto 126px;
+    padding: 15px 38px;
+  }
 }
 
 .slideWr {
