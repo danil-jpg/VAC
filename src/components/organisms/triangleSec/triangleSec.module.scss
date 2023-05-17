@@ -5,11 +5,20 @@
   @media screen and (max-width: 1200px) {
     grid-template-columns: 58% 1fr;
   }
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
 }
 .triangleLeft {
   @media screen and (max-width: 1200px) {
     ul {
       margin-top: 123px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    ul {
+      margin-top: 118px;
     }
   }
 }
@@ -30,6 +39,12 @@
   @media screen and (max-width: 1200px) {
     position: absolute;
     width: unset;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 30px;
+    line-height: 140.5%;
+    width: 71%;
   }
 }
 

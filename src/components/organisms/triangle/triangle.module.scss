@@ -1,6 +1,10 @@
 .triangleLi {
   display: flex;
   margin-bottom: 60px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
 }
 
 .triangleNum {
@@ -11,11 +15,20 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #41456b;
+
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+    line-height: 140%;
+  }
 }
 
 .triangleRight {
   margin-left: 20px;
   margin-top: 3px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: -4px;
+  }
 }
 
 .triangleLeft {
@@ -27,12 +40,24 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+
+  @media screen and (max-width: 767px) {
+    width: 52px;
+    height: 47px;
+    background-size: cover;
+  }
 }
 .triangleTitle {
   font-weight: 600;
   font-size: 20px;
   line-height: 25px;
   color: #41456b;
+
+  @media screen and (max-width: 767px) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 .triangleDescr {
   font-weight: 400;
@@ -41,6 +66,10 @@
   letter-spacing: 0.02em;
   color: #606276;
   margin-top: 12px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 6px;
+  }
 }
 .triangleUl {
   padding: 0;
