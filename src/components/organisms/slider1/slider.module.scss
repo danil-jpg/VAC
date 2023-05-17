@@ -7,6 +7,7 @@
 .slider1Content {
   display: grid;
   grid-template-columns: 39% 51%;
+  overflow-x: clip;
   column-gap: 126px;
 
   @media screen and (max-width: 1200px) {

@@ -1,10 +1,22 @@
 .triangleSec {
   display: grid;
   grid-template-columns: 52% 1fr;
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 58% 1fr;
+  }
 }
 .triangleLeft {
+  @media screen and (max-width: 1200px) {
+    ul {
+      margin-top: 123px;
+    }
+  }
 }
 .triangleRight {
+  @media screen and (max-width: 1200px) {
+    padding-left: 30px;
+  }
 }
 .triangleTitle {
   font-style: normal;
@@ -14,6 +26,11 @@
   color: #41456b;
   width: 64%;
   margin-bottom: 60px;
+
+  @media screen and (max-width: 1200px) {
+    position: absolute;
+    width: unset;
+  }
 }
 
 ul {
