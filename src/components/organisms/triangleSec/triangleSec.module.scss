@@ -1,0 +1,28 @@
+.triangleSec {
+  display: grid;
+  grid-template-columns: 52% 1fr;
+}
+.triangleLeft {
+}
+.triangleRight {
+}
+.triangleTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
+  width: 64%;
+  margin-bottom: 60px;
+}
+
+ul {
+}
+
+.triangleRight {
+  padding-top: 183px;
+  /* padding-left: 6px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

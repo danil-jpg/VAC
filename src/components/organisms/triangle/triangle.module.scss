@@ -1,0 +1,56 @@
+.triangleLi {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.triangleNum {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #41456b;
+}
+
+.triangleRight {
+  margin-left: 20px;
+  margin-top: 3px;
+}
+
+.triangleLeft {
+  background-image: url("../../../assets/img/components/triangle/tri.png");
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.triangleTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #41456b;
+}
+.triangleDescr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+  margin-top: 12px;
+}
+.triangleUl {
+  padding: 0;
+}
+// <li key={el.num} className={s.triangleLi}>
+// <div className={s.triangleLeft}>
+//   <p className={s.triangleNum}>{el.num}</p>
+// </div>
+// <div className={s.triangleRight}>
+//   <p className={s.triangleTitle}>{el.title}</p>
+//   <p className={s.triangleDescr}>{el.descr}</p>
+// </div>
+// </li>
