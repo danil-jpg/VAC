@@ -49,4 +49,26 @@
 }
 
 @media screen and (max-width: 767px) {
+  .block {
+    padding: 0;
+    grid-template-columns: 1fr;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140.5%;
+  }
+  .descr {
+    padding: 0;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .button {
+    grid-column: 1;
+    margin-top: 29px;
+    width: 320px;
+    margin-left: 0;
+    height: 36px;
+  }
 }
