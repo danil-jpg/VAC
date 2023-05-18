@@ -5,6 +5,7 @@ import s from "./mainPage.module.scss";
 import TriangleSec from "../../organisms/triangleSec/TriangleSec";
 import AdvantageTriSec from "../../organisms/advantageTriSec/AdvantageTriSec";
 import Catalogue from "../../organisms/catalogueLink/CatalogueLink";
+import HappyCustomers from "../../organisms/happyCustomers/happyCustomers";
 
 const MainPage = () => {
   return (
@@ -14,6 +15,7 @@ const MainPage = () => {
       <TriangleSec />
       <AdvantageTriSec />
       <Catalogue />
+      <HappyCustomers />
     </>
   );
 };

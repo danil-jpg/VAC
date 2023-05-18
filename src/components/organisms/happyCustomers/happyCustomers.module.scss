@@ -1,0 +1,62 @@
+// <div className={s.section}>
+// <div className={s.left}>
+//   <p className={s.title}>Happy customers</p>
+//   <p className={s.descr}>
+// 	Since 2017, we have helped thousands of Canadians get their dream vehicles from the
+// 	comfort of their homes.
+//   </p>
+//   <div>
+// 	<p className={s.subTitle}>What are you waiting? Get started right now!</p>
+// 	<ButtonSolid text="Request a Car" />
+//   </div>
+// </div>
+// <div className={s.right}>
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-top: 232px;
+}
+
+.left {
+}
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 30px;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
+}
+.descr {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+  margin-top: 22px;
+  width: 90%;
+}
+.subBlock {
+  margin-top: 39px;
+  width: 50%;
+}
+.button {
+  margin-top: 41px;
+  width: 200px;
+}
+.subTitle {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #41456b;
+}
