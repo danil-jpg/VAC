@@ -4,6 +4,10 @@
   @media screen and (max-width: 1200px) {
     margin-top: 10px;
   }
+
+  @media screen and (max-width: 767px) {
+    margin-top: 72px;
+  }
 }
 .title {
   font-weight: 700;
@@ -16,5 +20,15 @@
   @media screen and (max-width: 1200px) {
     font-size: 45px;
     text-align: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140.5%;
+    text-align: center;
+
+    margin-bottom: 0;
+    color: #41456b;
   }
 }

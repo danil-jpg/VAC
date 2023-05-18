@@ -23,8 +23,18 @@
   }
 }
 .triangleRight {
+  padding-top: 183px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   @media screen and (max-width: 1200px) {
     padding-left: 30px;
+  }
+
+  @media screen and (max-width: 767px) {
+    padding-top: 0;
+    padding: 23px 0 0 0;
   }
 }
 .triangleTitle {
@@ -52,9 +62,4 @@ ul {
 }
 
 .triangleRight {
-  padding-top: 183px;
-  /* padding-left: 6px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
