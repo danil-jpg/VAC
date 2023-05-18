@@ -1,0 +1,108 @@
+// <div className={s.card}>
+// <img
+//   className={s.backImg}
+//   src={require("../../../assets/img/components/advantagesTriangle/triangleDef.png")}
+// />
+// <img
+//   className={s.cardImg}
+//   src={require("../../../assets/img/components/advantagesTriangle/map.svg")}
+// />
+// <p className={s.title}>Vehicle Delivery</p>
+// <p className={s.descr}>
+.ulCard {
+  overflow-x: clip;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 534px;
+  height: 475px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+
+  height: 474px;
+  width: 525px;
+
+  &:first-of-type {
+    left: -27px;
+  }
+  &:nth-of-type(2) {
+    width: 525px;
+    height: 474px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  &:nth-of-type(3) {
+    right: -21px;
+  }
+  &::after {
+    background-image: url("../../../assets/img/components/advantagesTriangle/triangleDef.svg");
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+  * {
+    z-index: 1;
+  }
+}
+
+.rotate {
+  &::after {
+    content: "";
+    background-image: url("../../../assets/img/components/advantagesTriangle/triangleNonDef.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+  img {
+    margin-top: 45px;
+    height: 52.83px;
+  }
+  .title {
+    margin-top: 16px;
+  }
+  .descr {
+    width: 39%;
+  }
+}
+
+.cardImg {
+  width: 56.72px;
+  height: 43.83px;
+  margin-top: 152px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #41456b;
+  margin-top: 19px;
+  text-align: center;
+}
+
+.descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #606276;
+  text-align: center;
+  width: 63%;
+  margin-top: 13px;
+}
