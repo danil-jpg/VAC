@@ -1,0 +1,26 @@
+.section {
+  display: grid;
+  grid-template-columns: 58.3% 1fr;
+  margin-top: 178px;
+
+  img {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .section {
+    margin-top: 109px;
+    grid-template-columns: 1fr;
+
+    img {
+      display: grid;
+      order: 1;
+      justify-self: center;
+      margin-top: 45px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+}

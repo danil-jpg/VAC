@@ -4,6 +4,7 @@ import DescrCenterSec from "../../organisms/descrCenterSec/descrCenterSec";
 import s from "./mainPage.module.scss";
 import TriangleSec from "../../organisms/triangleSec/TriangleSec";
 import AdvantageTriSec from "../../organisms/advantageTriSec/AdvantageTriSec";
+import Catalogue from "../../organisms/catalogueLink/CatalogueLink";
 
 const MainPage = () => {
   return (
@@ -12,6 +13,7 @@ const MainPage = () => {
       <DescrCenterSec className={s.mainPageDescr} />
       <TriangleSec />
       <AdvantageTriSec />
+      <Catalogue />
     </>
   );
 };
