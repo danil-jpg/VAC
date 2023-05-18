@@ -60,3 +60,28 @@
   letter-spacing: 0.02em;
   color: #41456b;
 }
+
+@media screen and (max-width: 1200px) {
+  .section {
+    margin-top: 152px;
+    grid-template-columns: 1fr;
+    padding-left: 61px;
+    order: 1;
+    position: relative;
+  }
+
+  .subBlock {
+    display: grid;
+    order: 10;
+    position: absolute;
+    top: 507px;
+    width: 40%;
+  }
+
+  .right {
+    grid-template-columns: 49% 50%;
+    column-gap: 0;
+    margin-top: 38px;
+    row-gap: 40px;
+  }
+}
