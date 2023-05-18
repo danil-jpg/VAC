@@ -13,6 +13,11 @@
   overflow-x: clip;
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .card {
   position: relative;
@@ -38,6 +43,13 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+
+    @media screen and (max-width: 1200px) {
+      position: relative;
+      transform: none;
+      left: 0;
+      right: 0;
+    }
   }
   &:nth-of-type(3) {
     right: -21px;
@@ -55,6 +67,16 @@
   * {
     z-index: 1;
   }
+  @media screen and (max-width: 1200px) {
+    width: 518px;
+    margin-bottom: 113px;
+    height: 474px;
+    width: 518px;
+    right: 0 !important;
+    left: 0 !important;
+    margin-bottom: 5px;
+    transform: none;
+  }
 }
 
 .rotate {
@@ -67,6 +89,10 @@
     right: 0;
     bottom: 0;
     z-index: 0;
+
+    @media screen and (max-width: 1200px) {
+      background-image: url("../../../assets/img/components/advantagesTriangle/triangleDef.svg");
+    }
   }
   img {
     margin-top: 45px;
@@ -77,6 +103,26 @@
   }
   .descr {
     width: 39%;
+  }
+  @media screen and (max-width: 1200px) {
+    width: 518px;
+    height: 474px;
+    width: 518px;
+    left: 0;
+    right: 0;
+
+    position: static;
+    transform: none;
+
+    img {
+      margin-top: 150px;
+    }
+    .title {
+      margin-top: 14px;
+    }
+    .descr {
+      width: 58%;
+    }
   }
 }
 

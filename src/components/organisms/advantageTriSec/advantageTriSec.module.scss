@@ -1,5 +1,9 @@
 .section {
   margin-top: 111px;
+
+  @media screen and (max-width: 1200px) {
+    margin-top: 10px;
+  }
 }
 .title {
   font-weight: 700;
@@ -8,4 +12,9 @@
   color: #41456b;
 
   margin-bottom: 55px;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 45px;
+    text-align: center;
+  }
 }
