@@ -4,7 +4,7 @@ import s from "./advantageTri.module.scss";
 const AdvantageTri = ({ arr }) => {
   const res = arr.map((el) => {
     return (
-      <li key={Date.now()} className={`${s.card} ${el.rotate ? s.rotate : ""}`}>
+      <li key={`${arr.title}${Date.now()}`} className={`${s.card} ${el.rotate ? s.rotate : ""}`}>
         <img className={s.cardImg} src={el.svg} />
         <p className={s.title}>{el.title}</p>
         <p className={s.descr}>{el.descr}</p>

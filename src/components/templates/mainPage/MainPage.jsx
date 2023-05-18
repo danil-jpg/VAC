@@ -6,6 +6,7 @@ import TriangleSec from "../../organisms/triangleSec/TriangleSec";
 import AdvantageTriSec from "../../organisms/advantageTriSec/AdvantageTriSec";
 import Catalogue from "../../organisms/catalogueLink/CatalogueLink";
 import HappyCustomers from "../../organisms/happyCustomers/happyCustomers";
+import Slider2 from "../../organisms/slider2/Slider2";
 
 const MainPage = () => {
   return (
@@ -16,6 +17,7 @@ const MainPage = () => {
       <AdvantageTriSec />
       <Catalogue />
       <HappyCustomers />
+      <Slider2 />
     </>
   );
 };
