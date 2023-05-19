@@ -17,7 +17,7 @@ const HappyCustomers = () => {
           <ButtonSolid className={s.button} text="Request a Car" />
         </div>
       </div>
-      <div className={s.right}>
+      <ul className={s.right}>
         <Number
           arr={[
             { number: "7,988+", descr: "Sold Cars" },
@@ -25,7 +25,7 @@ const HappyCustomers = () => {
             { number: "123", descr: "Experts Across Canada" },
           ]}
         />
-      </div>
+      </ul>
     </div>
   );
 };

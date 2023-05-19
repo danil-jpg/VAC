@@ -81,8 +81,10 @@
   .right {
     grid-template-columns: 49% 50%;
     column-gap: 0;
-    margin-top: 38px;
     row-gap: 40px;
+  }
+  .descr {
+    margin-bottom: 38px;
   }
 }
 
@@ -103,6 +105,7 @@
     color: #606276;
     margin-top: 12px;
     width: 100%;
+    margin-bottom: 18px;
   }
 
   .right {

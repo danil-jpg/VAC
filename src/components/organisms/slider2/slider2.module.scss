@@ -1,37 +1,94 @@
-// <div className={s.section}>
-//       <div className={`${s.sliderContent} container`}>
-//         <p className={s.title}>What our client say about us!</p>
-//         <div className={s.sliderWr}>
-//           <swiper-container init="false" class="slider1">
-//             <swiper-slide>
-//               <div className={s.slideWr}>
-//                 <img src={require("../../../assets/img/components/cars/Rectangle.png")} />
-//                 <div className={s.sliderDescr}>
-//                   <p>Laura Chaisson</p>
-//                   <p>
-//                     In irure et ipsum eiusmod adipisicing id elit cillum proident. Adipisicing
-//                     ullamco nisi veniam occaecat id excepteur ad non. Sunt occaecat elit ullamco
-//                     commodo exercitation. Anim mollit irure Lorem proident veniam excepteur non
-//                     irure Lorem. Lorem esse sint in nisi id esse.
-//                   </p>
-//                 </div>
-//               </div>
-//             </swiper-slide>
-//           </swiper-container>
-//           <div className="swiper-button-next"></div>
-//           <div className="swiper-button-prev"></div>
-//         </div>
-//       </div>
-//     </div>
-
 .section {
+  margin-top: 221px;
+  width: 100%;
 }
 
 .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
 }
 
 .sliderWr {
+  margin-top: 60px;
+  width: 100%;
+  height: 324px;
+  position: relative;
 }
 
-.sliderDescr {
+.slideWr {
+  display: flex;
+}
+
+.slideDescrWr {
+  padding: 55px 40px;
+}
+.slideTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+}
+.slideDescr {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #41456b;
+  margin-top: 9px;
+  width: 96%;
+}
+
+@media screen and (max-width: 1200px) {
+  .section {
+    margin-top: 355px;
+  }
+  .sliderWr {
+    margin-top: 61px;
+  }
+  .slideWr {
+    img {
+      height: 320px;
+      width: 302px;
+    }
+  }
+
+  .slideDescrWr {
+    padding: 42px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    margin-top: 219px;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 140.5%;
+  }
+  .sliderWr {
+    margin-top: 33px;
+  }
+
+  .slideWr {
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      height: 215px;
+      flex-shrink: 0;
+    }
+  }
+  .slideDescrWr {
+    padding: 19px 20px;
+  }
+
+  .slideDescr {
+    font-size: 18px;
+    width: 100%;
+    line-height: 25px;
+  }
 }
