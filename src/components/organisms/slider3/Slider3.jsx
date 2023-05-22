@@ -12,7 +12,21 @@ const Slider3 = () => {
     loop: true,
     spaceBetween: 20,
     slidesPerView: 3,
-    breakpoints: {},
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      // when window width is >= 480px
+      767: {
+        slidesPerView: 2,
+      },
+      // when window width is >= 640px
+      1200: {
+        slidesPerView: 3,
+      },
+    },
     on: {
       init() {},
     },
