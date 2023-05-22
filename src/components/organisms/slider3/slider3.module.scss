@@ -76,3 +76,51 @@
     padding: 20px 20px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .sliderMainPage {
+    margin-top: 69px;
+  }
+
+  .sliderTitle {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140.5%;
+    color: #41456b;
+  }
+
+  .btnTop {
+    display: none;
+  }
+
+  .slideWr {
+    margin-top: 32px;
+
+    img {
+    }
+  }
+
+  .sliderDescrWr {
+  }
+  .sliderWr {
+    margin-top: 0px;
+  }
+  .slideWr {
+    width: 320px;
+    background: white;
+  }
+
+  .slideTitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .btnBottom {
+    display: block;
+    width: 100%;
+    margin-top: 28px;
+    height: 35px;
+    padding: 0;
+  }
+}
