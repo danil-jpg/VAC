@@ -20,7 +20,7 @@ const RangeSliderBlock = ({
         <p className={s.sliderText}>{text1}</p>
         <div className={s.sliderNumber}>
           <span>{preValue}</span>
-          <span>{sliderVal}</span>
+          <span className={s.sliderNumberCenter}>{sliderVal}</span>
           <span>{afterValue}</span>
         </div>
       </div>

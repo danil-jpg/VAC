@@ -150,6 +150,8 @@
     grid-template-columns: 1fr;
     overflow: clip;
     position: relative;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
   }
   .sliderLeftWr {
     padding: 29px 60px 256px 40px;
@@ -205,5 +207,102 @@
   .btn {
     position: relative;
     top: -39px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sliderSection {
+    margin-top: 273px;
+  }
+
+  .topTextsWr {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140.5%;
+    width: 100%;
+  }
+
+  .sliderCenterWr {
+    margin-top: 29px;
+  }
+
+  .sliderLeftWr {
+    padding: 0;
+    padding-top: 21px;
+    padding-left: 20px;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .tabIndexWr {
+    li {
+      padding: 4px 18px;
+    }
+  }
+
+  .slideWr1 {
+    max-width: 288px;
+    margin-top: 44px;
+  }
+
+  .slideWr2 {
+    max-width: 288px;
+    margin-top: -15px;
+  }
+
+  .sliderCenterWr {
+    padding: 0 0 288px;
+  }
+
+  .sliderRightWr {
+    padding: 0px 20px;
+  }
+
+  .titleLeft {
+    top: 80px;
+  }
+
+  .titleNumber {
+    top: 80px;
+    font-size: 35px;
+    line-height: 140.5%;
+  }
+
+  .leftText {
+    left: 0;
+    top: 59px;
+  }
+
+  .leftNumber {
+    left: 0;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #41456b;
+    top: 60px;
+  }
+
+  .leftText2 {
+    left: 150px;
+    top: -17px;
+  }
+
+  .leftNumber2 {
+    top: -18px;
+    left: 148px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  .btn {
+    width: 280px;
+    padding: 0;
+    height: 35px;
+    top: -22px;
   }
 }
