@@ -8,6 +8,7 @@ import Catalogue from "../../organisms/catalogueLink/CatalogueLink";
 import HappyCustomers from "../../organisms/happyCustomers/happyCustomers";
 import Slider2 from "../../organisms/slider2/Slider2";
 import RangeSliderSec from "../../organisms/rangeSliderSec/rangeSliderSec";
+import Slider3 from "../../organisms/slider3/Slider3";
 
 const MainPage = () => {
   return (
@@ -20,6 +21,7 @@ const MainPage = () => {
       <HappyCustomers />
       <Slider2 />
       <RangeSliderSec />
+      <Slider3 />
     </>
   );
 };
