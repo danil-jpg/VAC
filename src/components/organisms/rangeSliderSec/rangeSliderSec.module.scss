@@ -136,12 +136,74 @@
   margin-top: 41px;
   width: 251px;
 }
-// <div className={s.sliderRightWr}>
-// <p className={s.titleLeft}>Bi-Weekly Payment</p>
-// <p className={s.titleNumber}>$ 483</p>
-// <p className={s.leftText}>Monthly Payment</p>
-// <p className={s.leftNumber}>$ 966</p>
-// <p className={s.leftText}>Weekly Payment</p>
-// <p className={s.leftNumber}>$ 241</p>
-// <ButtonSolid text="Request a car" />
-// </div>
+
+@media screen and (max-width: 1200px) {
+  .sliderSection {
+    margin-top: 155px;
+  }
+
+  .topTextsWr {
+    grid-template-columns: 58% 1fr;
+  }
+
+  .sliderCenterWr {
+    grid-template-columns: 1fr;
+    overflow: clip;
+    position: relative;
+  }
+  .sliderLeftWr {
+    padding: 29px 60px 256px 40px;
+  }
+
+  .slideWr1 {
+    margin-top: 36px;
+    margin-bottom: 43px;
+  }
+
+  .sliderRightWr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 39px;
+    background: transparent;
+  }
+
+  .titleLeft {
+    position: relative;
+    top: 140px;
+  }
+
+  .titleNumber {
+    position: relative;
+    top: 140px;
+  }
+
+  .leftText {
+    position: relative;
+    top: 17px;
+    left: 336px;
+  }
+
+  .leftNumber {
+    position: relative;
+    top: 17px;
+    left: 336px;
+  }
+
+  .leftText2 {
+    position: relative;
+    top: -67px;
+    left: 510px;
+  }
+
+  .leftNumber2 {
+    position: relative;
+    top: -68px;
+    left: 510px;
+  }
+
+  .btn {
+    position: relative;
+    top: -39px;
+  }
+}

@@ -62,8 +62,8 @@ const RangeSliderSec = () => {
           <p className={s.titleNumber}>$ 483</p>
           <p className={s.leftText}>Monthly Payment</p>
           <p className={s.leftNumber}>$ 966</p>
-          <p className={s.leftText}>Weekly Payment</p>
-          <p className={s.leftNumber}>$ 241</p>
+          <p className={`${s.leftText} ${s.leftText2}`}>Weekly Payment</p>
+          <p className={`${s.leftNumber} ${s.leftNumber2}`}>$ 241</p>
           <ButtonSolid className={s.btn} text="Request a car" />
         </div>
       </div>
