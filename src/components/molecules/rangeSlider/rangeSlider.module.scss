@@ -1,0 +1,33 @@
+// <div className={s.sliderWr}>
+// <p className={s.sliderText}>{text1}</p>
+// <p className={s.sliderNumber}>
+
+.sliderWr {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+
+.sliderText {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #41456b;
+}
+
+.sliderNumber {
+  font-size: 16px;
+  line-height: 180%;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #41456b;
+  span {
+    margin: 0 5px;
+    font-size: 23px;
+    line-height: 180%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #41456b;
+    font-weight: 700;
+  }
+}

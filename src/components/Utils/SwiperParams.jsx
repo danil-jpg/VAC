@@ -53,11 +53,13 @@ export const params = {
 			}
 		}
 		.swiper-button-next2{
+			right: 0;
 			@media screen and (max-width: 1200px) {
 				right: 0;
 			}
 		}
 		.swiper-button-prev2{
+			left: 0;
 			@media screen and (max-width: 1200px) {
 				left: 0;
 			}

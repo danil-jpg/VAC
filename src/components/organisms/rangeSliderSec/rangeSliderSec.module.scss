@@ -1,0 +1,147 @@
+.sliderSection {
+  margin-top: 217px;
+}
+
+.topTextsWr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
+  width: 75%;
+}
+
+.descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.slideWr1 {
+  margin-top: 56px;
+
+  margin-bottom: 65px;
+}
+.slideWr2 {
+}
+// <div className={s.sliderCenterWr}>
+// <div className={s.sliderLeftWr}>
+//   <RangeSliderBlock
+// 	text1="Loan Amount"
+// 	initialNum={0}
+// 	preValue="$"
+// 	minVal={0}
+// 	maxVal={150000}
+//   />
+//   <RangeSliderBlock
+// 	text1="Loan Duration"
+// 	initialNum={0}
+// 	afterValue="month"
+// 	minVal={0}
+// 	maxVal={18}
+//   />
+// </div>
+// <div className={s.sliderRightWr}></div>
+
+.sliderCenterWr {
+  display: grid;
+  gap: 29px;
+  grid-template-columns: 66.7% 1fr;
+  margin-top: 73px;
+}
+
+.sliderLeftWr {
+  background: #ffffff;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 47px 60px 112px;
+}
+
+.sliderRightWr {
+  background: #ffffff;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 48px 60px;
+}
+
+.tabIndexWr {
+  display: flex;
+  margin: 48px 60px;
+
+  li {
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    border-radius: 2px 0px 0px 2px;
+    color: #7481ff;
+    border: 1px solid #7481ff;
+    padding: 12px 33px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    &.active {
+      background-color: #7481ff;
+      color: #fff;
+    }
+  }
+}
+
+.titleLeft {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+}
+
+.titleNumber {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+
+  margin-bottom: 32px;
+
+  color: #7481ff;
+}
+
+.leftText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+  margin-top: 20px;
+}
+
+.leftNumber {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #41456b;
+}
+
+.btn {
+  margin-top: 41px;
+  width: 251px;
+}
+// <div className={s.sliderRightWr}>
+// <p className={s.titleLeft}>Bi-Weekly Payment</p>
+// <p className={s.titleNumber}>$ 483</p>
+// <p className={s.leftText}>Monthly Payment</p>
+// <p className={s.leftNumber}>$ 966</p>
+// <p className={s.leftText}>Weekly Payment</p>
+// <p className={s.leftNumber}>$ 241</p>
+// <ButtonSolid text="Request a car" />
+// </div>

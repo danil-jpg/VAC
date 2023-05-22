@@ -6,6 +6,7 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".ts", ".js", ".jsx"]
   },
+  cache: false,
   module: {
     rules: [
       {
@@ -19,6 +20,7 @@ module.exports = {
       },
       {
         test: /\.(css|sass|scss)$/,
+        exclude: /node_modules/,
         use: ["style-loader", {
           loader: 'css-loader',
           options: {
@@ -28,6 +30,19 @@ module.exports = {
           }
         }, "sass-loader"]
       },
+      {
+        test: /\.(css|sass|scss)$/,
+        exclude: /src/,
+        use: ["style-loader", {
+          loader: 'css-loader',
+          options: {
+            modules: {
+              localIdentName: '[local]'
+            }
+          }
+        }, "sass-loader"]
+      },
+
       {
         test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
         type: "asset/resource"

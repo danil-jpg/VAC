@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clsx": "^1.2.1",
     "eslint-config-airbnb-typescript-prettier": "^5.0.0",
+    "rc-slider": "^10.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swiper": "^9.3.2"
