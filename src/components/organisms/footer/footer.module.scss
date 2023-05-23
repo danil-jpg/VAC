@@ -63,3 +63,31 @@
   margin-left: 80px;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footerTermsWr {
+    margin-left: -61px;
+    width: 118px;
+    padding-top: 10px;
+  }
+
+  .footerSocials {
+    margin-left: 0;
+  }
+
+  .footerCreatedBy {
+    margin-left: 180px;
+    margin-top: 40px;
+  }
+
+  .footerCopy {
+    margin-left: 0;
+    grid-column: 3/4;
+    margin-top: 40px;
+  }
+}
