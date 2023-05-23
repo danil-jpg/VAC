@@ -1,0 +1,65 @@
+.footer {
+  display: flex;
+  padding-top: 41px;
+  padding-bottom: 58px;
+}
+
+.footerSec {
+  background: #7481ff;
+  margin-top: 40px;
+}
+
+.logo {
+}
+
+.footerTermsWr {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-left: 88px;
+  width: 117px;
+  padding-top: 13px;
+}
+
+.footerText {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footerSocials {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 134px;
+  margin-top: 6px;
+  width: 109px;
+}
+
+.footerSocial {
+  background: #ffffff;
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerCreatedBy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 190px;
+  margin-top: 8px;
+}
+
+.footerCopy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 159%;
+  color: #ffffff;
+  margin-left: 80px;
+  margin-top: 10px;
+}

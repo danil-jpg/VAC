@@ -88,8 +88,6 @@ const Slider3 = () => {
             </div>
           </swiper-slide>
         </swiper-container>
-        <div className="swiper-button-next"></div>
-        <div className="swiper-button-prev"></div>
       </div>
       <ButtonLiner text="all articles" className={`${s.btn} ${s.btnBottom}`} />
     </div>
