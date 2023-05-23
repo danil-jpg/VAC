@@ -1,0 +1,26 @@
+.ul {
+  list-style-type: none;
+}
+.li {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+  color: #41456b;
+}
+.menuSocials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 240px;
+  width: 110px;
+}
+.menuSocial {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7481ff;
+  border-radius: 2px;
+}

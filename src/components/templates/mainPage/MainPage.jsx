@@ -9,8 +9,9 @@ import HappyCustomers from "../../organisms/happyCustomers/happyCustomers";
 import Slider2 from "../../organisms/slider2/Slider2";
 import RangeSliderSec from "../../organisms/rangeSliderSec/rangeSliderSec";
 import Slider3 from "../../organisms/slider3/Slider3";
+import ModalMenu from "../../organisms/modalMenu/ModalMenu";
 
-const MainPage = () => {
+const MainPage = ({ menu, setMenu }) => {
   return (
     <>
       <Slider1 />
@@ -22,6 +23,7 @@ const MainPage = () => {
       <Slider2 />
       <RangeSliderSec />
       <Slider3 />
+      <ModalMenu menu={menu} setMenu={setMenu} />
     </>
   );
 };
