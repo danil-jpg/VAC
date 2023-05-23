@@ -1,0 +1,27 @@
+.pageTitleWr {
+  background-image: url("../../../assets/img/components/Terms/1.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 145px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 108.5%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding: 40px 129px;
+  background-size: cover;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0;
+    padding-top: 40px;
+  }
+
+  @media screen and (max-width: 767px) {
+    height: 116px;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 108.5%;
+  }
+}

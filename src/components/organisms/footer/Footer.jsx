@@ -1,13 +1,18 @@
 import React from "react";
 import s from "./footer.module.scss";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigation = useNavigate();
+
   return (
     <div className={`${s.footerSec} `}>
       <div className={`${s.footer} container`}>
         <img src={require("../../../assets/img/components/footer/Logo.png")} className={s.logo} />
         <div className={s.footerTermsWr}>
-          <p className={s.footerText}>Terms</p>
+          <p className={s.footerText} onClick={() => navigation("Terms")}>
+            Terms
+          </p>
           <p className={s.footerText}>Privacy</p>
         </div>
         <div className={s.footerSocials}>
