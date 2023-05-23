@@ -6,7 +6,10 @@ const DropText = ({ arr }) => {
     const [state, setState] = useState(false);
 
     return (
-      <div className={`${s.drop} ${state ? s.active : "none"}`} onClick={() => setState(!state)}>
+      <div
+        key={el.title}
+        className={`${s.drop} ${state ? s.active : "none"}`}
+        onClick={() => setState(!state)}>
         <div className={s.dropTop}>
           <p className={s.dropTopTitle}>{el.title}</p>
           <img

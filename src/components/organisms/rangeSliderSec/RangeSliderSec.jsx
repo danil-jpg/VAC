@@ -3,11 +3,11 @@ import RangeSliderBlock from "../../molecules/rangeSlider/RangeSliderBlock";
 import s from "./rangeSliderSec.module.scss";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
 
-const RangeSliderSec = () => {
+const RangeSliderSec = ({ className }) => {
   const [btnCl, setBtnCl] = useState([true, false, false]);
 
   return (
-    <div className={`${s.sliderSection} container`}>
+    <div className={`${s.sliderSection} ${className} container`}>
       <div className={s.topTextsWr}>
         <p className={s.title}>Let’s figure out how much you can afford</p>
         <p className={s.descr}>

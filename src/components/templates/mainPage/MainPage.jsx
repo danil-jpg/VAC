@@ -11,7 +11,7 @@ import RangeSliderSec from "../../organisms/rangeSliderSec/rangeSliderSec";
 import Slider3 from "../../organisms/slider3/Slider3";
 import ModalMenu from "../../organisms/modalMenu/ModalMenu";
 
-const MainPage = ({ menu, setMenu }) => {
+const MainPage = () => {
   return (
     <>
       <Slider1 />
@@ -23,7 +23,6 @@ const MainPage = ({ menu, setMenu }) => {
       <Slider2 />
       <RangeSliderSec />
       <Slider3 />
-      <ModalMenu menu={menu} setMenu={setMenu} />
     </>
   );
 };

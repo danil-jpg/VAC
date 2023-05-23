@@ -13,7 +13,9 @@ const Footer = () => {
           <p className={s.footerText} onClick={() => navigation("Terms")}>
             Terms
           </p>
-          <p className={s.footerText}>Privacy</p>
+          <p className={s.footerText} onClick={() => navigation("Policy")}>
+            Privacy
+          </p>
         </div>
         <div className={s.footerSocials}>
           <div className={s.footerSocial}>
