@@ -8,6 +8,7 @@ import TermsPage from "./components/templates/TermsPage/TermsPage";
 import PolicyPage from "./components/templates/policyPage/PolicyPage";
 import ModalMenu from "./components/organisms/modalMenu/ModalMenu";
 import CalculatorPage from "./components/templates/culculatorPage/CalculatorPage";
+import VideoPage from "./components/templates/videoPage/VideoPage";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="Terms" element={<TermsPage />}></Route>
           <Route path="Policy" element={<PolicyPage />}></Route>
           <Route path="Calculator" element={<CalculatorPage />}></Route>
+          <Route path="Video" element={<VideoPage />}></Route>
         </Routes>
         <Footer />
         <ModalMenu menu={menu} setMenu={setMenu} />

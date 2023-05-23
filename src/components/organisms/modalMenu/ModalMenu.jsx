@@ -1,8 +1,11 @@
 import React from "react";
 import ModalsTemplate from "../modalTemp/ModalTemplate";
 import s from "./modalMenu.module.scss";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const ModalMenu = ({ menu, setMenu }) => {
+  const navigation = useNavigate();
+
   const Res = () => {
     return (
       <div>
@@ -10,9 +13,23 @@ const ModalMenu = ({ menu, setMenu }) => {
           <li className={s.li}>Contact us</li>
           <li className={s.li}>About VAC</li>
           <li className={s.li}>Loan Rates</li>
-          <li className={s.li}>Video</li>
+          <li
+            className={s.li}
+            onClick={() => {
+              navigation("Video");
+              setMenu(false);
+            }}>
+            Video
+          </li>
           <li className={s.li}>Blog</li>
-          <li className={s.li}>Calculate</li>
+          <li
+            className={s.li}
+            onClick={() => {
+              navigation("Calculator");
+              setMenu(false);
+            }}>
+            Calculate
+          </li>
         </ul>
         <div className={s.menuSocials}>
           <div className={s.menuSocial}>
