@@ -10,3 +10,12 @@
 
 .slider5 {
 }
+
+@media screen and (max-width: 1200px) {
+  .cardWr {
+    grid-template-columns: 1fr 1fr;
+    height: 1515px;
+    overflow: clip;
+    margin-bottom: 33px;
+  }
+}
