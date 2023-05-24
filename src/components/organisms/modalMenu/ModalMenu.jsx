@@ -21,7 +21,14 @@ const ModalMenu = ({ menu, setMenu }) => {
             }}>
             Video
           </li>
-          <li className={s.li}>Blog</li>
+          <li
+            className={s.li}
+            onClick={() => {
+              navigation("Blog");
+              setMenu(false);
+            }}>
+            Blog
+          </li>
           <li
             className={s.li}
             onClick={() => {
