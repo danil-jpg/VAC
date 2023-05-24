@@ -12,6 +12,8 @@ import VideoPage from "./components/templates/videoPage/VideoPage";
 import Blog from "./components/templates/blogPage/blog";
 import Quiz from "./components/templates/quiz/Quiz";
 import QuizBudget from "./components/templates/quiz/budget/QuizBudget";
+import Article from "./components/templates/articlePage/article";
+import E400 from "./components/templates/404/404";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -28,6 +30,8 @@ const App = () => {
           <Route path="Calculator" element={<CalculatorPage />}></Route>
           <Route path="Video" element={<VideoPage />}></Route>
           <Route path="Blog" element={<Blog />}></Route>
+          <Route path="Article" element={<Article />}></Route>
+          <Route path="404" element={<E400 />}></Route>
           <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
         </Routes>
         <Footer quiz={isQuiz} />
