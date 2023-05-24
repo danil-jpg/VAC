@@ -15,7 +15,15 @@
   .cardWr {
     grid-template-columns: 1fr 1fr;
     height: 1515px;
-    overflow: clip;
+    overflow-y: clip;
     margin-bottom: 33px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardWr {
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    height: 2265px;
   }
 }
