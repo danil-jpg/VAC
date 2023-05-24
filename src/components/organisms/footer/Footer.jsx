@@ -2,11 +2,16 @@ import React from "react";
 import s from "./footer.module.scss";
 import { Navigate, useNavigate } from "react-router-dom";
 
-const Footer = () => {
+const Footer = ({ quiz = false }) => {
   const navigation = useNavigate();
+  let display = "";
+
+  if (quiz === true) {
+    display = "specFooterCl";
+  }
 
   return (
-    <div className={`${s.footerSec} `}>
+    <footer className={`${s.footerSec} ${display}`}>
       <div className={`${s.footer} container`}>
         <img src={require("../../../assets/img/components/footer/Logo.png")} className={s.logo} />
         <div className={s.footerTermsWr}>
@@ -34,7 +39,7 @@ const Footer = () => {
         />
         <p className={s.footerCopy}>©Copyright, 2020. Vehicle Approval</p>
       </div>
-    </div>
+    </footer>
   );
 };
 

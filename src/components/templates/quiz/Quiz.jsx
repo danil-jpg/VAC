@@ -1,34 +1,26 @@
 import React, { useEffect, useState } from "react";
 import QuizBudget from "./budget/QuizBudget";
-import QuizBudget2 from "./budget2/QuizBudget";
+import QuizEmp from "./employment/QuizEmp";
 import s from "./quiz.module.scss";
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 
-const Quiz = () => {
+const Quiz = ({ setIsQuiz }) => {
   const [employed, setEmployed] = useState([]);
-  const [res, setRes] = useState(<QuizBudget btnNum={employed} setBtnNum={setEmployed} />);
-
-  let ans = 1;
-  console.log(employed);
-
-  useEffect(() => {
-    switch (employed) {
-      case 1:
-        console.log(1);
-        // setRes(<QuizBudget btnNum={employed} setBtnNum={setEmployed} />);
-        break;
-      case 2:
-        // setRes(<QuizBudget2 />);
-        break;
-      default:
-    }
-  }, []);
+  //   const [res, setRes] = useState(<QuizBudget btnNum={employed} setBtnNum={setEmployed} />);
+  useEffect(() => setIsQuiz(true), []);
 
   return (
     <div className={`${s.quiz} container`}>
       <div className={s.lineWr}>
         <div className={s.line}></div>
       </div>
-      {res}
+      <Routes>
+        <Route
+          element={<QuizBudget btnNum={employed} setBtnNum={setEmployed} />}
+          path="budget"></Route>
+        <Route element={<QuizEmp />} path="Emp"></Route>
+        <Route element={<p>text</p>} path="/1"></Route>
+      </Routes>
     </div>
   );
 };

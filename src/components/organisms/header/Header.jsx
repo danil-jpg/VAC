@@ -4,13 +4,19 @@ import s from "./header.module.scss";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid.jsx";
 import ButtonLiner from "../../atoms/Buttons/ButtonLiner/ButtonLiner.jsx";
 import { Icon } from "../../Utils/Icon";
+import { useNavigate } from "react-router-dom";
 
 const Header = ({ menu, setMenu }) => {
+  const navigation = useNavigate();
   return (
     <header className={`${s.header} container`}>
       <Logo />
       <ButtonLiner text="Inventory" className={`${s.btnLin}`} />
-      <ButtonSolid text="Request a car" className={`${s.btnSol}`} />
+      <ButtonSolid
+        onClick={() => navigation("Quiz/budget")}
+        text="Request a car"
+        className={`${s.btnSol}`}
+      />
       <Icon id={"burger"} className={`${s.burger}`} onClick={() => setMenu(true)}></Icon>
     </header>
   );
