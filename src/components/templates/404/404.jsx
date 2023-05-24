@@ -11,7 +11,7 @@ const E400 = () => {
       <img src={require("../../../assets/img/components/404/Sedan icon.svg")} />
       <p className={s.errorTitle}>404 page</p>
       <p className={s.errorText}>Page not found or such pages do not exist.</p>
-      <ButtonSolid text="Go home" className={s.btn} onClick={() => navigation("404")} />
+      <ButtonSolid text="Go home" className={s.btn} onClick={() => navigation("/")} />
     </div>
   );
 };
