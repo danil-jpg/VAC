@@ -10,6 +10,7 @@ import ModalMenu from "./components/organisms/modalMenu/ModalMenu";
 import CalculatorPage from "./components/templates/culculatorPage/CalculatorPage";
 import VideoPage from "./components/templates/videoPage/VideoPage";
 import Blog from "./components/templates/blogPage/blog";
+import Quiz from "./components/templates/quiz/Quiz";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="Calculator" element={<CalculatorPage />}></Route>
           <Route path="Video" element={<VideoPage />}></Route>
           <Route path="Blog" element={<Blog />}></Route>
+          <Route path="Quiz" element={<Quiz />}></Route>
         </Routes>
         <Footer />
         <ModalMenu menu={menu} setMenu={setMenu} />
