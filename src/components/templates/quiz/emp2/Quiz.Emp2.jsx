@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Input from "../../../atoms/Inputs/Input/Input";
-import { result } from "../employment/QuizEmp.jsx";
 
-const QuizEmp2 = ({ btnNum, setBtnNum }) => {
+const QuizEmp2 = ({ setLineWidth, lineWidth }) => {
   const navigation = useNavigate();
-  const [btn, setBtn] = useState(null);
 
   return (
     <div className="quiz-block">
@@ -28,12 +26,14 @@ const QuizEmp2 = ({ btnNum, setBtnNum }) => {
           className="quiz-btn-cont"
           onClick={() => {
             navigation("../HowLong");
+            setLineWidth(lineWidth + 9);
           }}>
           Continue
         </button>
         <button
           className="quiz-btn-back"
           onClick={() => {
+            setLineWidth(lineWidth - 9);
             navigation(-1);
           }}>
           <img src={require("../../../../assets/img/components/Quiz/Arrow-Bottom.svg")} />

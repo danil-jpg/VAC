@@ -3,25 +3,27 @@ import { useNavigate } from "react-router-dom";
 import Input from "../../../atoms/Inputs/Input/Input";
 import { result } from "../employment/QuizEmp.jsx";
 
-const QuizHowLong = ({ setLineWidth, lineWidth }) => {
+const QuizWhen = ({ setLineWidth, lineWidth }) => {
   const navigation = useNavigate();
-  const [btn, setBtn] = useState(null);
 
   return (
     <div className="quiz-block">
-      <p className="quiz-title">How long have you been earning this income?</p>
-      <p className="quiz-descr">
-        We won’t come visit but we need these details to confirm your employment status so you can
-        get the best rates possible.
-      </p>
-      <div className="quiz-btn-wr quiz-input-wr">
-        <Input style={{ width: "100%" }} className={"input100%"} placeholder={"Months"} />
+      <p className="quiz-title">When were you born?</p>
+      <div className="quiz-btn-wr quiz-input-wr quiz-input-wr-date">
+        <Input
+          style={{ width: "100%", gridColumn: "1/4" }}
+          className={"input100%"}
+          placeholder={"Year"}
+        />
+        <Input style={{ width: "100%" }} className={"input100%"} placeholder={"Mounth"} />
+        <Input style={{ width: "100%" }} className={"input100%"} placeholder={"Day"} />
       </div>
+
       <div className="quiz-etc-btns-wr">
         <button
           className="quiz-btn-cont"
           onClick={() => {
-            navigation("../WhereDoYouLive");
+            navigation("../Congrats");
             setLineWidth(lineWidth + 9);
           }}>
           Continue
@@ -29,8 +31,8 @@ const QuizHowLong = ({ setLineWidth, lineWidth }) => {
         <button
           className="quiz-btn-back"
           onClick={() => {
-            setLineWidth(lineWidth - 9);
             navigation(-1);
+            setLineWidth(lineWidth - 9);
           }}>
           <img src={require("../../../../assets/img/components/Quiz/Arrow-Bottom.svg")} />
           Back
@@ -40,4 +42,4 @@ const QuizHowLong = ({ setLineWidth, lineWidth }) => {
   );
 };
 
-export default QuizHowLong;
+export default QuizWhen;

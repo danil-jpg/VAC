@@ -6,11 +6,12 @@
   margin: 0 auto;
 }
 
-.line {
+:global(.line) {
+  transition: 0.3s;
   background: #7380ff;
   border-radius: 2px;
   height: 100%;
-  width: 10%;
+  width: 9%;
 }
 
 .quiz {
@@ -110,6 +111,18 @@
 
   :global(.quiz-btn-back) {
     margin-left: 66px;
+  }
+}
+
+:global(.quiz-input-wr-adress) {
+  display: grid;
+}
+
+:global(.quiz-input-wr-date) {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  input {
+    padding: 15px 6px;
   }
 }
 

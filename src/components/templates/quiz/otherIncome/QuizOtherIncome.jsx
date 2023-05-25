@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import QuizBtn from "../../../atoms/Buttons/Quiz/QuizBtn";
 
-const QuizOtherIncome = () => {
+const QuizOtherIncome = ({ setLineWidth, lineWidth }) => {
   const navigation = useNavigate();
   const [btn, setBtn] = useState(null);
 
@@ -72,6 +72,7 @@ const QuizOtherIncome = () => {
           className="quiz-btn-cont"
           onClick={() => {
             navigation("../Income");
+            setLineWidth(lineWidth + 9);
           }}>
           Continue
         </button>
@@ -79,6 +80,7 @@ const QuizOtherIncome = () => {
           className="quiz-btn-back"
           onClick={() => {
             navigation(-1);
+            setLineWidth(lineWidth - 9);
           }}>
           <img src={require("../../../../assets/img/components/Quiz/Arrow-Bottom.svg")} />
           Back

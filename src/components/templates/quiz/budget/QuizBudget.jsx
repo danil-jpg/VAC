@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import s from "./quizBudget.module.scss";
 import QuizBtn from "../../../atoms/Buttons/Quiz/QuizBtn";
 
-const QuizBudget = ({ btnNum, setBtnNum }) => {
+const QuizBudget = ({ setLineWidth, lineWidth }) => {
   const navigation = useNavigate();
   const [btn, setBtn] = useState(null);
+
+  useEffect(() => {
+    setLineWidth(0);
+  }, []);
 
   const arr = [
     {
@@ -47,6 +50,7 @@ const QuizBudget = ({ btnNum, setBtnNum }) => {
         onClick={() => {
           // setBtnNum([...btnNum, res]);
           navigation("../Emp");
+          setLineWidth(lineWidth + 9);
         }}>
         Continue
       </button>

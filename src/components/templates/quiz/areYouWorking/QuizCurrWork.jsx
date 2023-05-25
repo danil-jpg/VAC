@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import s from "./quiz.module.scss";
 
-const QuizCurrWork = ({}) => {
+const QuizCurrWork = ({ setLineWidth, lineWidth }) => {
   const navigation = useNavigate();
   const [btn, setBtn] = useState(null);
 
@@ -35,6 +35,7 @@ const QuizCurrWork = ({}) => {
           className="quiz-btn-cont"
           onClick={() => {
             navigation("../HowLong");
+            setLineWidth(lineWidth + 9);
           }}>
           Continue
         </button>
@@ -42,6 +43,7 @@ const QuizCurrWork = ({}) => {
           className="quiz-btn-back"
           onClick={() => {
             navigation(-1);
+            setLineWidth(lineWidth - 9);
           }}>
           <img src={require("../../../../assets/img/components/Quiz/Arrow-Bottom.svg")} />
           Back

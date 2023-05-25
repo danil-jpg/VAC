@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import s from "./quizBudget.module.scss";
 import { useNavigate } from "react-router-dom";
 import QuizBtn from "../../../atoms/Buttons/Quiz/QuizBtn";
 let result;
 
-const QuizEmp = () => {
+const QuizEmp = ({ setLineWidth, lineWidth }) => {
   const navigation = useNavigate();
   const [btn, setBtn] = useState(null);
 
@@ -55,7 +55,7 @@ const QuizEmp = () => {
           className="quiz-btn-cont"
           onClick={() => {
             result = btn;
-
+            setLineWidth(lineWidth + 9);
             switch (btn) {
               case 1:
                 navigation("../Income");
@@ -81,6 +81,7 @@ const QuizEmp = () => {
         <button
           className="quiz-btn-back"
           onClick={() => {
+            setLineWidth(lineWidth - 9);
             navigation(-1);
           }}>
           <img src={require("../../../../assets/img/components/Quiz/Arrow-Bottom.svg")} />
