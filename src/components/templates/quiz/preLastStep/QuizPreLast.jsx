@@ -31,7 +31,7 @@ const QuizPreLast = ({ setLineWidth, lineWidth }) => {
         <button
           className="quiz-btn-cont"
           onClick={() => {
-            navigation("../WhenWereYouBorn");
+            navigation("../Final");
             setLineWidth(lineWidth + 9);
           }}>
           Continue

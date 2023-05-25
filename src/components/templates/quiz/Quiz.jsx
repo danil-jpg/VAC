@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import QuizBudget from "./budget/QuizBudget";
 import QuizEmp from "./employment/QuizEmp";
 import s from "./quiz.module.scss";
-import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import QuizIncome from "./income/QuizIncome";
 import QuizOtherIncome from "./otherIncome/QuizOtherIncome";
 import QuizEmp2 from "./emp2/Quiz.Emp2";
@@ -11,6 +11,7 @@ import QuizCurrWork from "./areYouWorking/QuizCurrWork";
 import QuizWhere from "./where/QuizWhere";
 import QuizWhen from "./when/QuizWhen";
 import QuizPreLast from "./preLastStep/QuizPreLast";
+import QuizCongrat from "./congrat/QuizCongrat";
 
 const Quiz = ({ setIsQuiz }) => {
   const [lineWidth, setLineWidth] = useState(9);
@@ -60,6 +61,9 @@ const Quiz = ({ setIsQuiz }) => {
         <Route
           element={<QuizPreLast setLineWidth={setLineWidth} lineWidth={lineWidth} />}
           path="Congrats"></Route>
+        <Route
+          element={<QuizCongrat setLineWidth={setLineWidth} lineWidth={lineWidth} />}
+          path="Final"></Route>
       </Routes>
     </div>
   );
