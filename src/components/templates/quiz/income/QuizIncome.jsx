@@ -1,56 +1,22 @@
 import React, { useState } from "react";
-import s from "./quizBudget.module.scss";
 import { useNavigate } from "react-router-dom";
-import QuizBtn from "../../../atoms/Buttons/Quiz/QuizBtn";
+import Input from "../../../atoms/Inputs/Input/Input";
 
-const QuizEmp = () => {
+const QuizIncome = ({ btnNum, setBtnNum }) => {
   const navigation = useNavigate();
   const [btn, setBtn] = useState(null);
 
-  const arr = [
-    {
-      text: "Employed",
-      setBtn: setBtn,
-      btn: btn,
-      num: 1,
-    },
-    {
-      text: "Self-Employed",
-      setBtn: setBtn,
-      btn: btn,
-      num: 2,
-    },
-    {
-      text: "Student",
-      setBtn: setBtn,
-      btn: btn,
-      num: 3,
-    },
-    {
-      text: "Retired / Pension",
-      setBtn: setBtn,
-      btn: btn,
-      num: 4,
-    },
-    {
-      text: "Other",
-      setBtn: setBtn,
-      btn: btn,
-      num: 5,
-    },
-  ];
-
-  console.log(btn);
-
   return (
     <div className="quiz-block">
-      <p className="quiz-title">What's your employment status?</p>
+      <p className="quiz-title">Enter your monthly income</p>
       <p className="quiz-descr">
-        Your employment status will help determine the best vehicle and financing options for you.
+        Your income details help us make sure your vehicle payments are easy and affordable. Before
+        taxes and deductions.
       </p>
-      <div className="quiz-btn-wr">
-        <QuizBtn arr={arr} />
+      <div className="quiz-btn-wr quiz-input-wr">
+        <Input style={{ width: "100%" }} className={"input100%"} placeholder={"Monthly income"} />
       </div>
+
       <div className="quiz-etc-btns-wr">
         <button
           className="quiz-btn-cont"
@@ -69,7 +35,16 @@ const QuizEmp = () => {
                 navigation("../Income");
                 break;
               case 5:
-                navigation("../OtherIncome");
+                navigation("../Income");
+                break;
+              case 6:
+                navigation("../Income");
+                break;
+              case 7:
+                navigation("../Income");
+                break;
+              case 8:
+                navigation("../Income");
                 break;
               default:
                 alert("error");
@@ -92,4 +67,4 @@ const QuizEmp = () => {
   );
 };
 
-export default QuizEmp;
+export default QuizIncome;

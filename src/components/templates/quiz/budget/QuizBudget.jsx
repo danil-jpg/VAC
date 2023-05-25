@@ -1,54 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import s from "./quizBudget.module.scss";
+import QuizBtn from "../../../atoms/Buttons/Quiz/QuizBtn";
 
 const QuizBudget = ({ btnNum, setBtnNum }) => {
   const navigation = useNavigate();
+  const [btn, setBtn] = useState(null);
 
-  let res = "";
+  const arr = [
+    {
+      text: "Under $250/Month",
+      setBtn: setBtn,
+      btn: btn,
+      num: 1,
+    },
+    {
+      text: "$250-374/Month",
+      setBtn: setBtn,
+      btn: btn,
+      num: 2,
+    },
+    {
+      text: "$374-500/Month",
+      setBtn: setBtn,
+      btn: btn,
+      num: 3,
+    },
+    {
+      text: "Over $500/Month",
+      setBtn: setBtn,
+      btn: btn,
+      num: 4,
+    },
+  ];
+
   return (
     <div className="quiz-block">
       <p className="quiz-title">What's your budget?</p>
       <p className="quiz-descr">Find vehicle options that fit your budget.</p>
       <div className="quiz-btn-wr">
-        <button
-          className="quiz-btn"
-          onClick={(e) => {
-            res = 1;
-            e.target.style.border = "1px solid black";
-          }}>
-          Under $250/Month
-        </button>
-        <button
-          className="quiz-btn"
-          onClick={(e) => {
-            res = 2;
-            e.target.style.border = "1px solid black";
-          }}>
-          $250-374/Month
-        </button>
-        <button
-          className="quiz-btn"
-          onClick={(e) => {
-            res = 3;
-            e.target.style.border = "1px solid black";
-          }}>
-          $374-500/Month
-        </button>
-        <button
-          className="quiz-btn"
-          onClick={(e) => {
-            res = 4;
-            e.target.style.border = "1px solid black";
-          }}>
-          Over $500/Month
-        </button>
+        <QuizBtn arr={arr} />
       </div>
       <button
         className="quiz-btn-cont"
         onClick={() => {
-          //   setBtnNum([...btnNum, res]);
+          // setBtnNum([...btnNum, res]);
           navigation("../Emp");
         }}>
         Continue
