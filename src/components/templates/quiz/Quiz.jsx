@@ -5,10 +5,12 @@ import s from "./quiz.module.scss";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import QuizIncome from "./income/QuizIncome";
 import QuizOtherIncome from "./otherIncome/QuizOtherIncome";
+import QuizEmp2 from "./emp2/Quiz.Emp2";
+import QuizHowLong from "./howLong/QuizLong";
+import QuizCurrWork from "./areYouWorking/QuizCurrWork";
 
 const Quiz = ({ setIsQuiz }) => {
   const [employed, setEmployed] = useState([]);
-  //   const [res, setRes] = useState(<QuizBudget btnNum={employed} setBtnNum={setEmployed} />);
   useEffect(() => setIsQuiz(true), []);
 
   return (
@@ -23,6 +25,9 @@ const Quiz = ({ setIsQuiz }) => {
         <Route element={<QuizEmp />} path="Emp"></Route>
         <Route element={<QuizIncome />} path="Income"></Route>
         <Route element={<QuizOtherIncome />} path="OtherIncome"></Route>
+        <Route element={<QuizEmp2 />} path="Emp2"></Route>
+        <Route element={<QuizHowLong />} path="HowLong"></Route>
+        <Route element={<QuizCurrWork />} path="CurrWork"></Route>
       </Routes>
     </div>
   );

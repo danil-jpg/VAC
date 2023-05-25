@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Input from "../../../atoms/Inputs/Input/Input";
+import { result } from "../employment/QuizEmp.jsx";
 
 const QuizIncome = ({ btnNum, setBtnNum }) => {
   const navigation = useNavigate();
@@ -21,30 +22,21 @@ const QuizIncome = ({ btnNum, setBtnNum }) => {
         <button
           className="quiz-btn-cont"
           onClick={() => {
-            switch (btn) {
+            switch (result) {
               case 1:
-                navigation("../Income");
+                navigation("../Emp2");
                 break;
               case 2:
-                navigation("../Income");
+                navigation("../HowLong");
                 break;
               case 3:
-                navigation("../Income");
+                navigation("../HowLong");
                 break;
               case 4:
-                navigation("../Income");
+                navigation("../CurrWork");
                 break;
               case 5:
-                navigation("../Income");
-                break;
-              case 6:
-                navigation("../Income");
-                break;
-              case 7:
-                navigation("../Income");
-                break;
-              case 8:
-                navigation("../Income");
+                navigation("../HowLong");
                 break;
               default:
                 alert("error");

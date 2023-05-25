@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import s from "./quizBudget.module.scss";
 import { useNavigate } from "react-router-dom";
 import QuizBtn from "../../../atoms/Buttons/Quiz/QuizBtn";
+let result;
 
 const QuizEmp = () => {
   const navigation = useNavigate();
@@ -40,8 +41,6 @@ const QuizEmp = () => {
     },
   ];
 
-  console.log(btn);
-
   return (
     <div className="quiz-block">
       <p className="quiz-title">What's your employment status?</p>
@@ -55,6 +54,8 @@ const QuizEmp = () => {
         <button
           className="quiz-btn-cont"
           onClick={() => {
+            result = btn;
+
             switch (btn) {
               case 1:
                 navigation("../Income");
@@ -74,8 +75,6 @@ const QuizEmp = () => {
               default:
                 alert("error");
             }
-            // setBtnNum([...btnNum, res]);
-            // navigation("../")
           }}>
           Continue
         </button>
@@ -91,5 +90,5 @@ const QuizEmp = () => {
     </div>
   );
 };
-
+export { result };
 export default QuizEmp;

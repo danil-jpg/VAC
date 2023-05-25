@@ -71,19 +71,7 @@ const QuizOtherIncome = () => {
         <button
           className="quiz-btn-cont"
           onClick={() => {
-            switch (btn) {
-              case 1:
-                navigation("../Income");
-                break;
-              case 2:
-                break;
-              case 3:
-                break;
-              case 4:
-                break;
-              default:
-                alert("error");
-            }
+            navigation("../Income");
           }}>
           Continue
         </button>
