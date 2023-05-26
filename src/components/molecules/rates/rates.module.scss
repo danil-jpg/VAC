@@ -56,3 +56,40 @@
   letter-spacing: 0.02em;
   color: #606276;
 }
+
+@media screen and (max-width: 1200px) {
+  .rates {
+    margin-top: 393px;
+  }
+
+  .titleRates {
+    text-align: center;
+  }
+
+  .ratesWr {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 64px;
+    height: auto;
+    row-gap: 20px;
+  }
+
+  .left,
+  .right {
+    width: 600px;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 39px;
+    padding-bottom: 40px;
+    padding-right: 35px;
+  }
+  .titleWr {
+    // margin-top: 20px;
+    justify-content: flex-start;
+  }
+
+  .title {
+    margin-left: 21px;
+    padding-right: 105px;
+  }
+}
