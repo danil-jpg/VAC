@@ -2,6 +2,7 @@ import React from "react";
 import PageTitle from "../../molecules/pageTitle/PageTitle";
 import s from "./loan.module.scss";
 import CarDesr from "../../molecules/carDecr/CarDesr";
+import Rates from "../../molecules/rates/Rates";
 
 const Loan = () => {
   return (
@@ -15,6 +16,7 @@ const Loan = () => {
           }
           img={require("../../../assets/img/components/cars/Chevrolet.png")}
         />
+        <Rates />
       </div>
     </>
   );

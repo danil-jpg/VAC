@@ -1,0 +1,58 @@
+.rates {
+  margin-top: 230px;
+}
+
+.titleRates {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
+}
+
+.ratesWr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  margin-top: 63px;
+  height: 413px;
+}
+
+.left {
+  padding: 60px;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.right {
+  padding: 60px;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.titleWr {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+
+  img {
+    width: 60px;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #41456b;
+  width: 83%;
+}
+
+.descr {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+}
