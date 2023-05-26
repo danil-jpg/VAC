@@ -1,0 +1,68 @@
+.benefit {
+  margin-top: 220px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.left {
+  width: 92%;
+}
+.right {
+}
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
+}
+.descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  margin-top: 20px;
+  color: #606276;
+}
+.descrBold {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #41456b;
+  margin-top: 20px;
+}
+.right {
+  align-self: end;
+
+  img {
+  }
+}
+.btn {
+  margin-top: 40px;
+  width: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .benefit {
+    grid-template-columns: 1fr;
+    margin-top: 160px;
+  }
+
+  .left {
+    width: 83.6%;
+    margin: 0 auto;
+  }
+
+  .descr {
+    margin-top: 22px;
+  }
+
+  .btn {
+    width: 200px;
+  }
+  .right {
+    align-self: end;
+    justify-self: center;
+    margin-top: 40px;
+    img {
+    }
+  }
+}
