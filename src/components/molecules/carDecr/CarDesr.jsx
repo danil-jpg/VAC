@@ -11,10 +11,7 @@ const CarDesr = ({ title, descr, img }) => {
         <ButtonSolid className={s.btn} text="Request a Car" />
       </div>
       <div className={s.right}>
-        <img
-          className={s.imgWr}
-          src={require("../../../assets/img/components/cars/Chevrolet.png")}
-        />
+        <img className={s.imgWr} src={img} />
       </div>
     </div>
   );

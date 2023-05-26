@@ -12,6 +12,8 @@
   box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 
+  margin-top: 40px;
+
   padding-left: 63px;
 }
 
@@ -20,7 +22,7 @@
   font-size: 45px;
   line-height: 140.5%;
   color: #41456b;
-  margin-top: 100px;
+  margin-top: 61px;
 }
 
 .descr {
@@ -42,4 +44,37 @@
   display: flex;
   justify-content: center;
   align-items: end;
+}
+
+@media screen and (max-width: 1200px) {
+  .carWr {
+    grid-template-columns: 1fr;
+    width: 601px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .left {
+    width: 100%;
+    padding-left: 40px;
+    padding-bottom: 0px;
+  }
+
+  .title {
+    margin-top: 40px;
+    margin-top: -1px;
+  }
+
+  .descr {
+    width: 91%;
+  }
+
+  .right {
+    margin-top: 80px;
+
+    img {
+      width: 600px;
+      height: 265px;
+    }
+  }
 }
