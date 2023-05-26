@@ -14,6 +14,7 @@ import Quiz from "./components/templates/quiz/Quiz";
 import QuizBudget from "./components/templates/quiz/budget/QuizBudget";
 import Article from "./components/templates/articlePage/article";
 import E400 from "./components/templates/404/404";
+import Loan from "./components/templates/loan/Loan";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="Blog" element={<Blog />}></Route>
           <Route path="Article" element={<Article />}></Route>
           <Route path="404" element={<E400 />}></Route>
+          <Route path="Loan" element={<Loan />}></Route>
           <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
         </Routes>
         <Footer quiz={isQuiz} />

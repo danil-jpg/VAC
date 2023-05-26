@@ -12,7 +12,14 @@ const ModalMenu = ({ menu, setMenu }) => {
         <ul className={s.ul}>
           <li className={s.li}>Contact us</li>
           <li className={s.li}>About VAC</li>
-          <li className={s.li}>Loan Rates</li>
+          <li
+            className={s.li}
+            onClick={() => {
+              navigation("Loan");
+              setMenu(false);
+            }}>
+            Loan Rates
+          </li>
           <li
             className={s.li}
             onClick={() => {

@@ -1,0 +1,45 @@
+.carWr {
+  display: grid;
+
+  column-gap: 64px;
+  grid-template-columns: 49% 1fr;
+  height: 402px;
+}
+
+.left {
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  padding-left: 63px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
+  margin-top: 100px;
+}
+
+.descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+  margin-top: 22px;
+  width: 86%;
+}
+
+.btn {
+  margin-top: 15px;
+  margin-top: 38px;
+  width: 200px;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
