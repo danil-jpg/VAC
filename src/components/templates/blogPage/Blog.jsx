@@ -4,9 +4,11 @@ import PageTitle from "../../molecules/pageTitle/PageTitle";
 import CarCard from "../../molecules/carCard/carCard";
 import { register } from "swiper/element/bundle";
 import { params } from "../../Utils/SwiperParams";
+import { useNavigate } from "react-router-dom";
 
 const Blog = () => {
   const swiperRef = useRef(null);
+  const navigation = useNavigate();
   register();
 
   const swiperParams = {
@@ -28,7 +30,7 @@ const Blog = () => {
     <div className="Blog">
       <PageTitle text={"Our blog"} />
       <swiper-container init="false" ref={swiperRef} class="slider5">
-        <swiper-slide>
+        <swiper-slide onClick={() => navigation("../Article")}>
           <div className={`${s.cardWr} container`}>
             <CarCard />
             <CarCard />
@@ -41,7 +43,7 @@ const Blog = () => {
             <CarCard />
           </div>
         </swiper-slide>
-        <swiper-slide>
+        <swiper-slide onClick={() => navigation("../Article")}>
           <div className={`${s.cardWr} container`}>
             <CarCard />
             <CarCard />

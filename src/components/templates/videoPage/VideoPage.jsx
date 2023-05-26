@@ -6,6 +6,7 @@ import { params } from "../../Utils/SwiperParams";
 
 const VideoPage = () => {
   const swiperRef = useRef(null);
+
   register();
 
   const swiperParams = {

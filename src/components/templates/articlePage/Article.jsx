@@ -1,10 +1,16 @@
 import React from "react";
+import s from "./article.module.scss";
+import Slider3 from "../../organisms/slider3/Slider3";
 
 const Article = () => {
   return (
     <div className={s.articlePage}>
-      <img src={require("../../../assets/img/components/article/artBack.png")} />
-      <div className={s.articleTextsWr}>
+      <img
+        style={{}}
+        className={s.backImg}
+        src={require("../../../assets/img/components/article/artBack.png")}
+      />
+      <div className={`${s.articleTextsWr} container`}>
         <p className={s.articleDate}>10 May, 2020</p>
         <p className={s.articleTitle}>
           How to save on buying a car?Why is it better to buy from us
@@ -117,10 +123,24 @@ const Article = () => {
           exercitation consectetur aute laborum aliquip tempor nostrud nulla nisi labore.
         </p>
         <img
-          //   className={s.imgAfterCenter}
+          className={s.imgAfterAfterCenter}
           src={require("../../../assets/img/components/article/car4.png")}
         />
+        <p className={s.articleMiniTitle}>Voluptate nulla amet ad commodo veniam consequat. </p>
+        <p className={s.articleText}>
+          Voluptate nulla amet ad commodo veniam consequat laborum tempor proident cupidatat aute
+          nisi eiusmod laborum. Esse amet duis aliqua culpa consequat et. Laborum tempor commodo et
+          exercitation consectetur aute laborum aliquip tempor nostrud nulla nisi labore. Tempor
+          tempor laboris officia consectetur sint esse sit ad nostrud et deserunt laborum sint eu.
+          Cillum laboris et sint reprehenderit deserunt. Laborum labore incididunt duis mollit est
+          anim reprehenderit consectetur enim fugiat veniam deserunt eiusmod. Irure sunt aute
+          cupidatat qui qui consequat amet tempor. In officia est velit veniam magna proident
+          adipisicing eu non labore mollit ad anim ut. Sit cillum in ea qui minim commodo labore
+          nisi irure duis. Ea do laborum id adipisicing et cillum occaecat est laborum eu consequat
+          ad commodo.
+        </p>
       </div>
+      <Slider3 text="You might like it" />
     </div>
   );
 };

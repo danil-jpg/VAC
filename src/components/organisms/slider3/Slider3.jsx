@@ -4,7 +4,7 @@ import { register } from "swiper/element/bundle";
 import { params } from "../../Utils/SwiperParams";
 import s from "./slider3.module.scss";
 
-const Slider3 = () => {
+const Slider3 = ({ text = "Interesting to read" }) => {
   const swiperRef = useRef(null);
   register();
 
@@ -37,7 +37,7 @@ const Slider3 = () => {
   return (
     <div className={`${s.slider3} ${s.sliderMainPage} container`}>
       <div className={s.sliderTitlesWr}>
-        <p className={s.sliderTitle}>Interesting to read</p>
+        <p className={s.sliderTitle}>{text}</p>
         <ButtonLiner text="all articles" className={`${s.btn} ${s.btnTop}`} />
       </div>
 
