@@ -93,3 +93,48 @@
     padding-right: 105px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .rates {
+    margin-top: 198px;
+  }
+
+  .titleRates {
+    font-size: 30px;
+    line-height: 140.5%;
+    text-align: inherit;
+  }
+
+  .ratesWr {
+    margin-top: 31px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    padding: 0;
+    padding-top: 5px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 21px;
+    padding-top: 20px;
+  }
+
+  .titleWr {
+    height: 56px;
+    img {
+      width: 50px;
+    }
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 140%;
+    padding-right: 0;
+    margin-left: 8px;
+  }
+
+  .descr {
+    margin-top: 16px;
+  }
+}
