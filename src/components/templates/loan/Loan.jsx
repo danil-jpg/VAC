@@ -4,6 +4,7 @@ import s from "./loan.module.scss";
 import CarDesr from "../../molecules/carDecr/CarDesr";
 import Rates from "../../molecules/rates/Rates";
 import Benefits from "../../molecules/benefits/Benefits";
+import RangeSliderSec from "../../organisms/rangeSliderSec/rangeSliderSec";
 
 const Loan = () => {
   return (
@@ -19,6 +20,7 @@ const Loan = () => {
         />
         <Rates />
         <Benefits />
+        <RangeSliderSec className={s.rangeSlider} />
       </div>
     </>
   );
