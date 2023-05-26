@@ -66,3 +66,37 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .benefit {
+    margin-top: 75px;
+  }
+  .left {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 140.5%;
+  }
+
+  .descr {
+    margin-top: 13px;
+  }
+  .descrBold {
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 30px;
+    height: 35px;
+    padding: 0;
+  }
+
+  .right {
+    margin-top: 32px;
+  }
+}
