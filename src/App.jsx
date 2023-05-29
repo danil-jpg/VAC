@@ -20,25 +20,23 @@ const App = () => {
   const [isQuiz, setIsQuiz] = useState(false);
 
   return (
-    <BrowserRouter>
-      <HashRouter basename="/">
-        <Header setMenu={setMenu} setIsQuiz={setIsQuiz} />
-        <Routes>
-          <Route index element={<MainPage index />}></Route>
-          <Route path="Terms" element={<TermsPage />}></Route>
-          <Route path="Policy" element={<PolicyPage />}></Route>
-          <Route path="Calculator" element={<CalculatorPage />}></Route>
-          <Route path="Video" element={<VideoPage />}></Route>
-          <Route path="Blog" element={<Blog />}></Route>
-          <Route path="Article" element={<Article />}></Route>
-          <Route path="404" element={<E400 />}></Route>
-          <Route path="Loan" element={<Loan />}></Route>
-          <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
-        </Routes>
-        <Footer quiz={isQuiz} />
-        <ModalMenu menu={menu} setMenu={setMenu} setIsQuiz={setIsQuiz} />
-      </HashRouter>
-    </BrowserRouter>
+    <HashRouter basename="/">
+      <Header setMenu={setMenu} setIsQuiz={setIsQuiz} />
+      <Routes>
+        <Route index element={<MainPage index />}></Route>
+        <Route path="Terms" element={<TermsPage />}></Route>
+        <Route path="Policy" element={<PolicyPage />}></Route>
+        <Route path="Calculator" element={<CalculatorPage />}></Route>
+        <Route path="Video" element={<VideoPage />}></Route>
+        <Route path="Blog" element={<Blog />}></Route>
+        <Route path="Article" element={<Article />}></Route>
+        <Route path="404" element={<E400 />}></Route>
+        <Route path="Loan" element={<Loan />}></Route>
+        <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
+      </Routes>
+      <Footer quiz={isQuiz} />
+      <ModalMenu menu={menu} setMenu={setMenu} setIsQuiz={setIsQuiz} />
+    </HashRouter>
   );
 };
 
