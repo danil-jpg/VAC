@@ -1,9 +1,8 @@
 const Webpack = require("webpack");
-const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const path = require("path")
 const CssMin = require("css-minimizer-webpack-plugin");
 const HtmlMinimizerPlugin = require("html-minimizer-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin")
+const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 
 module.exports = {
   mode: "production",
@@ -42,49 +41,31 @@ module.exports = {
   optimization: {
     minimize: true,
     minimizer: [
-      new CssMin(),
-      new HtmlMinimizerPlugin(),
-      // new ImageMinimizerPlugin({
-      //   minimizer: {
-      //     implementation: ImageMinimizerPlugin.imageminMinify,
-      //     options: {
-      //       // Lossless optimization with custom option
-      //       // Feel free to experiment with options for better result for you
-      //       plugins: [
-      //         ["gifsicle", { interlaced: true }],
-      //         ["jpegtran", { progressive: true }],
-      //         ["optipng", { optimizationLevel: 5 }],
-      //         // Svgo configuration here https://github.com/svg/svgo#configuration
-      //         [
-      //           "svgo",
-      //           {
-      //             plugins: [
-      //               {
-      //                 name: "preset-default",
-      //                 params: {
-      //                   overrides: {
-      //                     removeViewBox: false,
-      //                     addAttributesToSVGElement: {
-      //                       params: {
-      //                         attributes: [
-      //                           { xmlns: "http://www.w3.org/2000/svg" },
-      //                         ],
-      //                       },
-      //                     },
-      //                   },
-      //                 },
-      //               },
-      //             ],
-      //           },
-      //         ],
-      //       ],
-      //     },
-      //   },
-      // }),
-      // new TerserPlugin()
+      "...",
+      new ImageMinimizerPlugin({
+        minimizer: {
+          implementation: ImageMinimizerPlugin.imageminMinify,
+          options: {
+            plugins: [
+              "imagemin-gifsicle",
+              "imagemin-mozjpeg",
+              "imagemin-pngquant",
+              "imagemin-svgo",
+            ],
+          },
+        },
+        generator: [
+          {
+            // You can apply generator using `?as=webp`, you can use any name and provide more options
+            preset: "webp",
+            implementation: ImageMinimizerPlugin.imageminGenerate,
+            options: {
+              plugins: ["imagemin-webp"],
+            },
+          },
+        ],
+      }),
     ],
   },
-  plugins: [
-    new CleanWebpackPlugin(),
-  ],
+
 };
