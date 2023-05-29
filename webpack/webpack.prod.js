@@ -23,9 +23,9 @@ module.exports = {
       {
         test: /\.(jpg|jpeg|gif|png|svg|webp)$/,
         type: "asset",
-        generator: {
-          filename: 'images/[hash][ext][query]'
-        },
+        // generator: {
+        //   filename: 'images/[hash][ext][query]'
+        // },
         use: [
           {
             loader: `img-optimize-loader`,
