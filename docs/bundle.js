@@ -445,7 +445,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(7803), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(4982), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -566,8 +566,8 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(5623), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(4461), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(4105), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(1801), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
@@ -852,7 +852,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(2900), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(4077), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -985,7 +985,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(6292), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(4302), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -1579,6 +1579,153 @@ module.exports = function (item) {
   }
   return [content].join("\n");
 };
+
+/***/ }),
+
+/***/ 929:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/artBack.fdb52d8c.webp";
+
+/***/ }),
+
+/***/ 5193:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/car1.469e6057.webp";
+
+/***/ }),
+
+/***/ 4956:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/car2.c3d17637.webp";
+
+/***/ }),
+
+/***/ 2529:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/car3.3fb2f4f4.webp";
+
+/***/ }),
+
+/***/ 4827:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/car4.86a8be02.webp";
+
+/***/ }),
+
+/***/ 734:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/Cars.8cda31de.webp";
+
+/***/ }),
+
+/***/ 6489:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/Chevrolet.b678915d.webp";
+
+/***/ }),
+
+/***/ 3108:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/Ford.b10d8d58.webp";
+
+/***/ }),
+
+/***/ 9601:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/Rectangle.26e19bff.webp";
+
+/***/ }),
+
+/***/ 5102:
+/***/ ((module) => {
+
+module.exports = "data:image/png;base64,UklGRkwDAABXRUJQVlA4WAoAAAAQAAAAeAAAGgAAQUxQSD4CAAABd6CgbRumDPY/f6YDEREJJom94A/Z2v+fkfPN/8lksk7tNrWX57XdHtnWPOvD2rZtri6gNtbbI88TbTbzu4n/P1nkBiL6PwHo+IWJFzMYwpqdIKKXM6SQvCVh2bBwWCKipaHw/GhUCCZQwDJu0VSp7SZJwORW5AchGbhLFGuNHsCSAbcVFYFU6N7WEk8Npp1ol3igJOyOAVW9AYYcCdC6APpJQBsMIIcJtLxAZiviqYAG43HqXbrJYNOVTItOai6NwurETYf7SaNvj0NFf4HDzbGI6HBCgaEAgPFH9RY7qfkvN3qZ56sXvz55oFqytn8k7uTB6okxxFWBx0X+ERFcGVZE0HdBDKtXxvuiPlM/CSMKa1i1pCc4BbbyS7JlLpv4JEPAYEYFSn7Z4csnDQW7Ofvo4eYZMcDmgP9JlvId/ALB8Wba+glfgf/9AB2Gsvvl06dbTQWnBc+ePp0WKLlu1knBboEaXwngKJB/k+FdX0NZvRMa+5+Ct5wRxSDtpaR7nAIrkv8yU1Dho06QMQvQWm48JsVQNG/xx9T86tJEJn5Przi54btkb/9E3MmL1SybUgS1PrJZhlEAVns0C4aCvVQtw6armfh5UndoLlZTmcNZNApwI4J/PswhRAEgezCEExmgDQEACdoQABMZeG0IAI8Jan1k8yXktQwd9H4Mwnyf6IRugJvWUdyoSE+IVgKAm9pROsP3HXe8mTZ/momJUkcJqH8k33kIZXGLSA0H9AseEVWzkADZF1uquyP8VlA4IOgAAAAQCQCdASp5ABsAPnUykEekoyGhPfd4AJAOiUAWjPmJWwmVUufVeIB/APf97/CJUVanHZzeHLoilPHM3yJAXN5iRYvJdJKw1zC6SqvxLP1Q0oAA/vq5O0wWmBnOy8vXK0130LyJHkRgET+sm3hBmEeJsBct8Qq/dg0TBdabUElnAaE32rork0zicKvZhOw5+AHQuLUV2euiOEHsQYRH3dG68RTUS7wFmOcTdE0T+/LFCF/AnCosCKCw93yf7lnG0UQPKuDF15pkolG0SpWNgaxorANUIIBbGDoE25RYGOOExsQubfeRc7QA"
+
+/***/ }),
+
+/***/ 8719:
+/***/ ((module) => {
+
+module.exports = "data:image/png;base64,UklGRlQDAABXRUJQVlA4WAoAAAAQAAAAbwAAIAAAQUxQSAYCAAABgFVtb97GEAxBEMLAEALBEAzBEALBEAJhPwaiyxLwvdpN/iyl2a4jAoLbNpIke471AMamndTxhg+Z+ZGDnbF2mdnCm0kPAXyQuTYWRArvZhX4ihe8a3g74sP/FE0QONyASbw/bQKxhzvwQxA/LGCRtedOFkm+ueLJc2sLDYgSFO5muchztNY2kEX7oUb+LSEtHqqcLDJ6hj3ZHZaMPQQhIg0XccIh67jwgRI0W67xpB+MGf0HGa6xEWEexrEjwZZrPOO3QFh0xF0vq7pH76xLj6CgIWNWXAEFIhtm+9AoC41lVkUkPVuL2uMQN9myOw2bPhmkHBh3vwrDjhU/yLT9JJPOFci8iicvlnj3otk2i2N+moaGKaZfiR7bsX17fyNbnTwHtIPlfOrEaa4oBjuPNdYeq4xogM7fAnXidYp5BAOusbB5961YRzVAMHH3uZk92MyN7zrMHdR94hFm08fC4vNYJYWx+L+VfnioEdYRJBc2l8csyw5iIMEcU2ENDorTsjz+7LJBjTiN8GLCiavBwnaPQzLSEJM84HGUWITX16Ddht13P1joUTUPdTjNuXEr+dApkN1y0V0p4RzKXCI2E7t3D7KAgoMM29xxB+q8JAkGx8nRm8su1hXlvgle5Amd9nn6Y1S1pRotd7tYx5RzdnSHeLnk701wA0DZ/wnGpLnF8P8zAFZQOCAoAQAAEAgAnQEqcAAhAD6ROJhIJaMiITJSvHCwEglAGRGG+ZyuRt7OeH02MAgnvpGv0edzF5rVSGrF991vcRiuU6XOOIpdfpm1I6ZEeAD+9gh7cEIWeebCiy8xvuozFQJuBcb4t9RLje0gIr555aPgihx7s1j7uOfpaVPJV0A3ogh6nxx8OEWjn76SS87PI93tMTJehqMlSE2xycgdEOTGIFMv3d0NyzfdqHdFysVCkwo1IhBvY8E1r7k3//q/CtNFBHWnDJqMK3eX/zmYTVOQJkcQUqUf4B4P//V+ku76HsbrjAjpp8JUHBWPg/q0Tm6vy1v33V9xZah4UBnfm39fBMEXToCKzrPM1/fYpURXy+csCj5ShA27rgphU+d6v+MTCjKD83hAAAAAAAA="
+
+/***/ }),
+
+/***/ 6601:
+/***/ ((module) => {
+
+module.exports = "data:image/png;base64,UklGRioCAABXRUJQVlA4WAoAAAAQAAAAMQAAHwAAQUxQSPsAAAABf6DGbds4nDsZvaXnVDQigoAVzV/us1MFwK22bXnyBHeXygZwGARqqmzw01EmGyAL/GxAOlpZILIAsoC7vcX7vM/LCBH9n4AvM7M9yBPnZmZlx9mqdGV+vU6uK8LyD+mf+HU2IByZbwIvZFV4JgVwSs6EHzIILP866wn2zTe7AHyQheCO1ACgTQ6DTzLidsl1F6ka7XL4cjZELkgJ+kR2yDtZYXXSPPBG+9jEn5ObCN9T61EjNRhtZJpdET4TBcTbxIhSTXQr+JZKyM/SinYk9WsTP0ITyTehyDSEwcyy0JXBe1BD+jIYyS3/kGZXDifufh7/ubm9vT0NEQBWUDggCAEAALAGAJ0BKjIAIAA+iTiYR6UjoqEz9mqooBEJbAB4T/Xd7uvgGh/6YBz2/sOftIA1/jTs6XRWSfnzqFHLNPRAAP72IgbB6pvKkiKgdP20E+Pe8M0MIJaN2O/BRf3F3x//2kUhcEI6cF7fV6/AV3v1Op+0ZfrtoB/skTSrIn9qNZFA40qz9SQqfzHlGzfcopfZrXTifPeIaWNnefKuqqa2tX/+3KpGMr5c///rCrf+gosk0/9BRZN4jc6etfP/6Md8AI4As9yU087jd318fArhbj/LRME0dSIO9vPtODa+F7D2h4B4ZcoSNWZ59YW4E9SDP2RFufs1Eyrk6avVFM6VznSQ9wxdxmAAAA=="
+
+/***/ }),
+
+/***/ 1077:
+/***/ ((module) => {
+
+module.exports = "data:image/png;base64,UklGRoYCAABXRUJQVlA4WAoAAAAQAAAANAAANAAAQUxQSDkBAAABb6C2kaQ2+pF/vKcAIiIiIPjvt4yZAz0E3GrblidPXCpcupQ5VK4VVFa5VhzKVKkpXbaI53tgAg4byAZME3nf52OCiP4zcNu2kZJUt/flERiOkeOnwNfzcQix3eFgrCVdjgKHo+LlIUk154MN1y1GWvQiY3BHl7fhRaWuD8uWdSkmZwY4oMTVAA0Npga2FpntcU3qs3WDn3c7k0Db4O/LexMlGnz/2prFvMWno31UKesWNepKNKgr1aKuTIe6sl3qygfqKpCuPoYpxhExUwwRmxS6EQfKtyMeda4V8YIyjYjXmqrpZqKq+xZbujcxEuTPdQ5oyR95FqhTjSRwoFIBMBJEylF/aPR/PdKVyEf1kJjO8w/9CkDLZdLsjd6iDZhx45wiATkvk/BisTPETgJ+jBw/B76eWT0fAFZQOCAmAQAAMAcAnQEqNQA1AD6RPJpJJaMiISwYCZiwEglAF+47S5vNIg5BnLHO8qtP+ExyCVdOid9OcgC8mfBBcEejW5GOX+AAAP76YB2roPkafezcbOVkzRfb/EzQUU0H+MNJP8aqsFx/EHP3m98epn7F7///SKEo1Kb3kotVinqbPvWDTBigIHw5rMtpmxD4yTyPrVmHPwawcefpKBDWMGRvPicyFn0XfJvWKf18AYFTuAuDQK+QhWCw0EBEc98ID8SeCn4rmRPGFE1XIrpkEgIVcLjPlIa539sjqBbtu6DBqqvyjKqicNuGx8yUzplFiUWd7NbrUskKquVhmLtxtS+xy//6REs5yL5ZCSAzowJyfO9WqwUMtjXbQi0BtEc85vxNwqX9kmjPsAAA"
+
+/***/ }),
+
+/***/ 8813:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/car1.72661283.webp";
+
+/***/ }),
+
+/***/ 5171:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/car2.e6b5b20f.webp";
+
+/***/ }),
+
+/***/ 6223:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/1.7f4e042b.webp";
+
+/***/ }),
+
+/***/ 3170:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/2.40879d0e.webp";
+
+/***/ }),
+
+/***/ 5242:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/3.0ccbaf39.webp";
+
+/***/ }),
+
+/***/ 1110:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/phoneMob.37060fba.webp";
+
+/***/ }),
+
+/***/ 2736:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/phonePc.dc916563.webp";
+
+/***/ }),
+
+/***/ 7905:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "imgs/phoneTablet.13aebad1.webp";
 
 /***/ }),
 
@@ -2337,7 +2484,7 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ 9301:
+/***/ 1039:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2345,7 +2492,7 @@ module.exports = __webpack_require__.p + "10601bd79739613933c6.svg";
 
 /***/ }),
 
-/***/ 6886:
+/***/ 2151:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2353,7 +2500,7 @@ module.exports = __webpack_require__.p + "9743502f17476bf99e50.svg";
 
 /***/ }),
 
-/***/ 3296:
+/***/ 9213:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2361,7 +2508,7 @@ module.exports = __webpack_require__.p + "68ee43ec3e6a867a52c5.svg";
 
 /***/ }),
 
-/***/ 7803:
+/***/ 4982:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2369,7 +2516,7 @@ module.exports = __webpack_require__.p + "5676ad3b11f45504e4fa.png";
 
 /***/ }),
 
-/***/ 4442:
+/***/ 1991:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2377,7 +2524,7 @@ module.exports = __webpack_require__.p + "45525f6139eb6ed009f3.svg";
 
 /***/ }),
 
-/***/ 9971:
+/***/ 5520:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2385,7 +2532,7 @@ module.exports = __webpack_require__.p + "f4038ac0e2872179925c.svg";
 
 /***/ }),
 
-/***/ 9355:
+/***/ 6924:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2393,7 +2540,7 @@ module.exports = __webpack_require__.p + "e388896a020549544713.svg";
 
 /***/ }),
 
-/***/ 2132:
+/***/ 6486:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2401,7 +2548,7 @@ module.exports = __webpack_require__.p + "a1aa62a69d3a8259c686.svg";
 
 /***/ }),
 
-/***/ 5623:
+/***/ 4105:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2409,7 +2556,7 @@ module.exports = __webpack_require__.p + "26c21cd4064f57b08a6a.svg";
 
 /***/ }),
 
-/***/ 4461:
+/***/ 1801:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2417,95 +2564,7 @@ module.exports = __webpack_require__.p + "a06adeb4367705c6c802.svg";
 
 /***/ }),
 
-/***/ 3562:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "2354b60cb907bfbed7d6.png";
-
-/***/ }),
-
-/***/ 5380:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "47a50fcae8430bb26c62.png";
-
-/***/ }),
-
-/***/ 5119:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "8611a08324f8961d4ed9.png";
-
-/***/ }),
-
-/***/ 6240:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "118b37731af313773aa7.png";
-
-/***/ }),
-
-/***/ 2977:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "f2ad0cf52a4705bc10fe.png";
-
-/***/ }),
-
-/***/ 5772:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "5131c20fa5fc7983867c.png";
-
-/***/ }),
-
-/***/ 3249:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "c3d5ec1a8c23d70d94cf.png";
-
-/***/ }),
-
-/***/ 2014:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "db7beadbe414809bdd3e.png";
-
-/***/ }),
-
-/***/ 4233:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "6ac82fd1af3d22d28899.png";
-
-/***/ }),
-
-/***/ 4351:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "9c37e923ba32e87e20b0.png";
-
-/***/ }),
-
-/***/ 7018:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "1910271e46c8e7820b0e.png";
-
-/***/ }),
-
-/***/ 7871:
+/***/ 6976:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2513,7 +2572,7 @@ module.exports = __webpack_require__.p + "268380080269ebd6d897.svg";
 
 /***/ }),
 
-/***/ 5771:
+/***/ 5219:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2521,7 +2580,7 @@ module.exports = __webpack_require__.p + "091c9290cacdad8c13bd.svg";
 
 /***/ }),
 
-/***/ 7080:
+/***/ 9238:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2529,31 +2588,7 @@ module.exports = __webpack_require__.p + "7a9513ee838614de1c28.svg";
 
 /***/ }),
 
-/***/ 4803:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "c79012e79746a10c6b5c.png";
-
-/***/ }),
-
-/***/ 4862:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "92eacb4b9083d1c0c7e3.png";
-
-/***/ }),
-
-/***/ 8150:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "e288ca781a6e1856dcde.png";
-
-/***/ }),
-
-/***/ 2900:
+/***/ 4077:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2561,7 +2596,7 @@ module.exports = __webpack_require__.p + "13e2bb4dc09e7d6e9267.png";
 
 /***/ }),
 
-/***/ 3344:
+/***/ 1173:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2569,31 +2604,7 @@ module.exports = __webpack_require__.p + "b595223687b01b1303b5.svg";
 
 /***/ }),
 
-/***/ 7728:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "1ef380834e860e8d40c9.png";
-
-/***/ }),
-
-/***/ 7949:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "93891cb30262ca3fd6c4.png";
-
-/***/ }),
-
-/***/ 6692:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "340a0b1c1d5964e182ef.png";
-
-/***/ }),
-
-/***/ 6691:
+/***/ 9193:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2601,7 +2612,7 @@ module.exports = __webpack_require__.p + "fb7cb1992444ed5f1132.svg";
 
 /***/ }),
 
-/***/ 6348:
+/***/ 5977:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2609,7 +2620,7 @@ module.exports = __webpack_require__.p + "5b8ac891ee115aecc074.svg";
 
 /***/ }),
 
-/***/ 6374:
+/***/ 4126:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2617,7 +2628,7 @@ module.exports = __webpack_require__.p + "201d2dc191130e39f2d0.svg";
 
 /***/ }),
 
-/***/ 4774:
+/***/ 1956:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2625,31 +2636,7 @@ module.exports = __webpack_require__.p + "0b14a9594c7e20e62a41.svg";
 
 /***/ }),
 
-/***/ 2536:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "b52765cc8c6116cb9744.png";
-
-/***/ }),
-
-/***/ 9347:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "8d5925fe373ed25af675.png";
-
-/***/ }),
-
-/***/ 2822:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "da5fa1a83f32d8ff6837.png";
-
-/***/ }),
-
-/***/ 6292:
+/***/ 4302:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -8567,8 +8554,9 @@ function createMemoryRouter(routes, opts) {
 
 //# sourceMappingURL=index.js.map
 
-;// CONCATENATED MODULE: ./src/assets/img/components/logo/logo img.png
-const logo_img_namespaceObject = __webpack_require__.p + "326bfcdb3585624b40bf.png";
+// EXTERNAL MODULE: ./src/assets/img/components/logo/logo img.png
+var logo_img = __webpack_require__(6601);
+var logo_img_default = /*#__PURE__*/__webpack_require__.n(logo_img);
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 ;// CONCATENATED MODULE: ./src/components/molecules/Logo/Logo.jsx
@@ -8589,7 +8577,7 @@ var Logo = function Logo(_ref) {
       setIsQuiz(false);
     },
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: logo_img_namespaceObject
+      src: (logo_img_default())
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
       children: "VAC"
     })]
@@ -18643,7 +18631,7 @@ if (typeof window !== 'undefined') {
 
 ;// CONCATENATED MODULE: ./src/components/Utils/SwiperParams.jsx
 var params = {
-  injectStyles: ["\n\t  .swiper-button-next , .swiper-button-prev{\n\t\t  background-image: url(".concat(__webpack_require__(4803), ");\n\t\t  width: 53px;\n\t\t  height: 53px;\n\t  }\n\n\t  .swiper-button-next {\n\t\t  position: absolute;\n\t\t  right: 5px;\n\t\t  top: 47%;\n\n\t\t  @media screen and (max-width: 1200px) {\n\t\t\t  right: 60px;\n\t\t  };\n\n\t\t  @media screen and (max-width: 767px) {\n\t\t\t  right: 0px;\n\t\t\t  top: 51%;\n\t\t\t  width: 35px;\n\t\t\t  height: 35px;\n\t\t\t  background-size: contain;\n\t\t  }\n\t\t}\n\n\t\t.swiper-button-prev {\n\t\t  position: absolute;\n\t\t  left: 5px;\n\t\t  top: 47%;\n\t\t  transform: rotate(180deg);\n\n\t\t  @media screen and (max-width: 1200px) {\n\t\t\t  left: 60px;\n\t\t  };\n\n\t\t  @media screen and (max-width: 767px) {\n\t\t\t  left: 0px;\n\t\t\t  top: 51%;\n\t\t\t  width: 35px;\n\t\t\t  height: 35px;\n\t\t\t  background-size: contain;\n\t\t  }\n\t\t}\n\n\t\t.swiper-button-next2 , .swiper-button-prev2{\n\t\t\tbackground-image: url(").concat(__webpack_require__(3344), ");\n\t\t\ttop: 49%;\n\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\ttop: 47%;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-next2{\n\t\t\tright: 0;\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\tright: 0;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-prev2{\n\t\t\tleft: 0;\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\tleft: 0;\n\t\t\t}\n\t\t}\n\n\t\t.swiper-button-next2{\n\t\t\t@media screen and (max-width: 767PX) {\n\t\t\t\ttop: 34%;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-prev2{\n\t\t\t@media screen and (max-width: 767PX) {\n\t\t\t\ttop: 34%;\n\t\t\t}\n\t\t}\n\t\t\t")]
+  injectStyles: ["\n\t  .swiper-button-next , .swiper-button-prev{\n\t\t  background-image: url(".concat(__webpack_require__(1077), ");\n\t\t  width: 53px;\n\t\t  height: 53px;\n\t  }\n\n\t  .swiper-button-next {\n\t\t  position: absolute;\n\t\t  right: 5px;\n\t\t  top: 47%;\n\n\t\t  @media screen and (max-width: 1200px) {\n\t\t\t  right: 60px;\n\t\t  };\n\n\t\t  @media screen and (max-width: 767px) {\n\t\t\t  right: 0px;\n\t\t\t  top: 51%;\n\t\t\t  width: 35px;\n\t\t\t  height: 35px;\n\t\t\t  background-size: contain;\n\t\t  }\n\t\t}\n\n\t\t.swiper-button-prev {\n\t\t  position: absolute;\n\t\t  left: 5px;\n\t\t  top: 47%;\n\t\t  transform: rotate(180deg);\n\n\t\t  @media screen and (max-width: 1200px) {\n\t\t\t  left: 60px;\n\t\t  };\n\n\t\t  @media screen and (max-width: 767px) {\n\t\t\t  left: 0px;\n\t\t\t  top: 51%;\n\t\t\t  width: 35px;\n\t\t\t  height: 35px;\n\t\t\t  background-size: contain;\n\t\t  }\n\t\t}\n\n\t\t.swiper-button-next2 , .swiper-button-prev2{\n\t\t\tbackground-image: url(").concat(__webpack_require__(1173), ");\n\t\t\ttop: 49%;\n\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\ttop: 47%;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-next2{\n\t\t\tright: 0;\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\tright: 0;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-prev2{\n\t\t\tleft: 0;\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\tleft: 0;\n\t\t\t}\n\t\t}\n\n\t\t.swiper-button-next2{\n\t\t\t@media screen and (max-width: 767PX) {\n\t\t\t\ttop: 34%;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-prev2{\n\t\t\t@media screen and (max-width: 767PX) {\n\t\t\t\ttop: 34%;\n\t\t\t}\n\t\t}\n\t\t\t")]
 };
 ;// CONCATENATED MODULE: ./src/components/organisms/slider1/Slider1.jsx
 
@@ -18687,21 +18675,21 @@ var Slider1 = function Slider1() {
             children: /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
               className: slider1_slider_module.slideWr,
               children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-                src: __webpack_require__(4862)
+                src: __webpack_require__(8813)
               })
             })
           }), /*#__PURE__*/(0,jsx_runtime.jsx)("swiper-slide", {
             children: /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
               className: slider1_slider_module.slideWr,
               children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-                src: __webpack_require__(4862)
+                src: __webpack_require__(8813)
               })
             })
           }), /*#__PURE__*/(0,jsx_runtime.jsx)("swiper-slide", {
             children: /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
               className: slider1_slider_module.slideWr,
               children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-                src: __webpack_require__(4862)
+                src: __webpack_require__(8813)
               })
             })
           })]
@@ -18814,10 +18802,10 @@ var DescrCenterSec = function DescrCenterSec(_ref) {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: descrCenterSec_descrCenterSec_module.descrSecWr,
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(8150),
+      src: __webpack_require__(5171),
       className: descrCenterSec_descrCenterSec_module.img1
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(4862),
+      src: __webpack_require__(8813),
       className: descrCenterSec_descrCenterSec_module.img2
     }), /*#__PURE__*/(0,jsx_runtime.jsx)(DescrCenter, {
       className: className
@@ -18993,13 +18981,13 @@ var TriangleSec = function TriangleSec() {
       className: triangleSec_triangleSec_module.triangleRight,
       children: /*#__PURE__*/(0,jsx_runtime.jsxs)("picture", {
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("source", {
-          srcSet: __webpack_require__(2536),
+          srcSet: __webpack_require__(1110),
           media: "(max-width: 767px)"
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("source", {
-          srcSet: __webpack_require__(2822),
+          srcSet: __webpack_require__(7905),
           media: "(max-width: 1200px)"
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(9347),
+          src: __webpack_require__(2736),
           alt: ""
         })]
       })
@@ -19113,17 +19101,17 @@ var AdvantageTriSec = function AdvantageTriSec() {
       arr: [{
         title: "Vehicle Delivery",
         descr: "We deliver your vehicle directly to your door. You don’t sign anything until you test drive the vehicle. There is never any obligation to buy beforehand.",
-        svg: __webpack_require__(2132),
+        svg: __webpack_require__(6486),
         rotate: false
       }, {
         title: "Auto Financing",
         descr: "We partner with the largest lenders in Canada to offer the strongest financing options in the industry—including rates as low as 4%",
-        svg: __webpack_require__(9355),
+        svg: __webpack_require__(6924),
         rotate: true
       }, {
         title: "Huge Inventory",
         descr: "We have access to thousands of high-quality vehicles and offer them to you at wholesale prices. Your dream car is waiting for you",
-        svg: __webpack_require__(9971),
+        svg: __webpack_require__(5520),
         rotate: false
       }]
     })]
@@ -19224,7 +19212,7 @@ var Catalogue = function Catalogue() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: "".concat(catalogueLink_catalogue_module.section, " container"),
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(5772)
+      src: __webpack_require__(734)
     }), /*#__PURE__*/(0,jsx_runtime.jsx)(chooseYourDream_ChooseYourDream, {})]
   });
 };
@@ -19430,7 +19418,7 @@ var Slider2 = function Slider2() {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider2_slider2_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(4233)
+              src: __webpack_require__(9601)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider2_slider2_module.slideDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -19446,7 +19434,7 @@ var Slider2 = function Slider2() {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider2_slider2_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(4233)
+              src: __webpack_require__(9601)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider2_slider2_module.slideDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -19462,7 +19450,7 @@ var Slider2 = function Slider2() {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider2_slider2_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(4233)
+              src: __webpack_require__(9601)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider2_slider2_module.slideDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21819,7 +21807,7 @@ var Slider3 = function Slider3(_ref) {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider3_slider3_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(7728)
+              src: __webpack_require__(6223)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider3_slider3_module.sliderDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21835,7 +21823,7 @@ var Slider3 = function Slider3(_ref) {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider3_slider3_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(7949)
+              src: __webpack_require__(3170)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider3_slider3_module.sliderDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21851,7 +21839,7 @@ var Slider3 = function Slider3(_ref) {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider3_slider3_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(6692)
+              src: __webpack_require__(5242)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider3_slider3_module.sliderDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21867,7 +21855,7 @@ var Slider3 = function Slider3(_ref) {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider3_slider3_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(6692)
+              src: __webpack_require__(5242)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider3_slider3_module.sliderDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21946,7 +21934,7 @@ var ModalsTemplate = function ModalsTemplate(_ref) {
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)("div", {
         className: "cross-wr",
         children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(7871),
+          src: __webpack_require__(6976),
           id: "cross",
           className: modalTemp_modalTemp_module.cross,
           onClick: function onClick() {
@@ -22049,17 +22037,17 @@ var ModalMenu = function ModalMenu(_ref) {
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: modalMenu_modalMenu_module.menuSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(6348)
+            src: __webpack_require__(5977)
           })
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: modalMenu_modalMenu_module.menuSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(6348)
+            src: __webpack_require__(5977)
           })
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: modalMenu_modalMenu_module.menuSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(6348)
+            src: __webpack_require__(5977)
           })
         })]
       })]
@@ -22147,7 +22135,7 @@ var Footer = function Footer(_ref) {
     children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
       className: "".concat(footer_footer_module.footer, " container"),
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-        src: __webpack_require__(7018),
+        src: __webpack_require__(8719),
         className: footer_footer_module.logo
       }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
         className: footer_footer_module.footerTermsWr,
@@ -22169,21 +22157,21 @@ var Footer = function Footer(_ref) {
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: footer_footer_module.footerSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(6374)
+            src: __webpack_require__(4126)
           })
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: footer_footer_module.footerSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(6691)
+            src: __webpack_require__(9193)
           })
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: footer_footer_module.footerSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(4774)
+            src: __webpack_require__(1956)
           })
         })]
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-        src: __webpack_require__(4351),
+        src: __webpack_require__(5102),
         className: footer_footer_module.footerCreatedBy
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
         className: footer_footer_module.footerCopy,
@@ -23341,7 +23329,7 @@ var DropText = function DropText(_ref) {
           children: el.title
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
           className: dropText_dropText_module.dropImg,
-          src: __webpack_require__(4442)
+          src: __webpack_require__(1991)
         })]
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
         className: dropText_dropText_module.dropText,
@@ -23803,7 +23791,7 @@ var CarCard = function CarCard() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: carCard_carCard_module.slideWr,
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(7728)
+      src: __webpack_require__(6223)
     }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
       className: carCard_carCard_module.sliderDescrWr,
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -24108,7 +24096,7 @@ var QuizEmp = function QuizEmp(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(6886)
+          src: __webpack_require__(2151)
         }), "Back"]
       })]
     })]
@@ -24269,7 +24257,7 @@ var QuizIncome = function QuizIncome(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(6886)
+          src: __webpack_require__(2151)
         }), "Back"]
       })]
     })]
@@ -24361,7 +24349,7 @@ var QuizOtherIncome = function QuizOtherIncome(_ref) {
           setLineWidth(lineWidth - 9);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(6886)
+          src: __webpack_require__(2151)
         }), "Back"]
       })]
     })]
@@ -24418,7 +24406,7 @@ var QuizEmp2 = function QuizEmp2(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(6886)
+          src: __webpack_require__(2151)
         }), "Back"]
       })]
     })]
@@ -24474,7 +24462,7 @@ var QuizHowLong = function QuizHowLong(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(6886)
+          src: __webpack_require__(2151)
         }), "Back"]
       })]
     })]
@@ -24566,7 +24554,7 @@ var QuizCurrWork = function QuizCurrWork(_ref) {
           setLineWidth(lineWidth - 9);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(6886)
+          src: __webpack_require__(2151)
         }), "Back"]
       })]
     })]
@@ -24636,7 +24624,7 @@ var QuizWhere = function QuizWhere(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(6886)
+          src: __webpack_require__(2151)
         }), "Back"]
       })]
     })]
@@ -24697,7 +24685,7 @@ var QuizWhen = function QuizWhen(_ref) {
           setLineWidth(lineWidth - 9);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(6886)
+          src: __webpack_require__(2151)
         }), "Back"]
       })]
     })]
@@ -24767,7 +24755,7 @@ var QuizPreLast = function QuizPreLast(_ref) {
           setLineWidth(lineWidth - 9);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(6886)
+          src: __webpack_require__(2151)
         }), "Back"]
       })]
     })]
@@ -24789,7 +24777,7 @@ var QuizCongrat = function QuizCongrat(_ref) {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: "quiz-block",
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(3296),
+      src: __webpack_require__(9213),
       className: "quizSvg"
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
       className: "quiz-title",
@@ -24984,7 +24972,7 @@ var Article = function Article() {
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
       style: {},
       className: articlePage_article_module.backImg,
-      src: __webpack_require__(3562)
+      src: __webpack_require__(929)
     }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
       className: "".concat(articlePage_article_module.articleTextsWr, " container"),
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -25003,10 +24991,10 @@ var Article = function Article() {
         className: articlePage_article_module.articleImgCentWr,
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
           className: articlePage_article_module.imgCenter,
-          src: __webpack_require__(5380)
+          src: __webpack_require__(5193)
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
           className: articlePage_article_module.imgCenter,
-          src: __webpack_require__(5119)
+          src: __webpack_require__(4956)
         })]
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
         className: articlePage_article_module.articleMiniTitle,
@@ -25016,7 +25004,7 @@ var Article = function Article() {
         children: "Voluptate nulla amet ad commodo veniam consequat laborum tempor proident cupidatat aute nisi eiusmod laborum. Esse amet duis aliqua culpa consequat et. Laborum tempor commodo et exercitation consectetur aute laborum aliquip tempor nostrud nulla nisi labore. Tempor tempor laboris officia consectetur sint esse sit ad nostrud et deserunt laborum sint eu. Cillum laboris et sint reprehenderit deserunt. Laborum labore incididunt duis mollit est anim reprehenderit consectetur enim fugiat veniam deserunt eiusmod. Irure sunt aute cupidatat qui qui consequat amet tempor. In officia est velit veniam magna proident adipisicing eu non labore mollit ad anim ut. Sit cillum in ea qui minim commodo labore nisi irure duis. Ea do laborum id adipisicing et cillum occaecat est laborum eu consequat ad commodo."
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
         className: articlePage_article_module.imgAfterCenter,
-        src: __webpack_require__(6240)
+        src: __webpack_require__(2529)
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
         className: articlePage_article_module.articleText,
         children: "Voluptate nulla amet ad commodo veniam consequat laborum tempor proident cupidatat aute nisi eiusmod laborum. Esse amet duis aliqua culpa consequat et. Laborum tempor commodo et exercitation consectetur aute laborum aliquip tempor nostrud nulla nisi labore. Tempor tempor laboris officia consectetur sint esse sit ad nostrud et deserunt laborum sint eu. Cillum laboris et sint reprehenderit deserunt. Laborum labore incididunt duis mollit est anim reprehenderit consectetur enim fugiat veniam deserunt eiusmod. Irure sunt aute cupidatat qui qui consequat amet tempor. In officia est velit veniam magna proident adipisicing eu non labore mollit ad anim ut. Sit cillum in ea qui minim commodo labore nisi irure duis. Ea do laborum id adipisicing et cillum occaecat est laborum eu consequat ad commodo."
@@ -25040,7 +25028,7 @@ var Article = function Article() {
         children: "Voluptate nulla amet ad commodo veniam consequat laborum tempor proident cupidatat aute nisi eiusmod laborum. Esse amet duis aliqua culpa consequat et. Laborum tempor commodo et exercitation consectetur aute laborum aliquip tempor nostrud nulla nisi labore."
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
         className: articlePage_article_module.imgAfterAfterCenter,
-        src: __webpack_require__(2977)
+        src: __webpack_require__(4827)
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
         className: articlePage_article_module.articleMiniTitle,
         children: "Voluptate nulla amet ad commodo veniam consequat. "
@@ -25097,7 +25085,7 @@ var E400 = function E400() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: _404_404_module.error,
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(9301)
+      src: __webpack_require__(1039)
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
       className: _404_404_module.errorTitle,
       children: "404 page"
@@ -25259,7 +25247,7 @@ var Rates = function Rates() {
         children: [/*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
           className: rates_rates_module.titleWr,
           children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(7080)
+            src: __webpack_require__(9238)
           }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
             className: rates_rates_module.title,
             children: "What are my interest rate options?"
@@ -25273,7 +25261,7 @@ var Rates = function Rates() {
         children: [/*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
           className: rates_rates_module.titleWr,
           children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(5771)
+            src: __webpack_require__(5219)
           }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
             className: rates_rates_module.title,
             children: "How long will my loan term be?"
@@ -25345,7 +25333,7 @@ var Benefits = function Benefits() {
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
       className: benefits_benefits_module.right,
       children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-        src: __webpack_require__(2014)
+        src: __webpack_require__(3108)
       })
     })]
   });
@@ -25371,7 +25359,7 @@ var Loan = function Loan() {
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)(carDecr_CarDesr, {
         title: "Our credit policy",
         descr: "You want to secure a loan that works for your budget. Here at VAC we work with Canada’s largest lenders to help you find the best interest rates and terms for your auto loan.",
-        img: __webpack_require__(3249)
+        img: __webpack_require__(6489)
       }), /*#__PURE__*/(0,jsx_runtime.jsx)(rates_Rates, {}), /*#__PURE__*/(0,jsx_runtime.jsx)(benefits_Benefits, {}), /*#__PURE__*/(0,jsx_runtime.jsx)(rangeSliderSec, {
         className: loan_loan_module.rangeSlider
       })]

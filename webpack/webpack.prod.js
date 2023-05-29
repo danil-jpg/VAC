@@ -37,6 +37,11 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    hot: true,
+    open: true,
+    historyApiFallback: true,
+  },
   optimization: {
     minimize: true,
     minimizer: [
