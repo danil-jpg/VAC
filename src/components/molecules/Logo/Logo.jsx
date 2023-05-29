@@ -5,12 +5,14 @@ import { Navigate, useNavigate } from "react-router-dom";
 
 const Logo = ({ setIsQuiz = false }) => {
   const navigation = useNavigate();
-  useEffect(() => {
-    setIsQuiz(false);
-  }, []);
 
   return (
-    <div className={s.logoWr} onClick={() => navigation("/")}>
+    <div
+      className={s.logoWr}
+      onClick={() => {
+        navigation("/");
+        setIsQuiz(false);
+      }}>
       <img src={require("../../../assets/img/components/logo/logo img.png")}></img>
       <p>VAC</p>
     </div>
