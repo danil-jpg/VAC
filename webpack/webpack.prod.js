@@ -21,25 +21,21 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(jpg|jpeg|gif|png|svg|webp)$/,
-        // type: "asset",
-        // generator: {
-        //   filename: 'images/[name]'
-        // },
+        test: /\.(png|jpe?g|webp|git|svg|)$/i,
         use: [
           {
             loader: `img-optimize-loader`,
             options: {
-              name: '[path][name].[ext]',
               compress: {
+                // This will transform your png/jpg into webp.
                 webp: true,
                 disableOnDevelopment: true,
               },
             },
-          }
-        ]
+          },
+        ],
       },
-    ]
+    ],
   },
   optimization: {
     minimize: true,
