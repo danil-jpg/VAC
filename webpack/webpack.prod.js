@@ -38,34 +38,82 @@ module.exports = {
       },
     ],
   },
-  optimization: {
-    minimize: true,
-    minimizer: [
-      "...",
-      new ImageMinimizerPlugin({
-        minimizer: {
-          implementation: ImageMinimizerPlugin.imageminMinify,
-          options: {
-            plugins: [
-              "imagemin-gifsicle",
-              "imagemin-mozjpeg",
-              "imagemin-pngquant",
-              "imagemin-svgo",
+  plugins: [
+    // new webpack.HotModuleReplacementPlugin(),
+    // new HtmlWebpackPlugin({
+    //   template: './src/index.html'
+    // }),
+    new ImageMinimizerPlugin({
+      minimizer: {
+        implementation: ImageMinimizerPlugin.imageminMinify,
+        options: {
+          plugins: [
+            ['mozjpeg', { quality: 85 }],
+            ['optipng', { optimizationLevel: 3 }],
+            [
+              "svgo",
+              {
+                plugins: [
+                  {
+                    name: "preset-default",
+                    params: {
+                      overrides: {
+                        removeViewBox: false,
+                        addAttributesToSVGElement: {
+                          params: {
+                            attributes: [
+                              { xmlns: "http://www.w3.org/2000/svg" },
+                            ],
+                          },
+                        },
+                      },
+                    },
+                  },
+                ],
+              },
             ],
-          },
+          ],
         },
-        generator: [
-          {
-            // You can apply generator using `?as=webp`, you can use any name and provide more options
-            preset: "webp",
-            implementation: ImageMinimizerPlugin.imageminGenerate,
-            options: {
-              plugins: ["imagemin-webp"],
-            },
-          },
-        ],
-      }),
-    ],
-  },
+      },
+      generator: [
+        {
+          preset: 'webp',
+          implementation: ImageMinimizerPlugin.imageminGenerate,
+          options: {
+            plugins: ['imagemin-webp']
+          }
+        }
+      ]
+    })
+  ],
+  // optimization: {
+  //   minimize: true,
+  //   minimizer: [
+  //     "...",
+  //     new ImageMinimizerPlugin({
+  //       minimizer: {
+  //         implementation: ImageMinimizerPlugin.imageminMinify,
+  //         options: {
+  //           plugins: [
+  //             "imagemin-gifsicle",
+  //             "imagemin-mozjpeg",
+  //             "imagemin-pngquant",
+  //             "imagemin-svgo",
+  //           ],
+  //         },
+  //       },
+  //       generator: [
+  //         {
+  //           // You can apply generator using `?as=webp`, you can use any name and provide more options
+  //           preset: "webp",
+  //           implementation: ImageMinimizerPlugin.imageminGenerate,
+  //           options: {
+  //             plugins: ["imagemin-webp"],
+  //           },
+  //         },
+  //       ],
+  //     }),
+  //   ],
+  // },
 
 };
