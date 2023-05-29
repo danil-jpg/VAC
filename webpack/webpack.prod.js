@@ -16,13 +16,14 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "..", "docs"),
     filename: "bundle.js",
+    assetModuleFilename: "assets/[name][hash][ext]",
     clean: true,
   },
 
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|webp|git|svg|)$/i,
+        test: /\.(png|jpe?g|webp|git|)$/i,
         use: [
           {
             loader: `img-optimize-loader`,
@@ -43,48 +44,48 @@ module.exports = {
     // new HtmlWebpackPlugin({
     //   template: './src/index.html'
     // }),
-    new ImageMinimizerPlugin({
-      minimizer: {
-        implementation: ImageMinimizerPlugin.imageminMinify,
-        options: {
-          plugins: [
-            ['mozjpeg', { quality: 85 }],
-            ['optipng', { optimizationLevel: 3 }],
-            [
-              "svgo",
-              {
-                plugins: [
-                  {
-                    name: "preset-default",
-                    params: {
-                      overrides: {
-                        removeViewBox: false,
-                        addAttributesToSVGElement: {
-                          params: {
-                            attributes: [
-                              { xmlns: "http://www.w3.org/2000/svg" },
-                            ],
-                          },
-                        },
-                      },
-                    },
-                  },
-                ],
-              },
-            ],
-          ],
-        },
-      },
-      generator: [
-        {
-          preset: 'webp',
-          implementation: ImageMinimizerPlugin.imageminGenerate,
-          options: {
-            plugins: ['imagemin-webp']
-          }
-        }
-      ]
-    })
+    // new ImageMinimizerPlugin({
+    //   minimizer: {
+    //     implementation: ImageMinimizerPlugin.imageminMinify,
+    //     options: {
+    //       plugins: [
+    //         ['mozjpeg', { quality: 85 }],
+    //         ['optipng', { optimizationLevel: 3 }],
+    //         [
+    //           "svgo",
+    //           {
+    //             plugins: [
+    //               {
+    //                 name: "preset-default",
+    //                 params: {
+    //                   overrides: {
+    //                     removeViewBox: false,
+    //                     addAttributesToSVGElement: {
+    //                       params: {
+    //                         attributes: [
+    //                           { xmlns: "http://www.w3.org/2000/svg" },
+    //                         ],
+    //                       },
+    //                     },
+    //                   },
+    //                 },
+    //               },
+    //             ],
+    //           },
+    //         ],
+    //       ],
+    //     },
+    //   },
+    //   generator: [
+    //     {
+    //       preset: 'webp',
+    //       implementation: ImageMinimizerPlugin.imageminGenerate,
+    //       options: {
+    //         plugins: ['imagemin-webp']
+    //       }
+    //     }
+    //   ]
+    // })
   ],
   // optimization: {
   //   minimize: true,
