@@ -2513,14 +2513,6 @@ module.exports = __webpack_require__.p + "268380080269ebd6d897.svg";
 
 /***/ }),
 
-/***/ 6468:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "326bfcdb3585624b40bf.png";
-
-/***/ }),
-
 /***/ 4549:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -8575,9 +8567,12 @@ function createMemoryRouter(routes, opts) {
 
 //# sourceMappingURL=index.js.map
 
+;// CONCATENATED MODULE: ./src/assets/img/components/logo/logo img.png
+const logo_img_namespaceObject = __webpack_require__.p + "326bfcdb3585624b40bf.png";
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 ;// CONCATENATED MODULE: ./src/components/molecules/Logo/Logo.jsx
+
 
 
 
@@ -8594,7 +8589,7 @@ var Logo = function Logo(_ref) {
       setIsQuiz(false);
     },
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(6468)
+      src: logo_img_namespaceObject
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
       children: "VAC"
     })]
