@@ -1,5 +1,10 @@
 const Webpack = require("webpack")
-const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin")
+const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
+const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
+const path = require("path")
 
 module.exports = {
   mode: "development",
