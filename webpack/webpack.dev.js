@@ -9,10 +9,11 @@ module.exports = {
     historyApiFallback: true,
   },
   module: {
-    rules: {
+    rules: [{
       test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
       type: "asset/resource"
     },
+    ]
   },
 
   devtool: "cheap-module-source-map",

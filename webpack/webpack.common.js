@@ -48,12 +48,12 @@ module.exports = {
       },
     ]
   },
-  output: {
-    path: path.resolve(__dirname, "..", "dist"),
-    filename: "bundle.js",
-    clean: true,
-    publicPath: '/'
-  },
+  // output: {
+  //   path: path.resolve(__dirname, "..", "docs"),
+  //   filename: "bundle.js",
+  //   clean: true,
+  //   publicPath: '/'
+  // },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "..", "./src/index.html")
