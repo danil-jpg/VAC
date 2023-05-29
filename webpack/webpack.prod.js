@@ -22,7 +22,7 @@ module.exports = {
     rules: [
       {
         test: /\.(jpg|jpeg|gif|png|svg|webp)$/,
-        type: "asset",
+        // type: "asset",
         // generator: {
         //   filename: 'images/[hash][ext][query]'
         // },
