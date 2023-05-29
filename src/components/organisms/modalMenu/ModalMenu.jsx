@@ -3,7 +3,7 @@ import ModalsTemplate from "../modalTemp/ModalTemplate";
 import s from "./modalMenu.module.scss";
 import { Navigate, useNavigate } from "react-router-dom";
 
-const ModalMenu = ({ menu, setMenu }) => {
+const ModalMenu = ({ menu, setMenu, setIsQuiz }) => {
   const navigation = useNavigate();
 
   const Res = () => {
@@ -15,6 +15,7 @@ const ModalMenu = ({ menu, setMenu }) => {
           <li
             className={s.li}
             onClick={() => {
+              setIsQuiz(false);
               navigation("Loan");
               setMenu(false);
             }}>
@@ -23,6 +24,7 @@ const ModalMenu = ({ menu, setMenu }) => {
           <li
             className={s.li}
             onClick={() => {
+              setIsQuiz(false);
               navigation("Video");
               setMenu(false);
             }}>
@@ -31,6 +33,7 @@ const ModalMenu = ({ menu, setMenu }) => {
           <li
             className={s.li}
             onClick={() => {
+              setIsQuiz(false);
               navigation("Blog");
               setMenu(false);
             }}>
@@ -39,6 +42,7 @@ const ModalMenu = ({ menu, setMenu }) => {
           <li
             className={s.li}
             onClick={() => {
+              setIsQuiz(false);
               navigation("Calculator");
               setMenu(false);
             }}>

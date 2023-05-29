@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./assets/styles/styles.scss";
 import Header from "./components/organisms/header/Header.jsx";
 import MainPage from "./components/templates/mainPage/MainPage";
 import Footer from "./components/organisms/footer/footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import TermsPage from "./components/templates/TermsPage/TermsPage";
 import PolicyPage from "./components/templates/policyPage/PolicyPage";
 import ModalMenu from "./components/organisms/modalMenu/ModalMenu";
@@ -23,7 +23,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <Header menu={menu} setMenu={setMenu} />
+        <Header setMenu={setMenu} setIsQuiz={setIsQuiz} />
         <Routes>
           <Route index element={<MainPage index />}></Route>
           <Route path="Terms" element={<TermsPage />}></Route>
@@ -37,7 +37,7 @@ const App = () => {
           <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
         </Routes>
         <Footer quiz={isQuiz} />
-        <ModalMenu menu={menu} setMenu={setMenu} />
+        <ModalMenu menu={menu} setMenu={setMenu} setIsQuiz={setIsQuiz} />
       </BrowserRouter>
     </>
   );

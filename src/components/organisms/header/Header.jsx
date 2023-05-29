@@ -6,11 +6,11 @@ import ButtonLiner from "../../atoms/Buttons/ButtonLiner/ButtonLiner.jsx";
 import { Icon } from "../../Utils/Icon";
 import { useNavigate } from "react-router-dom";
 
-const Header = ({ menu, setMenu }) => {
+const Header = ({ setMenu, setIsQuiz }) => {
   const navigation = useNavigate();
   return (
     <header className={`${s.header} container`}>
-      <Logo />
+      <Logo setIsQuiz={setIsQuiz} />
       <ButtonLiner text="Inventory" className={`${s.btnLin}`} />
       <ButtonSolid
         onClick={() => navigation("Quiz/budget")}
