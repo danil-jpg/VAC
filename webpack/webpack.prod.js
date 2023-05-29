@@ -2,6 +2,7 @@ const Webpack = require("webpack");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const path = require("path")
+const TerserPlugin = require("terser-webpack-plugin")
 // const BundleAnalyzer = require("webpack-bundle-analyzer").BundleAnalyzerPlugin
 
 module.exports = {
@@ -69,6 +70,7 @@ module.exports = {
           },
         },
       }),
+      [new TerserPlugin()]
     ],
   },
 };

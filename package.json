@@ -1,6 +1,6 @@
 {
   "name": "vac",
-  "homepage": "https://danil-jpg.github.io/VAC/",
+  "homepage": "https://danil-jpg.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -69,6 +69,7 @@
     "style-loader": "^3.3.2",
     "svg-url-loader": "^8.0.0",
     "svgo": "^3.0.2",
+    "terser-webpack-plugin": "^5.3.9",
     "typescript": "^5.0.4",
     "webpack": "^5.82.1",
     "webpack-bundle-analyzer": "^4.8.0",
