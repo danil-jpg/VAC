@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import s from "./logo.module.scss";
+
 import { Navigate, useNavigate } from "react-router-dom";
 
 const Logo = ({ setIsQuiz = false }) => {
   const navigation = useNavigate();
-  setIsQuiz(false);
+  useEffect(() => {
+    setIsQuiz(false);
+  }, []);
 
   return (
     <div className={s.logoWr} onClick={() => navigation("/")}>
