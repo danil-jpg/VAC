@@ -3,6 +3,7 @@ const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const path = require("path")
 const CssMin = require("css-minimizer-webpack-plugin");
 const HtmlMinimizerPlugin = require("html-minimizer-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 
 module.exports = {
   mode: "production",
@@ -15,7 +16,8 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, "..", "docs"),
-    filename: "bundle.js"
+    filename: "bundle.js",
+    clean: true,
   },
 
   module: {
@@ -36,11 +38,6 @@ module.exports = {
         ],
       },
     ],
-  },
-  devServer: {
-    hot: true,
-    open: true,
-    historyApiFallback: true,
   },
   optimization: {
     minimize: true,
@@ -87,4 +84,7 @@ module.exports = {
       // new TerserPlugin()
     ],
   },
+  plugins: [
+    new CleanWebpackPlugin(),
+  ],
 };

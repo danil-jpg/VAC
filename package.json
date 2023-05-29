@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "clsx": "^1.2.1",
     "eslint-config-airbnb-typescript-prettier": "^5.0.0",
     "rc-slider": "^10.1.1",
