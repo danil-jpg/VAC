@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <>
-      <HashRouter>
+      {/* <HashRouter>
         <Header setMenu={setMenu} setIsQuiz={setIsQuiz} />
         <Routes>
           <Route index element={<MainPage index />}></Route>
@@ -38,7 +38,8 @@ const App = () => {
         </Routes>
         <Footer quiz={isQuiz} />
         <ModalMenu menu={menu} setMenu={setMenu} setIsQuiz={setIsQuiz} />
-      </HashRouter>
+      </HashRouter> */}
+      <MainPage />
     </>
   );
 };

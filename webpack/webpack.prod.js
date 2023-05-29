@@ -70,7 +70,7 @@ module.exports = {
           },
         },
       }),
-      [new TerserPlugin()]
+      new TerserPlugin()
     ],
   },
 };
