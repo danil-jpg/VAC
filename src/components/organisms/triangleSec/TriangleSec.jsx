@@ -37,14 +37,14 @@ const TriangleSec = () => {
       <div className={s.triangleRight}>
         <picture>
           <source
-            srcSet={require("../../../assets/img/components/triangle/phoneMob.png")}
+            srcSet={require("../../../assets/img/components/triangle/phoneMob.webp")}
             media="(max-width: 767px)"
           />
           <source
-            srcSet={require("../../../assets/img/components/triangle/phoneTablet.png")}
+            srcSet={require("../../../assets/img/components/triangle/phoneTablet.webp")}
             media="(max-width: 1200px)"
           />
-          <img src={require("../../../assets/img/components/triangle/phonePc.png")} alt="" />
+          <img src={require("../../../assets/img/components/triangle/phonePc.webp")} alt="" />
         </picture>
       </div>
     </div>

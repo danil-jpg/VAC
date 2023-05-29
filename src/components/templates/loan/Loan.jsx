@@ -16,7 +16,7 @@ const Loan = () => {
           descr={
             "You want to secure a loan that works for your budget. Here at VAC we work with Canada’s largest lenders to help you find the best interest rates and terms for your auto loan."
           }
-          img={require("../../../assets/img/components/cars/Chevrolet.png")}
+          img={require("../../../assets/img/components/cars/Chevrolet.webp")}
         />
         <Rates />
         <Benefits />

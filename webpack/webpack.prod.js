@@ -13,7 +13,7 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [{
         from: path.resolve(__dirname, '../src/assets/img/'),
-        to: path.resolve(__dirname, '../docs/images')
+        to: path.resolve(__dirname, '../src/assets/img/')
       }]
     }),
   ],
@@ -28,6 +28,9 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|webp)$/i,
         type: 'asset/resource',
+        generator: {
+          filename: 'image/[hash][ext][query]'
+        }
       },
     ]
   },
@@ -44,25 +47,33 @@ module.exports = {
         implementation: ImageMinimizerPlugin.imageminMinify,
         options: {
           plugins: [
-            ['gifsicle', {}],
-            ['jpegtran', {}],
-            ['optipng', {}],
-            ['svgo', {}],
+            ['gifsicle', { interlaced: true }],
+            ['jpegtran', { progressive: true }],
+            ['optipng', { optimizationLevel: 5 }],
+            ['svgo', {
+              plugins: [
+                {
+                  name: "preset-default",
+                  params: {
+                    overrides: {
+                      removeViewBox: false,
+                      addAttributesToSVGElement: {
+                        params: {
+                          attributes: [
+                            { xmlns: "http://www.w3.org/2000/svg" },
+                          ],
+                        },
+                      },
+                    },
+                  },
+                },
+              ],
+            },],
           ],
         },
       },
     }),
     new ImageminWebpWebpackPlugin({
-      // config: [{
-      //   test: /\.(jpe?g|png)/,
-      //   options: {
-      //     quality: 75
-      //   }
-      // }],
-      // overrideExtension: true,
-      // detailedLogs: false,
-      // silent: false,
-      // strict: true
     })
     ]
   }

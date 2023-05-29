@@ -20,7 +20,7 @@ const Benefits = () => {
         <ButtonSolid text="Request a Car" className={s.btn} />
       </div>
       <div className={s.right}>
-        <img src={require("../../../assets/img/components/cars/Ford.png")} />
+        <img src={require("../../../assets/img/components/cars/Ford.webp")} />
       </div>
     </div>
   );

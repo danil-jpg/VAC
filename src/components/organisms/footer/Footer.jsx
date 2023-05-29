@@ -13,7 +13,7 @@ const Footer = ({ quiz = false }) => {
   return (
     <footer className={`${s.footerSec} ${display}`}>
       <div className={`${s.footer} container`}>
-        <img src={require("../../../assets/img/components/footer/Logo.png")} className={s.logo} />
+        <img src={require("../../../assets/img/components/footer/Logo.webp")} className={s.logo} />
         <div className={s.footerTermsWr}>
           <p className={s.footerText} onClick={() => navigation("Terms")}>
             Terms
@@ -34,7 +34,7 @@ const Footer = ({ quiz = false }) => {
           </div>
         </div>
         <img
-          src={require("../../../assets/img/components/footer/Created by.png")}
+          src={require("../../../assets/img/components/footer/Created by.webp")}
           className={s.footerCreatedBy}
         />
         <p className={s.footerCopy}>©Copyright, 2020. Vehicle Approval</p>

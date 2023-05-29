@@ -45,7 +45,7 @@ const Slider3 = ({ text = "Interesting to read" }) => {
         <swiper-container init="false" ref={swiperRef} class="slider3">
           <swiper-slide>
             <div className={s.slideWr}>
-              <img src={require("../../../assets/img/components/slider3/1.png")} />
+              <img src={require("../../../assets/img/components/slider3/1.webp")} />
               <div className={s.sliderDescrWr}>
                 <p className={s.slideDate}>10 May, 2020</p>
                 <p className={s.slideTitle}>
@@ -56,7 +56,7 @@ const Slider3 = ({ text = "Interesting to read" }) => {
           </swiper-slide>
           <swiper-slide>
             <div className={s.slideWr}>
-              <img src={require("../../../assets/img/components/slider3/2.png")} />
+              <img src={require("../../../assets/img/components/slider3/2.webp")} />
               <div className={s.sliderDescrWr}>
                 <p className={s.slideDate}>10 May, 2020</p>
                 <p className={s.slideTitle}>
@@ -67,7 +67,7 @@ const Slider3 = ({ text = "Interesting to read" }) => {
           </swiper-slide>
           <swiper-slide>
             <div className={s.slideWr}>
-              <img src={require("../../../assets/img/components/slider3/3.png")} />
+              <img src={require("../../../assets/img/components/slider3/3.webp")} />
               <div className={s.sliderDescrWr}>
                 <p className={s.slideDate}>10 May, 2020</p>
                 <p className={s.slideTitle}>
@@ -78,7 +78,7 @@ const Slider3 = ({ text = "Interesting to read" }) => {
           </swiper-slide>
           <swiper-slide>
             <div className={s.slideWr}>
-              <img src={require("../../../assets/img/components/slider3/3.png")} />
+              <img src={require("../../../assets/img/components/slider3/3.webp")} />
               <div className={s.sliderDescrWr}>
                 <p className={s.slideDate}>10 May, 2020</p>
                 <p className={s.slideTitle}>

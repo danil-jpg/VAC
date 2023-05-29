@@ -8,7 +8,7 @@ const Article = () => {
       <img
         style={{}}
         className={s.backImg}
-        src={require("../../../assets/img/components/article/artBack.png")}
+        src={require("../../../assets/img/components/article/artBack.webp")}
       />
       <div className={`${s.articleTextsWr} container`}>
         <p className={s.articleDate}>10 May, 2020</p>
@@ -61,11 +61,11 @@ const Article = () => {
         <div className={s.articleImgCentWr}>
           <img
             className={s.imgCenter}
-            src={require("../../../assets/img/components/article/car1.png")}
+            src={require("../../../assets/img/components/article/car1.webp")}
           />
           <img
             className={s.imgCenter}
-            src={require("../../../assets/img/components/article/car2.png")}
+            src={require("../../../assets/img/components/article/car2.webp")}
           />
         </div>
         <p className={s.articleMiniTitle}>Voluptate nulla amet ad commodo veniam consequat. </p>
@@ -83,7 +83,7 @@ const Article = () => {
         </p>
         <img
           className={s.imgAfterCenter}
-          src={require("../../../assets/img/components/article/car3.png")}
+          src={require("../../../assets/img/components/article/car3.webp")}
         />
         <p className={s.articleText}>
           Voluptate nulla amet ad commodo veniam consequat laborum tempor proident cupidatat aute
@@ -124,7 +124,7 @@ const Article = () => {
         </p>
         <img
           className={s.imgAfterAfterCenter}
-          src={require("../../../assets/img/components/article/car4.png")}
+          src={require("../../../assets/img/components/article/car4.webp")}
         />
         <p className={s.articleMiniTitle}>Voluptate nulla amet ad commodo veniam consequat. </p>
         <p className={s.articleText}>

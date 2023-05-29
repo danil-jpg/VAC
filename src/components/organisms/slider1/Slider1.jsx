@@ -34,17 +34,17 @@ const Slider1 = () => {
           <swiper-container init="false" class="slider1">
             <swiper-slide>
               <div className={s.slideWr}>
-                <img src={require("../../../assets/img/components/slider1/car1.png")} />
+                <img src={require("../../../assets/img/components/slider1/car1.webp")} />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div className={s.slideWr}>
-                <img src={require("../../../assets/img/components/slider1/car1.png")} />
+                <img src={require("../../../assets/img/components/slider1/car1.webp")} />
               </div>
             </swiper-slide>
             <swiper-slide>
               <div className={s.slideWr}>
-                <img src={require("../../../assets/img/components/slider1/car1.png")} />
+                <img src={require("../../../assets/img/components/slider1/car1.webp")} />
               </div>
             </swiper-slide>
           </swiper-container>

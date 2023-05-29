@@ -33,7 +33,7 @@ const Slider2 = () => {
         <swiper-container ref={swiperRef} init="false" class="slider2">
           <swiper-slide>
             <div className={s.slideWr}>
-              <img src={require("../../../assets/img/components/cars/Rectangle.png")} />
+              <img src={require("../../../assets/img/components/cars/Rectangle.webp")} />
               <div className={s.slideDescrWr}>
                 <p className={s.slideTitle}>Laura Chaisson</p>
                 <p className={s.slideDescr}>
@@ -47,7 +47,7 @@ const Slider2 = () => {
           </swiper-slide>
           <swiper-slide>
             <div className={s.slideWr}>
-              <img src={require("../../../assets/img/components/cars/Rectangle.png")} />
+              <img src={require("../../../assets/img/components/cars/Rectangle.webp")} />
               <div className={s.slideDescrWr}>
                 <p className={s.slideTitle}>Laura Chaisson</p>
                 <p className={s.slideDescr}>
@@ -61,7 +61,7 @@ const Slider2 = () => {
           </swiper-slide>
           <swiper-slide>
             <div className={s.slideWr}>
-              <img src={require("../../../assets/img/components/cars/Rectangle.png")} />
+              <img src={require("../../../assets/img/components/cars/Rectangle.webp")} />
               <div className={s.slideDescrWr}>
                 <p className={s.slideTitle}>Laura Chaisson</p>
                 <p className={s.slideDescr}>
