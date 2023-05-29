@@ -24,12 +24,13 @@ module.exports = {
         test: /\.(jpg|jpeg|gif|png|svg|webp)$/,
         // type: "asset",
         // generator: {
-        //   filename: 'images/[hash][ext][query]'
+        //   filename: 'images/[name]'
         // },
         use: [
           {
             loader: `img-optimize-loader`,
             options: {
+              name: '[path][name].[ext]',
               compress: {
                 webp: true,
                 disableOnDevelopment: true,
