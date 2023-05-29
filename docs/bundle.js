@@ -445,7 +445,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(3024), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(7803), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -566,8 +566,8 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(7574), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(7851), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(5623), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(4461), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
@@ -852,7 +852,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(5250), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(2900), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -985,7 +985,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(3137), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(6292), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -2337,7 +2337,7 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ 6203:
+/***/ 9301:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2345,7 +2345,7 @@ module.exports = __webpack_require__.p + "10601bd79739613933c6.svg";
 
 /***/ }),
 
-/***/ 2691:
+/***/ 6886:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2353,7 +2353,7 @@ module.exports = __webpack_require__.p + "9743502f17476bf99e50.svg";
 
 /***/ }),
 
-/***/ 5236:
+/***/ 3296:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2361,7 +2361,7 @@ module.exports = __webpack_require__.p + "68ee43ec3e6a867a52c5.svg";
 
 /***/ }),
 
-/***/ 3024:
+/***/ 7803:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2369,7 +2369,7 @@ module.exports = __webpack_require__.p + "5676ad3b11f45504e4fa.png";
 
 /***/ }),
 
-/***/ 596:
+/***/ 4442:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2377,7 +2377,7 @@ module.exports = __webpack_require__.p + "45525f6139eb6ed009f3.svg";
 
 /***/ }),
 
-/***/ 2577:
+/***/ 9971:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2385,7 +2385,7 @@ module.exports = __webpack_require__.p + "f4038ac0e2872179925c.svg";
 
 /***/ }),
 
-/***/ 1428:
+/***/ 9355:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2393,7 +2393,7 @@ module.exports = __webpack_require__.p + "e388896a020549544713.svg";
 
 /***/ }),
 
-/***/ 7813:
+/***/ 2132:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2401,7 +2401,7 @@ module.exports = __webpack_require__.p + "a1aa62a69d3a8259c686.svg";
 
 /***/ }),
 
-/***/ 7574:
+/***/ 5623:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2409,15 +2409,15 @@ module.exports = __webpack_require__.p + "26c21cd4064f57b08a6a.svg";
 
 /***/ }),
 
-/***/ 7851:
+/***/ 4461:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "1723ecbec29f316fec63.svg";
+module.exports = __webpack_require__.p + "a06adeb4367705c6c802.svg";
 
 /***/ }),
 
-/***/ 649:
+/***/ 3562:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2425,7 +2425,7 @@ module.exports = __webpack_require__.p + "a89af9d970e007b79c29.png";
 
 /***/ }),
 
-/***/ 2164:
+/***/ 5380:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2433,7 +2433,7 @@ module.exports = __webpack_require__.p + "9704fc1460ca0e9d74d4.png";
 
 /***/ }),
 
-/***/ 5682:
+/***/ 5119:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2441,7 +2441,7 @@ module.exports = __webpack_require__.p + "b5061895a8ac8366661a.png";
 
 /***/ }),
 
-/***/ 2324:
+/***/ 6240:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2449,7 +2449,7 @@ module.exports = __webpack_require__.p + "626c71173829b724f68e.png";
 
 /***/ }),
 
-/***/ 4483:
+/***/ 2977:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2457,7 +2457,7 @@ module.exports = __webpack_require__.p + "0ccd358294c987ce59a8.png";
 
 /***/ }),
 
-/***/ 7695:
+/***/ 5772:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2465,7 +2465,7 @@ module.exports = __webpack_require__.p + "c7ba0b3512c3dff39709.png";
 
 /***/ }),
 
-/***/ 6474:
+/***/ 3249:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2473,7 +2473,7 @@ module.exports = __webpack_require__.p + "df6b63b8f619c2da74c9.png";
 
 /***/ }),
 
-/***/ 6425:
+/***/ 2014:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2481,7 +2481,7 @@ module.exports = __webpack_require__.p + "6dc894754ce1e1920f3b.png";
 
 /***/ }),
 
-/***/ 3422:
+/***/ 4233:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2489,7 +2489,7 @@ module.exports = __webpack_require__.p + "3a331135679eb0227285.png";
 
 /***/ }),
 
-/***/ 4470:
+/***/ 4351:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2497,7 +2497,7 @@ module.exports = __webpack_require__.p + "9c37e923ba32e87e20b0.png";
 
 /***/ }),
 
-/***/ 3133:
+/***/ 7018:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2505,7 +2505,7 @@ module.exports = __webpack_require__.p + "1910271e46c8e7820b0e.png";
 
 /***/ }),
 
-/***/ 2605:
+/***/ 7871:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2513,23 +2513,23 @@ module.exports = __webpack_require__.p + "268380080269ebd6d897.svg";
 
 /***/ }),
 
-/***/ 4549:
+/***/ 5771:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "4b938e83ab21075741c9.svg";
+module.exports = __webpack_require__.p + "091c9290cacdad8c13bd.svg";
 
 /***/ }),
 
-/***/ 8911:
+/***/ 7080:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "f0f08e2651bd3f363ecf.svg";
+module.exports = __webpack_require__.p + "7a9513ee838614de1c28.svg";
 
 /***/ }),
 
-/***/ 1462:
+/***/ 4803:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2537,7 +2537,7 @@ module.exports = __webpack_require__.p + "c79012e79746a10c6b5c.png";
 
 /***/ }),
 
-/***/ 9961:
+/***/ 4862:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2545,7 +2545,7 @@ module.exports = __webpack_require__.p + "3132a3056657fcfbfe93.png";
 
 /***/ }),
 
-/***/ 6229:
+/***/ 8150:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2553,7 +2553,7 @@ module.exports = __webpack_require__.p + "f495aa99783046ee29f0.png";
 
 /***/ }),
 
-/***/ 5250:
+/***/ 2900:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2561,7 +2561,7 @@ module.exports = __webpack_require__.p + "d3b3e4a6a7d0d4d7c955.png";
 
 /***/ }),
 
-/***/ 1904:
+/***/ 3344:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2569,7 +2569,7 @@ module.exports = __webpack_require__.p + "b595223687b01b1303b5.svg";
 
 /***/ }),
 
-/***/ 6349:
+/***/ 7728:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2577,7 +2577,7 @@ module.exports = __webpack_require__.p + "0619f0231693cc34cc7e.png";
 
 /***/ }),
 
-/***/ 5132:
+/***/ 7949:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2585,7 +2585,7 @@ module.exports = __webpack_require__.p + "a81eaff1c70e040c898f.png";
 
 /***/ }),
 
-/***/ 4918:
+/***/ 6692:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2593,7 +2593,7 @@ module.exports = __webpack_require__.p + "bc982dc2e1dedc2181b1.png";
 
 /***/ }),
 
-/***/ 1497:
+/***/ 6691:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2601,7 +2601,7 @@ module.exports = __webpack_require__.p + "fb7cb1992444ed5f1132.svg";
 
 /***/ }),
 
-/***/ 9108:
+/***/ 6348:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2609,7 +2609,7 @@ module.exports = __webpack_require__.p + "5b8ac891ee115aecc074.svg";
 
 /***/ }),
 
-/***/ 1363:
+/***/ 6374:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2617,7 +2617,7 @@ module.exports = __webpack_require__.p + "201d2dc191130e39f2d0.svg";
 
 /***/ }),
 
-/***/ 753:
+/***/ 4774:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2625,7 +2625,7 @@ module.exports = __webpack_require__.p + "0b14a9594c7e20e62a41.svg";
 
 /***/ }),
 
-/***/ 545:
+/***/ 2536:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2633,7 +2633,7 @@ module.exports = __webpack_require__.p + "cf04c60818624da13f80.png";
 
 /***/ }),
 
-/***/ 2565:
+/***/ 9347:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2641,7 +2641,7 @@ module.exports = __webpack_require__.p + "58341912bc73e83bcbb7.png";
 
 /***/ }),
 
-/***/ 3544:
+/***/ 2822:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -2649,7 +2649,7 @@ module.exports = __webpack_require__.p + "f2051558025c8eb883a5.png";
 
 /***/ }),
 
-/***/ 3137:
+/***/ 6292:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -18643,7 +18643,7 @@ if (typeof window !== 'undefined') {
 
 ;// CONCATENATED MODULE: ./src/components/Utils/SwiperParams.jsx
 var params = {
-  injectStyles: ["\n\t  .swiper-button-next , .swiper-button-prev{\n\t\t  background-image: url(".concat(__webpack_require__(1462), ");\n\t\t  width: 53px;\n\t\t  height: 53px;\n\t  }\n\n\t  .swiper-button-next {\n\t\t  position: absolute;\n\t\t  right: 5px;\n\t\t  top: 47%;\n\n\t\t  @media screen and (max-width: 1200px) {\n\t\t\t  right: 60px;\n\t\t  };\n\n\t\t  @media screen and (max-width: 767px) {\n\t\t\t  right: 0px;\n\t\t\t  top: 51%;\n\t\t\t  width: 35px;\n\t\t\t  height: 35px;\n\t\t\t  background-size: contain;\n\t\t  }\n\t\t}\n\n\t\t.swiper-button-prev {\n\t\t  position: absolute;\n\t\t  left: 5px;\n\t\t  top: 47%;\n\t\t  transform: rotate(180deg);\n\n\t\t  @media screen and (max-width: 1200px) {\n\t\t\t  left: 60px;\n\t\t  };\n\n\t\t  @media screen and (max-width: 767px) {\n\t\t\t  left: 0px;\n\t\t\t  top: 51%;\n\t\t\t  width: 35px;\n\t\t\t  height: 35px;\n\t\t\t  background-size: contain;\n\t\t  }\n\t\t}\n\n\t\t.swiper-button-next2 , .swiper-button-prev2{\n\t\t\tbackground-image: url(").concat(__webpack_require__(1904), ");\n\t\t\ttop: 49%;\n\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\ttop: 47%;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-next2{\n\t\t\tright: 0;\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\tright: 0;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-prev2{\n\t\t\tleft: 0;\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\tleft: 0;\n\t\t\t}\n\t\t}\n\n\t\t.swiper-button-next2{\n\t\t\t@media screen and (max-width: 767PX) {\n\t\t\t\ttop: 34%;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-prev2{\n\t\t\t@media screen and (max-width: 767PX) {\n\t\t\t\ttop: 34%;\n\t\t\t}\n\t\t}\n\t\t\t")]
+  injectStyles: ["\n\t  .swiper-button-next , .swiper-button-prev{\n\t\t  background-image: url(".concat(__webpack_require__(4803), ");\n\t\t  width: 53px;\n\t\t  height: 53px;\n\t  }\n\n\t  .swiper-button-next {\n\t\t  position: absolute;\n\t\t  right: 5px;\n\t\t  top: 47%;\n\n\t\t  @media screen and (max-width: 1200px) {\n\t\t\t  right: 60px;\n\t\t  };\n\n\t\t  @media screen and (max-width: 767px) {\n\t\t\t  right: 0px;\n\t\t\t  top: 51%;\n\t\t\t  width: 35px;\n\t\t\t  height: 35px;\n\t\t\t  background-size: contain;\n\t\t  }\n\t\t}\n\n\t\t.swiper-button-prev {\n\t\t  position: absolute;\n\t\t  left: 5px;\n\t\t  top: 47%;\n\t\t  transform: rotate(180deg);\n\n\t\t  @media screen and (max-width: 1200px) {\n\t\t\t  left: 60px;\n\t\t  };\n\n\t\t  @media screen and (max-width: 767px) {\n\t\t\t  left: 0px;\n\t\t\t  top: 51%;\n\t\t\t  width: 35px;\n\t\t\t  height: 35px;\n\t\t\t  background-size: contain;\n\t\t  }\n\t\t}\n\n\t\t.swiper-button-next2 , .swiper-button-prev2{\n\t\t\tbackground-image: url(").concat(__webpack_require__(3344), ");\n\t\t\ttop: 49%;\n\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\ttop: 47%;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-next2{\n\t\t\tright: 0;\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\tright: 0;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-prev2{\n\t\t\tleft: 0;\n\t\t\t@media screen and (max-width: 1200px) {\n\t\t\t\tleft: 0;\n\t\t\t}\n\t\t}\n\n\t\t.swiper-button-next2{\n\t\t\t@media screen and (max-width: 767PX) {\n\t\t\t\ttop: 34%;\n\t\t\t}\n\t\t}\n\t\t.swiper-button-prev2{\n\t\t\t@media screen and (max-width: 767PX) {\n\t\t\t\ttop: 34%;\n\t\t\t}\n\t\t}\n\t\t\t")]
 };
 ;// CONCATENATED MODULE: ./src/components/organisms/slider1/Slider1.jsx
 
@@ -18687,21 +18687,21 @@ var Slider1 = function Slider1() {
             children: /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
               className: slider1_slider_module.slideWr,
               children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-                src: __webpack_require__(9961)
+                src: __webpack_require__(4862)
               })
             })
           }), /*#__PURE__*/(0,jsx_runtime.jsx)("swiper-slide", {
             children: /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
               className: slider1_slider_module.slideWr,
               children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-                src: __webpack_require__(9961)
+                src: __webpack_require__(4862)
               })
             })
           }), /*#__PURE__*/(0,jsx_runtime.jsx)("swiper-slide", {
             children: /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
               className: slider1_slider_module.slideWr,
               children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-                src: __webpack_require__(9961)
+                src: __webpack_require__(4862)
               })
             })
           })]
@@ -18814,10 +18814,10 @@ var DescrCenterSec = function DescrCenterSec(_ref) {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: descrCenterSec_descrCenterSec_module.descrSecWr,
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(6229),
+      src: __webpack_require__(8150),
       className: descrCenterSec_descrCenterSec_module.img1
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(9961),
+      src: __webpack_require__(4862),
       className: descrCenterSec_descrCenterSec_module.img2
     }), /*#__PURE__*/(0,jsx_runtime.jsx)(DescrCenter, {
       className: className
@@ -18993,13 +18993,13 @@ var TriangleSec = function TriangleSec() {
       className: triangleSec_triangleSec_module.triangleRight,
       children: /*#__PURE__*/(0,jsx_runtime.jsxs)("picture", {
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("source", {
-          srcSet: __webpack_require__(545),
+          srcSet: __webpack_require__(2536),
           media: "(max-width: 767px)"
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("source", {
-          srcSet: __webpack_require__(3544),
+          srcSet: __webpack_require__(2822),
           media: "(max-width: 1200px)"
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2565),
+          src: __webpack_require__(9347),
           alt: ""
         })]
       })
@@ -19113,17 +19113,17 @@ var AdvantageTriSec = function AdvantageTriSec() {
       arr: [{
         title: "Vehicle Delivery",
         descr: "We deliver your vehicle directly to your door. You don’t sign anything until you test drive the vehicle. There is never any obligation to buy beforehand.",
-        svg: __webpack_require__(7813),
+        svg: __webpack_require__(2132),
         rotate: false
       }, {
         title: "Auto Financing",
         descr: "We partner with the largest lenders in Canada to offer the strongest financing options in the industry—including rates as low as 4%",
-        svg: __webpack_require__(1428),
+        svg: __webpack_require__(9355),
         rotate: true
       }, {
         title: "Huge Inventory",
         descr: "We have access to thousands of high-quality vehicles and offer them to you at wholesale prices. Your dream car is waiting for you",
-        svg: __webpack_require__(2577),
+        svg: __webpack_require__(9971),
         rotate: false
       }]
     })]
@@ -19224,7 +19224,7 @@ var Catalogue = function Catalogue() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: "".concat(catalogueLink_catalogue_module.section, " container"),
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(7695)
+      src: __webpack_require__(5772)
     }), /*#__PURE__*/(0,jsx_runtime.jsx)(chooseYourDream_ChooseYourDream, {})]
   });
 };
@@ -19430,7 +19430,7 @@ var Slider2 = function Slider2() {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider2_slider2_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(3422)
+              src: __webpack_require__(4233)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider2_slider2_module.slideDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -19446,7 +19446,7 @@ var Slider2 = function Slider2() {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider2_slider2_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(3422)
+              src: __webpack_require__(4233)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider2_slider2_module.slideDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -19462,7 +19462,7 @@ var Slider2 = function Slider2() {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider2_slider2_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(3422)
+              src: __webpack_require__(4233)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider2_slider2_module.slideDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21819,7 +21819,7 @@ var Slider3 = function Slider3(_ref) {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider3_slider3_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(6349)
+              src: __webpack_require__(7728)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider3_slider3_module.sliderDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21835,7 +21835,7 @@ var Slider3 = function Slider3(_ref) {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider3_slider3_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(5132)
+              src: __webpack_require__(7949)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider3_slider3_module.sliderDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21851,7 +21851,7 @@ var Slider3 = function Slider3(_ref) {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider3_slider3_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(4918)
+              src: __webpack_require__(6692)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider3_slider3_module.sliderDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21867,7 +21867,7 @@ var Slider3 = function Slider3(_ref) {
           children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
             className: slider3_slider3_module.slideWr,
             children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-              src: __webpack_require__(4918)
+              src: __webpack_require__(6692)
             }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
               className: slider3_slider3_module.sliderDescrWr,
               children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -21946,7 +21946,7 @@ var ModalsTemplate = function ModalsTemplate(_ref) {
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)("div", {
         className: "cross-wr",
         children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2605),
+          src: __webpack_require__(7871),
           id: "cross",
           className: modalTemp_modalTemp_module.cross,
           onClick: function onClick() {
@@ -22049,17 +22049,17 @@ var ModalMenu = function ModalMenu(_ref) {
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: modalMenu_modalMenu_module.menuSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(9108)
+            src: __webpack_require__(6348)
           })
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: modalMenu_modalMenu_module.menuSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(9108)
+            src: __webpack_require__(6348)
           })
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: modalMenu_modalMenu_module.menuSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(9108)
+            src: __webpack_require__(6348)
           })
         })]
       })]
@@ -22147,7 +22147,7 @@ var Footer = function Footer(_ref) {
     children: /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
       className: "".concat(footer_footer_module.footer, " container"),
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-        src: __webpack_require__(3133),
+        src: __webpack_require__(7018),
         className: footer_footer_module.logo
       }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
         className: footer_footer_module.footerTermsWr,
@@ -22169,21 +22169,21 @@ var Footer = function Footer(_ref) {
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: footer_footer_module.footerSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(1363)
+            src: __webpack_require__(6374)
           })
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: footer_footer_module.footerSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(1497)
+            src: __webpack_require__(6691)
           })
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
           className: footer_footer_module.footerSocial,
           children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(753)
+            src: __webpack_require__(4774)
           })
         })]
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-        src: __webpack_require__(4470),
+        src: __webpack_require__(4351),
         className: footer_footer_module.footerCreatedBy
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
         className: footer_footer_module.footerCopy,
@@ -23341,7 +23341,7 @@ var DropText = function DropText(_ref) {
           children: el.title
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
           className: dropText_dropText_module.dropImg,
-          src: __webpack_require__(596)
+          src: __webpack_require__(4442)
         })]
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
         className: dropText_dropText_module.dropText,
@@ -23803,7 +23803,7 @@ var CarCard = function CarCard() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: carCard_carCard_module.slideWr,
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(6349)
+      src: __webpack_require__(7728)
     }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
       className: carCard_carCard_module.sliderDescrWr,
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -24108,7 +24108,7 @@ var QuizEmp = function QuizEmp(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2691)
+          src: __webpack_require__(6886)
         }), "Back"]
       })]
     })]
@@ -24269,7 +24269,7 @@ var QuizIncome = function QuizIncome(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2691)
+          src: __webpack_require__(6886)
         }), "Back"]
       })]
     })]
@@ -24361,7 +24361,7 @@ var QuizOtherIncome = function QuizOtherIncome(_ref) {
           setLineWidth(lineWidth - 9);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2691)
+          src: __webpack_require__(6886)
         }), "Back"]
       })]
     })]
@@ -24418,7 +24418,7 @@ var QuizEmp2 = function QuizEmp2(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2691)
+          src: __webpack_require__(6886)
         }), "Back"]
       })]
     })]
@@ -24474,7 +24474,7 @@ var QuizHowLong = function QuizHowLong(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2691)
+          src: __webpack_require__(6886)
         }), "Back"]
       })]
     })]
@@ -24566,7 +24566,7 @@ var QuizCurrWork = function QuizCurrWork(_ref) {
           setLineWidth(lineWidth - 9);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2691)
+          src: __webpack_require__(6886)
         }), "Back"]
       })]
     })]
@@ -24636,7 +24636,7 @@ var QuizWhere = function QuizWhere(_ref) {
           navigation(-1);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2691)
+          src: __webpack_require__(6886)
         }), "Back"]
       })]
     })]
@@ -24697,7 +24697,7 @@ var QuizWhen = function QuizWhen(_ref) {
           setLineWidth(lineWidth - 9);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2691)
+          src: __webpack_require__(6886)
         }), "Back"]
       })]
     })]
@@ -24767,7 +24767,7 @@ var QuizPreLast = function QuizPreLast(_ref) {
           setLineWidth(lineWidth - 9);
         },
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-          src: __webpack_require__(2691)
+          src: __webpack_require__(6886)
         }), "Back"]
       })]
     })]
@@ -24789,7 +24789,7 @@ var QuizCongrat = function QuizCongrat(_ref) {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: "quiz-block",
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(5236),
+      src: __webpack_require__(3296),
       className: "quizSvg"
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
       className: "quiz-title",
@@ -24984,7 +24984,7 @@ var Article = function Article() {
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
       style: {},
       className: articlePage_article_module.backImg,
-      src: __webpack_require__(649)
+      src: __webpack_require__(3562)
     }), /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
       className: "".concat(articlePage_article_module.articleTextsWr, " container"),
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)("p", {
@@ -25003,10 +25003,10 @@ var Article = function Article() {
         className: articlePage_article_module.articleImgCentWr,
         children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
           className: articlePage_article_module.imgCenter,
-          src: __webpack_require__(2164)
+          src: __webpack_require__(5380)
         }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
           className: articlePage_article_module.imgCenter,
-          src: __webpack_require__(5682)
+          src: __webpack_require__(5119)
         })]
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
         className: articlePage_article_module.articleMiniTitle,
@@ -25016,7 +25016,7 @@ var Article = function Article() {
         children: "Voluptate nulla amet ad commodo veniam consequat laborum tempor proident cupidatat aute nisi eiusmod laborum. Esse amet duis aliqua culpa consequat et. Laborum tempor commodo et exercitation consectetur aute laborum aliquip tempor nostrud nulla nisi labore. Tempor tempor laboris officia consectetur sint esse sit ad nostrud et deserunt laborum sint eu. Cillum laboris et sint reprehenderit deserunt. Laborum labore incididunt duis mollit est anim reprehenderit consectetur enim fugiat veniam deserunt eiusmod. Irure sunt aute cupidatat qui qui consequat amet tempor. In officia est velit veniam magna proident adipisicing eu non labore mollit ad anim ut. Sit cillum in ea qui minim commodo labore nisi irure duis. Ea do laborum id adipisicing et cillum occaecat est laborum eu consequat ad commodo."
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
         className: articlePage_article_module.imgAfterCenter,
-        src: __webpack_require__(2324)
+        src: __webpack_require__(6240)
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
         className: articlePage_article_module.articleText,
         children: "Voluptate nulla amet ad commodo veniam consequat laborum tempor proident cupidatat aute nisi eiusmod laborum. Esse amet duis aliqua culpa consequat et. Laborum tempor commodo et exercitation consectetur aute laborum aliquip tempor nostrud nulla nisi labore. Tempor tempor laboris officia consectetur sint esse sit ad nostrud et deserunt laborum sint eu. Cillum laboris et sint reprehenderit deserunt. Laborum labore incididunt duis mollit est anim reprehenderit consectetur enim fugiat veniam deserunt eiusmod. Irure sunt aute cupidatat qui qui consequat amet tempor. In officia est velit veniam magna proident adipisicing eu non labore mollit ad anim ut. Sit cillum in ea qui minim commodo labore nisi irure duis. Ea do laborum id adipisicing et cillum occaecat est laborum eu consequat ad commodo."
@@ -25040,7 +25040,7 @@ var Article = function Article() {
         children: "Voluptate nulla amet ad commodo veniam consequat laborum tempor proident cupidatat aute nisi eiusmod laborum. Esse amet duis aliqua culpa consequat et. Laborum tempor commodo et exercitation consectetur aute laborum aliquip tempor nostrud nulla nisi labore."
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
         className: articlePage_article_module.imgAfterAfterCenter,
-        src: __webpack_require__(4483)
+        src: __webpack_require__(2977)
       }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
         className: articlePage_article_module.articleMiniTitle,
         children: "Voluptate nulla amet ad commodo veniam consequat. "
@@ -25097,7 +25097,7 @@ var E400 = function E400() {
   return /*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
     className: _404_404_module.error,
     children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-      src: __webpack_require__(6203)
+      src: __webpack_require__(9301)
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
       className: _404_404_module.errorTitle,
       children: "404 page"
@@ -25259,7 +25259,7 @@ var Rates = function Rates() {
         children: [/*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
           className: rates_rates_module.titleWr,
           children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(8911)
+            src: __webpack_require__(7080)
           }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
             className: rates_rates_module.title,
             children: "What are my interest rate options?"
@@ -25273,7 +25273,7 @@ var Rates = function Rates() {
         children: [/*#__PURE__*/(0,jsx_runtime.jsxs)("div", {
           className: rates_rates_module.titleWr,
           children: [/*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-            src: __webpack_require__(4549)
+            src: __webpack_require__(5771)
           }), /*#__PURE__*/(0,jsx_runtime.jsx)("p", {
             className: rates_rates_module.title,
             children: "How long will my loan term be?"
@@ -25345,7 +25345,7 @@ var Benefits = function Benefits() {
     }), /*#__PURE__*/(0,jsx_runtime.jsx)("div", {
       className: benefits_benefits_module.right,
       children: /*#__PURE__*/(0,jsx_runtime.jsx)("img", {
-        src: __webpack_require__(6425)
+        src: __webpack_require__(2014)
       })
     })]
   });
@@ -25371,7 +25371,7 @@ var Loan = function Loan() {
       children: [/*#__PURE__*/(0,jsx_runtime.jsx)(carDecr_CarDesr, {
         title: "Our credit policy",
         descr: "You want to secure a loan that works for your budget. Here at VAC we work with Canada’s largest lenders to help you find the best interest rates and terms for your auto loan.",
-        img: __webpack_require__(6474)
+        img: __webpack_require__(3249)
       }), /*#__PURE__*/(0,jsx_runtime.jsx)(rates_Rates, {}), /*#__PURE__*/(0,jsx_runtime.jsx)(benefits_Benefits, {}), /*#__PURE__*/(0,jsx_runtime.jsx)(rangeSliderSec, {
         className: loan_loan_module.rangeSlider
       })]
