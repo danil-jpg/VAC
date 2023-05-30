@@ -1,0 +1,67 @@
+// <div className={`${s.slide} ${classname}`}>
+// <img className={s.img} src={img} />
+// <p className={s.title}>{title}</p>
+// <p className={s.price}>{price}</p>
+// <div className={s.paramsWr}>
+//   <p className={s.param}>2012 year</p>
+//   <p className={`${s.param} ${s.parCenter}`}>Sedan</p>
+//   <p className={s.param}>Transmission</p>
+//   <p className={s.param}>Kilometres </p>
+// </div>
+// </div>
+
+.slide {
+  width: 420px;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #41456b;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #7481ff;
+  margin-top: 10px;
+}
+
+.paramsWr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 21px;
+  width: 81%;
+}
+
+.param {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #41456b;
+  width: 70%;
+}
+
+.parCenter {
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+
+  text-align: center;
+}
+
+.textWr {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 19px;
+}

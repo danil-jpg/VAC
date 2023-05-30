@@ -10,7 +10,8 @@
 }
 
 .right {
-  display: flex;
+  display: grid;
+  overflow: auto;
 }
 
 .dropTitle {
@@ -86,6 +87,9 @@
     width: 100%;
   }
 }
+.rightTop {
+  display: flex;
+}
 
 select:focus + .focus {
   position: absolute;
@@ -144,4 +148,18 @@ select:focus + .focus {
     margin-left: 7px;
     color: #606276;
   }
+}
+.slideWr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.sliderWr {
+  display: block;
+  width: 880px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
