@@ -2,6 +2,7 @@ import React from "react";
 import s from "./inventory.module.scss";
 import Input from "../../atoms/Inputs/Input/Input";
 import DropSearch from "../../molecules/dropSearch/DropSearch";
+import CheckBoxLine from "../../molecules/checkBoxLine/CheckBoxLine";
 
 const Inventory = () => {
   return (
@@ -19,6 +20,49 @@ const Inventory = () => {
             </div>
           }
         />
+        <DropSearch
+          title={"Body type"}
+          children={
+            <div>
+              <CheckBoxLine
+                state={true}
+                text={"Trucks"}
+                img={require("../../../assets/img/components/inv/Truck icon.svg")}
+              />
+              <CheckBoxLine
+                state={false}
+                text={"SUV"}
+                img={require("../../../assets/img/components/inv/SUV icon.svg")}
+              />
+              <CheckBoxLine
+                state={false}
+                text={"Sedan"}
+                img={require("../../../assets/img/components/inv/Sedan.svg")}
+              />
+              <CheckBoxLine
+                state={false}
+                text={"Trucks"}
+                img={require("../../../assets/img/components/inv/Truck icon.svg")}
+              />
+              <CheckBoxLine
+                state={false}
+                text={"SUV"}
+                img={require("../../../assets/img/components/inv/SUV icon.svg")}
+              />
+              <CheckBoxLine
+                state={false}
+                text={"Sedan"}
+                img={require("../../../assets/img/components/inv/Sedan.svg")}
+              />
+              <CheckBoxLine
+                state={false}
+                text={"Trucks"}
+                img={require("../../../assets/img/components/inv/Truck icon.svg")}
+              />
+            </div>
+          }
+        />
+        <DropSearch title={"Transmission"} children={<div></div>} />
       </div>
       <div className={`${s.right}`}>
         <Input className={s.searchInput} placeholder={"Find a dream car..."} />

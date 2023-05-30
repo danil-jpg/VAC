@@ -4,11 +4,11 @@
   padding: 10px 20px;
   background: #ffffff;
   border: 1px solid #d7d7d7;
-  margin-bottom: 10px;
   cursor: pointer;
+  margin-bottom: 7px;
 
   &.active {
-    padding-bottom: 30px;
+    padding-bottom: 22px;
 
     .dropChil {
       display: block;
@@ -16,6 +16,10 @@
 
     .dropImg {
       transform: rotate(180deg);
+    }
+
+    .dropTop {
+      margin-bottom: 30px;
     }
   }
 }
@@ -39,6 +43,9 @@
 .dropImg {
   transition: 0.3s;
   cursor: pointer;
+  //   transform: translate(5px);
+  position: relative;
+  right: -5px;
 }
 
 @media screen and (max-width: 1200px) {
