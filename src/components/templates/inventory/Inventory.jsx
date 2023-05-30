@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import s from "./inventory.module.scss";
 import Input from "../../atoms/Inputs/Input/Input";
 import DropSearch from "../../molecules/dropSearch/DropSearch";
 import CheckBoxLine from "../../molecules/checkBoxLine/CheckBoxLine";
 import CheckBoxTextLine from "../../molecules/checkBoxTextLine/checkBoxTextLine";
+import Range from "rc-slider";
+import "rc-slider/assets/index.css";
 
 const Inventory = () => {
+  const [kilo, setKilo] = useState(50000);
+
   return (
     <div className={`${s.inv} container`}>
       <div className={`${s.left}`}>
@@ -69,6 +73,26 @@ const Inventory = () => {
             <div>
               <CheckBoxTextLine text={"Automatic"} />
               <CheckBoxTextLine text={"Manual"} />
+            </div>
+          }
+        />
+        <DropSearch title={"Price"} children={<div></div>} />
+        <DropSearch title={"Year"} children={<div></div>} />
+        <DropSearch
+          title={"Kilometres"}
+          children={
+            <div>
+              <div className={s.numLine}>
+                <span>{kilo}</span>
+                <p>or less</p>
+              </div>
+              <Range
+                min={0}
+                max={100000}
+                step={10}
+                defaultValue={50000}
+                onChange={(e) => setKilo(e.valueOf())}
+              />
             </div>
           }
         />
