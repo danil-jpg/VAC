@@ -1,0 +1,48 @@
+.drop {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  background: #ffffff;
+  border: 1px solid #d7d7d7;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  &.active {
+    padding-bottom: 30px;
+
+    .dropChil {
+      display: block;
+    }
+
+    .dropImg {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.dropChil {
+  display: none;
+}
+
+.dropTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropTopTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 159%;
+  color: #41456b;
+}
+
+.dropImg {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 767px) {
+}

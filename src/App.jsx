@@ -14,13 +14,14 @@ import Quiz from "./components/templates/quiz/Quiz";
 import Article from "./components/templates/articlePage/article";
 import E400 from "./components/templates/404/404";
 import Loan from "./components/templates/loan/Loan";
+import Inventory from "./components/templates/inventory/Inventory";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
   const [isQuiz, setIsQuiz] = useState(false);
 
   return (
-    <HashRouter basename="/">
+    <BrowserRouter basename="/">
       <Header setMenu={setMenu} setIsQuiz={setIsQuiz} />
       <Routes>
         <Route index element={<MainPage index />}></Route>
@@ -32,11 +33,12 @@ const App = () => {
         <Route path="Article" element={<Article />}></Route>
         <Route path="404" element={<E400 />}></Route>
         <Route path="Loan" element={<Loan />}></Route>
+        <Route path="Inventory" element={<Inventory />}></Route>
         <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
       </Routes>
       <Footer quiz={isQuiz} />
       <ModalMenu menu={menu} setMenu={setMenu} setIsQuiz={setIsQuiz} />
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
