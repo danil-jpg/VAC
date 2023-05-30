@@ -3,6 +3,7 @@ import s from "./inventory.module.scss";
 import Input from "../../atoms/Inputs/Input/Input";
 import DropSearch from "../../molecules/dropSearch/DropSearch";
 import CheckBoxLine from "../../molecules/checkBoxLine/CheckBoxLine";
+import CheckBoxTextLine from "../../molecules/checkBoxTextLine/checkBoxTextLine";
 
 const Inventory = () => {
   return (
@@ -62,7 +63,15 @@ const Inventory = () => {
             </div>
           }
         />
-        <DropSearch title={"Transmission"} children={<div></div>} />
+        <DropSearch
+          title={"Transmission"}
+          children={
+            <div>
+              <CheckBoxTextLine text={"Automatic"} />
+              <CheckBoxTextLine text={"Manual"} />
+            </div>
+          }
+        />
       </div>
       <div className={`${s.right}`}>
         <Input className={s.searchInput} placeholder={"Find a dream car..."} />
