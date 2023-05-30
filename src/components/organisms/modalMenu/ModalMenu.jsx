@@ -51,13 +51,16 @@ const ModalMenu = ({ menu, setMenu, setIsQuiz }) => {
         </ul>
         <div className={s.menuSocials}>
           <div className={s.menuSocial}>
-            <img src={require("../../../assets/img/components/socials/fWhite.svg")} />
+            <img src={require("../../../assets/img/components/socials/faceW.svg")} />
           </div>
           <div className={s.menuSocial}>
-            <img src={require("../../../assets/img/components/socials/fWhite.svg")} />
+            <img src={require("../../../assets/img/components/socials/instW.svg")} />
           </div>
           <div className={s.menuSocial}>
-            <img src={require("../../../assets/img/components/socials/fWhite.svg")} />
+            <img src={require("../../../assets/img/components/socials/youtW.svg")} />
+          </div>
+          <div className={s.menuSocial}>
+            <img src={require("../../../assets/img/components/socials/mail.svg")} />
           </div>
         </div>
       </div>

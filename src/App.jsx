@@ -15,6 +15,7 @@ import Article from "./components/templates/articlePage/article";
 import E400 from "./components/templates/404/404";
 import Loan from "./components/templates/loan/Loan";
 import Inventory from "./components/templates/inventory/Inventory";
+import ModalContact from "./components/organisms/modalContact/ModalContact";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -38,6 +39,7 @@ const App = () => {
       </Routes>
       <Footer quiz={isQuiz} />
       <ModalMenu menu={menu} setMenu={setMenu} setIsQuiz={setIsQuiz} />
+      <ModalContact menu={menu} setMenu={setMenu} setIsQuiz={setIsQuiz} />
     </BrowserRouter>
   );
 };

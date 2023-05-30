@@ -35,4 +35,9 @@
   cursor: pointer;
   position: absolute;
   top: 40px;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.2) rotate(90deg);
+  }
 }

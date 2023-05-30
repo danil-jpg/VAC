@@ -9,12 +9,18 @@
   margin-bottom: 20px;
   color: #41456b;
   cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    color: #7481ff;
+    padding: 0 30px;
+  }
 }
 .menuSocials {
   display: flex;
   justify-content: space-between;
   margin-top: 240px;
-  width: 110px;
+  width: 150px;
 }
 .menuSocial {
   width: 30px;
@@ -24,4 +30,5 @@
   align-items: center;
   background: #7481ff;
   border-radius: 2px;
+  cursor: pointer;
 }

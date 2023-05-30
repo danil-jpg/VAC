@@ -1,0 +1,86 @@
+.ul {
+  list-style-type: none;
+}
+.li {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+  color: #41456b;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    color: #7481ff;
+    padding: 0 30px;
+  }
+}
+.menuSocials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 150px;
+}
+.menuSocial {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7481ff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.topWr {
+  width: 79%;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin-bottom: 10px;
+    height: 45px;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  color: #41456b;
+  margin-bottom: 60px;
+}
+
+.socialText {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #41456b;
+}
+
+.btn {
+  margin-top: 40px;
+}
+
+.inputName {
+  background-image: url("../../../assets/img/components/inputs/Name.svg");
+  background-repeat: no-repeat;
+  background-position: 13px;
+  padding-left: 44px;
+}
+
+.inputNumber {
+  background-image: url("../../../assets/img/components/inputs/phone.svg");
+  background-repeat: no-repeat;
+  background-position: 15px;
+  padding-left: 42px;
+}
+
+@media screen and (max-width: 1200px) {
+  .topWr {
+    width: 100%;
+  }
+}

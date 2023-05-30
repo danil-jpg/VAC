@@ -75,6 +75,9 @@ export const params = {
 				top: 34%;
 			}
 		}
+		.sliderInv {
+			padding-bottom: 27px;
+		  }
 			`,
   ],
 };
