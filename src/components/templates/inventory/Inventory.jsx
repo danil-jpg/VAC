@@ -9,6 +9,10 @@ import "rc-slider/assets/index.css";
 
 const Inventory = () => {
   const [kilo, setKilo] = useState(50000);
+  const [yearSt, setYearSt] = useState(1995);
+  const [yearEnd, setYearEnd] = useState(2023);
+  const [priceStart, setPriceStart] = useState(0);
+  const [priceEnd, setPriceEnd] = useState(100000);
 
   return (
     <div className={`${s.inv} container`}>
@@ -76,8 +80,50 @@ const Inventory = () => {
             </div>
           }
         />
-        <DropSearch title={"Price"} children={<div></div>} />
-        <DropSearch title={"Year"} children={<div></div>} />
+        <DropSearch
+          title={"Price"}
+          children={
+            <div>
+              <div className={s.yearLine}>
+                <span>${priceStart}</span>
+                <span>${priceEnd}</span>
+              </div>
+              <Range
+                range
+                min={10000}
+                max={100000}
+                step={1}
+                defaultValue={[0, 100000]}
+                onChange={(e) => {
+                  setPriceStart(e[0]);
+                  setPriceEnd(e[1]);
+                }}
+              />
+            </div>
+          }
+        />
+        <DropSearch
+          title={"Year"}
+          children={
+            <div>
+              <div className={s.yearLine}>
+                <span>{yearSt}</span>
+                <span>{yearEnd}</span>
+              </div>
+              <Range
+                range
+                min={1995}
+                max={2023}
+                step={1}
+                defaultValue={[1995, 2023]}
+                onChange={(e) => {
+                  setYearSt(e[0]);
+                  setYearEnd(e[1]);
+                }}
+              />
+            </div>
+          }
+        />
         <DropSearch
           title={"Kilometres"}
           children={

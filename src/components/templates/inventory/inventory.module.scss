@@ -111,7 +111,23 @@ select:focus + .focus {
   background-repeat: no-repeat;
   background-position: 92% center;
 }
-
+.yearLine {
+  display: flex;
+  justify-content: space-between;
+  span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #41456b;
+  }
+  p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 7px;
+    color: #606276;
+  }
+}
 .numLine {
   display: flex;
 
