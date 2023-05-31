@@ -2,15 +2,24 @@ import React from "react";
 import ModalsTemplate from "../modalTemp/ModalTemplate";
 import s from "./modalMenu.module.scss";
 import { Navigate, useNavigate } from "react-router-dom";
+import ModalContact from "../modalContact/ModalContact";
 
-const ModalMenu = ({ menu, setMenu, setIsQuiz }) => {
+const ModalMenu = ({ menu, setMenu, setIsQuiz, contact, setContact }) => {
   const navigation = useNavigate();
 
-  const Res = () => {
+  let Res = () => {
     return (
       <div>
         <ul className={s.ul}>
-          <li className={s.li}>Contact us</li>
+          <li
+            className={s.li}
+            onClick={() => {
+              setIsQuiz(false);
+              // setMenu(false);
+              setContact(true);
+            }}>
+            Contact us
+          </li>
           <li className={s.li}>About VAC</li>
           <li
             className={s.li}
@@ -67,7 +76,15 @@ const ModalMenu = ({ menu, setMenu, setIsQuiz }) => {
     );
   };
 
-  return <ModalsTemplate className={""} visible={menu} setVisible={setMenu} children={<Res />} />;
+  return (
+    <ModalsTemplate
+      className={""}
+      visible={menu}
+      setVisible={setMenu}
+      children={<Res />}
+      setContact={setContact}
+    />
+  );
 };
 
 export default ModalMenu;

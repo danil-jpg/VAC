@@ -1,14 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import ModalsTemplate from "../modalTemp/ModalTemplate";
 import s from "./modal.module.scss";
-import { useNavigate } from "react-router-dom";
 import Input from "../../atoms/Inputs/Input/Input";
 import InputMail from "../../atoms/Inputs/InputMail/InputMail";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
 
-const ModalContact = ({ menu, setMenu, setIsQuiz }) => {
-  const navigation = useNavigate();
-
+const ModalContact = ({ menu, setMenu, setIsQuiz, contact, setContact }) => {
   const Res = () => {
     return (
       <div>
@@ -38,7 +35,15 @@ const ModalContact = ({ menu, setMenu, setIsQuiz }) => {
     );
   };
 
-  return <ModalsTemplate className={""} visible={menu} setVisible={setMenu} children={<Res />} />;
+  return (
+    <ModalsTemplate
+      classnameOver={contact ? "" : s.none}
+      visible={menu}
+      setVisible={setMenu}
+      setContact={setContact}
+      children={<Res />}
+    />
+  );
 };
 
 export default ModalContact;

@@ -21,6 +21,8 @@ const App = () => {
   const [menu, setMenu] = useState(false);
   const [isQuiz, setIsQuiz] = useState(false);
 
+  const [contact, setContact] = useState(false);
+
   return (
     <BrowserRouter basename="/">
       <Header setMenu={setMenu} setIsQuiz={setIsQuiz} />
@@ -38,8 +40,21 @@ const App = () => {
         <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
       </Routes>
       <Footer quiz={isQuiz} />
-      <ModalMenu menu={menu} setMenu={setMenu} setIsQuiz={setIsQuiz} />
-      <ModalContact menu={menu} setMenu={setMenu} setIsQuiz={setIsQuiz} />
+
+      <ModalMenu
+        menu={menu}
+        setMenu={setMenu}
+        setIsQuiz={setIsQuiz}
+        contact={contact}
+        setContact={setContact}
+      />
+      <ModalContact
+        menu={menu}
+        setMenu={setMenu}
+        setIsQuiz={setIsQuiz}
+        contact={contact}
+        setContact={setContact}
+      />
     </BrowserRouter>
   );
 };
