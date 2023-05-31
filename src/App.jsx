@@ -40,7 +40,6 @@ const App = () => {
         <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
       </Routes>
       <Footer quiz={isQuiz} />
-
       <ModalMenu
         menu={menu}
         setMenu={setMenu}

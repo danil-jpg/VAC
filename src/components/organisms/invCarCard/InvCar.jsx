@@ -11,7 +11,7 @@ const InvCar = ({ classname, img, title, price }) => {
         <div className={s.paramsWr}>
           <p className={s.param}>2012 year</p>
           <p className={`${s.param} ${s.parCenter}`}>Sedan</p>
-          <p className={s.param}>Transmission</p>
+          <p className={`${s.param} ${s.paramEnd}`}>Transmission</p>
           <p className={s.param}>Kilometres </p>
         </div>
       </div>

@@ -163,3 +163,75 @@ select:focus + .focus {
   max-width: 100%;
   min-width: 0;
 }
+
+.filterWr {
+  display: none;
+}
+.applyBtn {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .inv {
+    grid-template-columns: 1fr;
+    padding-bottom: 18px;
+    position: relative;
+  }
+  .left {
+    display: none;
+  }
+
+  .searchInput {
+    margin-left: 0;
+    width: 240px;
+  }
+  .share {
+    margin-left: 0;
+  }
+
+  .sortBy {
+    margin-left: 0;
+    display: none;
+  }
+  .selectWr {
+  }
+  .filterWr {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .filterText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #41456b;
+    margin-left: 8px;
+  }
+
+  .searchInput {
+    margin-left: 20px;
+  }
+
+  .share {
+    margin-left: 19px;
+  }
+  .selectWr {
+    margin-left: 49px;
+  }
+
+  .filterActive {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: white;
+  }
+  .applyBtn {
+    margin-top: 30px;
+    width: 100%;
+    display: block;
+  }
+}

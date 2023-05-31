@@ -78,6 +78,12 @@ export const params = {
 		.sliderInv {
 			padding-bottom: 27px;
 		  }
+
+		  @media screen and (max-width: 1200px) {
+			.sliderInv{
+				padding-bottom: 99px;
+			}
+		  }
 			`,
   ],
 };

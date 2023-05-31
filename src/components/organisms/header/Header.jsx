@@ -11,7 +11,11 @@ const Header = ({ setMenu, setIsQuiz }) => {
   return (
     <header className={`${s.header} container`}>
       <Logo setIsQuiz={setIsQuiz} />
-      <ButtonLiner text="Inventory" className={`${s.btnLin}`} />
+      <ButtonLiner
+        onClick={() => navigation("Inventory")}
+        text="Inventory"
+        className={`${s.btnLin}`}
+      />
       <ButtonSolid
         onClick={() => navigation("Quiz/budget")}
         text="Request a car"

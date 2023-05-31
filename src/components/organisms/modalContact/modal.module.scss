@@ -66,17 +66,17 @@
 }
 
 .inputName {
-  background-image: url("../../../assets/img/components/inputs/Name.svg");
-  background-repeat: no-repeat;
-  background-position: 13px;
-  padding-left: 44px;
+  background-image: url("../../../assets/img/components/inputs/Name.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: 13px !important;
+  padding-left: 44px !important;
 }
 
 .inputNumber {
-  background-image: url("../../../assets/img/components/inputs/phone.svg");
-  background-repeat: no-repeat;
-  background-position: 15px;
-  padding-left: 42px;
+  background-image: url("../../../assets/img/components/inputs/phone.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: 15px !important;
+  padding-left: 42px !important;
 }
 
 .none {

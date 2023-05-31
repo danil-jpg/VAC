@@ -9,6 +9,7 @@ import "rc-slider/assets/index.css";
 import InvCar from "../../organisms/invCarCard/InvCar";
 import { register } from "swiper/element/bundle";
 import { params } from "../../Utils/SwiperParams";
+import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
 
 const Inventory = () => {
   const [kilo, setKilo] = useState(50000);
@@ -16,6 +17,7 @@ const Inventory = () => {
   const [yearEnd, setYearEnd] = useState(2023);
   const [priceStart, setPriceStart] = useState(0);
   const [priceEnd, setPriceEnd] = useState(100000);
+  const [filter, setFilter] = useState(false);
 
   const swiperRef = useRef(null);
 
@@ -39,7 +41,7 @@ const Inventory = () => {
 
   return (
     <div className={`${s.inv} container`}>
-      <div className={`${s.left}`}>
+      <div className={`${s.left} ${filter ? s.filterActive : ""}`}>
         <p className={s.dropTitle}>Detailed search</p>
         <DropSearch
           title={"Make, Model"}
@@ -165,9 +167,24 @@ const Inventory = () => {
             </div>
           }
         />
+        <ButtonSolid
+          text="Apply"
+          className={s.applyBtn}
+          onClick={() => {
+            setFilter(false);
+          }}
+        />
       </div>
       <div className={`${s.right}`}>
         <div className={s.rightTop}>
+          <div
+            className={s.filterWr}
+            onClick={() => {
+              setFilter(true);
+            }}>
+            <img src={require("../../../assets/img/components/inv/Filter icon.png")} />
+            <p className={s.filterText}>Search Filter</p>
+          </div>
           <Input className={s.searchInput} placeholder={"Find a dream car..."} />
           <img src={require("../../../assets/img/components/inv/Share.svg")} className={s.share} />
           <p className={s.sortBy}>Sorted by</p>
