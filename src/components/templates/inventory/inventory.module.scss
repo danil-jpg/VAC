@@ -257,3 +257,47 @@ select:focus + .focus {
     margin-bottom: 18px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .inv {
+    margin-top: 29px;
+  }
+
+  .rightTop {
+    display: grid;
+    grid-template-columns: 10% 1fr 13%;
+    width: 320px;
+  }
+  .searchInput {
+    margin-left: 15px;
+    width: 230px;
+  }
+  .share {
+    margin-left: 19px;
+  }
+  .selectWr {
+    margin-left: 0;
+    width: 100%;
+    grid-column: 1/4;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 159%;
+    color: #41456b;
+  }
+  .filterText {
+    display: none;
+  }
+  .sliderWr {
+    margin-top: 32px;
+  }
+  .textWr {
+    width: 88%;
+  }
+  .slideWr {
+    grid-template-columns: 1fr;
+  }
+  .left {
+    padding: 0;
+    padding-top: 40px;
+  }
+}

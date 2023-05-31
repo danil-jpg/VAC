@@ -86,3 +86,44 @@
     text-align: end;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .slide {
+    width: 320px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #41456b;
+  }
+
+  .price {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .paramsWr {
+    width: 103%;
+  }
+  .slide {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 14px;
+    img {
+      border-radius: 2px;
+    }
+  }
+
+  .parCenter {
+    width: 90%;
+  }
+
+  .slideWr {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    position: relative;
+    width: 110%;
+  }
+}
