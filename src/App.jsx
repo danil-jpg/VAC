@@ -16,6 +16,7 @@ import E400 from "./components/templates/404/404";
 import Loan from "./components/templates/loan/Loan";
 import Inventory from "./components/templates/inventory/Inventory";
 import ModalContact from "./components/organisms/modalContact/ModalContact";
+import About from "./components/templates/aboutPage/About";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -37,6 +38,7 @@ const App = () => {
         <Route path="404" element={<E400 />}></Route>
         <Route path="Loan" element={<Loan />}></Route>
         <Route path="Inventory" element={<Inventory />}></Route>
+        <Route path="About" element={<About />}></Route>
         <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
       </Routes>
       <Footer quiz={isQuiz} />

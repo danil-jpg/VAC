@@ -20,7 +20,15 @@ const ModalMenu = ({ menu, setMenu, setIsQuiz, contact, setContact }) => {
             }}>
             Contact us
           </li>
-          <li className={s.li}>About VAC</li>
+          <li
+            className={s.li}
+            onClick={() => {
+              setIsQuiz(false);
+              navigation("About");
+              setMenu(false);
+            }}>
+            About VAC
+          </li>
           <li
             className={s.li}
             onClick={() => {
