@@ -170,6 +170,9 @@ select:focus + .focus {
 .applyBtn {
   display: none;
 }
+.invCros {
+  display: none;
+}
 
 @media screen and (max-width: 1200px) {
   .inv {
@@ -200,6 +203,8 @@ select:focus + .focus {
     align-items: center;
     cursor: pointer;
   }
+  .left {
+  }
 
   .filterText {
     font-weight: 400;
@@ -224,14 +229,31 @@ select:focus + .focus {
   .filterActive {
     display: block;
     position: absolute;
-    width: 100%;
     height: 100%;
     z-index: 999;
+    width: 100%;
+    // width: 53%;
     background: white;
   }
   .applyBtn {
     margin-top: 30px;
     width: 100%;
     display: block;
+  }
+  .invCros {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    left: 0px;
+    top: 5px;
+  }
+  .left {
+    padding: 1% 21%;
+  }
+
+  .dropTitle {
+    margin-bottom: 18px;
   }
 }

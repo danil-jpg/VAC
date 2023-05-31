@@ -174,6 +174,13 @@ const Inventory = () => {
             setFilter(false);
           }}
         />
+        <img
+          src={require("../../../assets/img/components/header/Close.svg")}
+          className={s.invCros}
+          onClick={() => {
+            setFilter(false);
+          }}
+        />
       </div>
       <div className={`${s.right}`}>
         <div className={s.rightTop}>
