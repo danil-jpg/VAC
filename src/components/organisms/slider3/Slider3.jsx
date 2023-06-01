@@ -3,8 +3,11 @@ import ButtonLiner from "../../atoms/Buttons/ButtonLiner/ButtonLiner";
 import { register } from "swiper/element/bundle";
 import { params } from "../../Utils/SwiperParams";
 import s from "./slider3.module.scss";
+import { useNavigate } from "react-router-dom";
 
 const Slider3 = ({ text = "Interesting to read" }) => {
+  const navigation = useNavigate();
+
   const swiperRef = useRef(null);
   register();
 
@@ -38,12 +41,24 @@ const Slider3 = ({ text = "Interesting to read" }) => {
     <div className={`${s.slider3} ${s.sliderMainPage} container`}>
       <div className={s.sliderTitlesWr}>
         <p className={s.sliderTitle}>{text}</p>
-        <ButtonLiner text="all articles" className={`${s.btn} ${s.btnTop}`} />
+        <ButtonLiner
+          text="all articles"
+          className={`${s.btn} ${s.btnTop}`}
+          onClick={() => {
+            navigation("../Article");
+          }}
+        />
       </div>
 
       <div className={s.sliderWr}>
         <swiper-container init="false" ref={swiperRef} class="slider3">
-          <swiper-slide>
+          <swiper-slide
+            init="false"
+            ref={swiperRef}
+            class="slider3"
+            onClick={() => {
+              navigation("../Article");
+            }}>
             <div className={s.slideWr}>
               <img src={require("../../../assets/img/components/slider3/1.webp")} />
               <div className={s.sliderDescrWr}>
@@ -54,7 +69,13 @@ const Slider3 = ({ text = "Interesting to read" }) => {
               </div>
             </div>
           </swiper-slide>
-          <swiper-slide>
+          <swiper-slide
+            init="false"
+            ref={swiperRef}
+            class="slider3"
+            onClick={() => {
+              navigation("../Article");
+            }}>
             <div className={s.slideWr}>
               <img src={require("../../../assets/img/components/slider3/2.webp")} />
               <div className={s.sliderDescrWr}>
@@ -65,7 +86,13 @@ const Slider3 = ({ text = "Interesting to read" }) => {
               </div>
             </div>
           </swiper-slide>
-          <swiper-slide>
+          <swiper-slide
+            init="false"
+            ref={swiperRef}
+            class="slider3"
+            onClick={() => {
+              navigation("../Article");
+            }}>
             <div className={s.slideWr}>
               <img src={require("../../../assets/img/components/slider3/3.webp")} />
               <div className={s.sliderDescrWr}>
@@ -76,7 +103,13 @@ const Slider3 = ({ text = "Interesting to read" }) => {
               </div>
             </div>
           </swiper-slide>
-          <swiper-slide>
+          <swiper-slide
+            init="false"
+            ref={swiperRef}
+            class="slider3"
+            onClick={() => {
+              navigation("../Article");
+            }}>
             <div className={s.slideWr}>
               <img src={require("../../../assets/img/components/slider3/3.webp")} />
               <div className={s.sliderDescrWr}>

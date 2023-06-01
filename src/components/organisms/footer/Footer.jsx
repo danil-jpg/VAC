@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./footer.module.scss";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Footer = ({ quiz = false }) => {
   const navigation = useNavigate();
@@ -13,7 +13,13 @@ const Footer = ({ quiz = false }) => {
   return (
     <footer className={`${s.footerSec} ${display}`}>
       <div className={`${s.footer} container`}>
-        <img src={require("../../../assets/img/components/footer/Logo.webp")} className={s.logo} />
+        <img
+          src={require("../../../assets/img/components/footer/Logo.webp")}
+          className={s.logo}
+          onClick={() => {
+            navigation("/");
+          }}
+        />
         <div className={s.footerTermsWr}>
           <p className={s.footerText} onClick={() => navigation("Terms")}>
             Terms

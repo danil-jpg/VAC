@@ -2,8 +2,11 @@ import React from "react";
 import s from "./happyCustomers.module.scss";
 import Number from "../../molecules/numberBlock/number";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
+import { useNavigate } from "react-router-dom";
 
 const HappyCustomers = () => {
+  const navigation = useNavigate();
+
   return (
     <div className={`${s.section} container`}>
       <div className={s.left}>
@@ -14,7 +17,13 @@ const HappyCustomers = () => {
         </p>
         <div className={s.subBlock}>
           <p className={s.subTitle}>What are you waiting? Get started right now!</p>
-          <ButtonSolid className={s.button} text="Request a Car" />
+          <ButtonSolid
+            className={s.button}
+            text="Request a Car"
+            onClick={() => {
+              navigation("../Quiz/budget");
+            }}
+          />
         </div>
       </div>
       <ul className={s.right}>
