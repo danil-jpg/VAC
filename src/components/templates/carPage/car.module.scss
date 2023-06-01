@@ -164,6 +164,10 @@
   height: 92px !important;
 }
 
+.mobileBtn {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .topPage {
     grid-template-columns: 100%;
@@ -197,5 +201,97 @@
 
   .sliderBtn {
     width: 251px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .topPage {
+    padding: 0;
+  }
+
+  .left {
+    padding-top: 18px;
+  }
+  .carTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140.5%;
+    color: #41456b;
+  }
+
+  .etc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 159%;
+    color: #606276;
+    margin-top: 13px;
+  }
+
+  .thumbImg {
+    height: 47px !important;
+  }
+
+  .mobileBtn {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .rightTop {
+    column-gap: 105px;
+    padding-bottom: 40px;
+    margin-top: 78px;
+  }
+
+  .titleBl {
+    font-size: 16px;
+    line-height: 159%;
+  }
+  .price {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  .textBold {
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  .rightCenter {
+    margin-top: 40px;
+    grid-template-columns: 1fr;
+    padding-bottom: 20px;
+  }
+  .blockTitle {
+    grid-column: 1;
+  }
+
+  .rightBottom {
+    margin-top: 38px;
+  }
+
+  .centerText {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .carRangeSl {
+    margin-top: 79px;
+  }
+  .sliderBtn {
+    width: 100%;
+  }
+  .sliderCenter {
+    margin-top: 0;
+  }
+  .btn {
+    width: 247px;
+    height: 35px;
+    padding: 0;
+    margin-top: 20px;
   }
 }

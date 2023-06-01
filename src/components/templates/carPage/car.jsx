@@ -79,6 +79,7 @@ const Car = () => {
               />
             </swiper-slide>
           </swiper-container>
+          <ButtonSolid text="apply for this vehicle" className={s.mobileBtn} />
         </div>
         <div className={s.right}>
           <div className={s.rightTop}>

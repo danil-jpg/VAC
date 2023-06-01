@@ -79,21 +79,31 @@ export const params = {
 			padding-bottom: 27px;
 		}
 
-
-
-		  @media screen and (max-width: 1200px) {
-			.sliderInv{
-				padding-bottom: 99px;
-			}
-		  }
-
-		  .my-thumbs{
+		.my-thumbs{
 			margin-top: 20px;
 
 			img{
 				height: 92px;
 			}
 		  }
+
+
+
+		  @media screen and (max-width: 1200px) {
+			.sliderInv{
+				padding-bottom: 99px;
+			}
+
+			
+		  }
+
+		  @media screen and (max-width: 767px){
+			.my-thumbs{
+				margin-top: 10px !important;
+			}
+		  }
+
+
 
 		  .swiper-slide-thumb-active{
 			border: 2px solid  #7481FF;
