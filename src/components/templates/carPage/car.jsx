@@ -1,13 +1,58 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import s from "./car.module.scss";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
 import RangeSliderSec from "../../organisms/rangeSliderSec/rangeSliderSec";
+import { register } from "swiper/element/bundle";
+import { params } from "../../Utils/SwiperParams";
 
 const Car = () => {
+  register();
+  //   const [swiper, updateSwiper] = useState(null);
+  //   const [swiperThumbs, updateSwiperThumbs] = useState(null);
+
+  //   useEffect(() => {
+  //     if (swiper && swiperThumbs) {
+  //       swiper.controller.control = swiperThumbs;
+  //       swiperThumbs.controller.control = swiper;
+  //     }
+  //   }, [swiper, swiperThumbs]);
+
   return (
     <div className={`${s.carPage} container`}>
       <div className={s.topPage}>
-        <div className={s.left}></div>
+        <div className={s.left}>
+          <swiper-container
+            class="sliderCar"
+            thumbs-swiper=".my-thumbs"
+            controller-control=".my-thumbs">
+            <swiper-slide>
+              <img src={require("../../../assets/img/components/cars/carSl.png")} />
+            </swiper-slide>
+            <swiper-slide>
+              <img src={require("../../../assets/img/components/cars/carSlBig2.jpg")} />
+            </swiper-slide>
+            <swiper-slide>
+              <img src={require("../../../assets/img/components/cars/carSl3.png")} />
+            </swiper-slide>
+            <swiper-slide>
+              <img src={require("../../../assets/img/components/cars/carSl4.png")} />
+            </swiper-slide>
+          </swiper-container>
+          <swiper-container class="my-thumbs" controller-control=".my-thumbs" slides-per-view="4">
+            <swiper-slide>
+              <img src={require("../../../assets/img/components/cars/carSl.png")} />
+            </swiper-slide>
+            <swiper-slide>
+              <img src={require("../../../assets/img/components/cars/carSlBig2.jpg")} />
+            </swiper-slide>
+            <swiper-slide>
+              <img src={require("../../../assets/img/components/cars/carSl3.png")} />
+            </swiper-slide>
+            <swiper-slide>
+              <img src={require("../../../assets/img/components/cars/carSl4.png")} />
+            </swiper-slide>
+          </swiper-container>
+        </div>
         <div className={s.right}>
           <div className={s.rightTop}>
             <div className={s.priceBl}>
@@ -60,7 +105,6 @@ const Car = () => {
           </div>
         </div>
       </div>
-
       <RangeSliderSec
         title="Calculate the installment plan for this car."
         descr=""
