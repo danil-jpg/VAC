@@ -1,9 +1,16 @@
 import React from "react";
 import s from "./invCar.module.scss";
+import { useNavigate } from "react-router-dom";
 
 const InvCar = ({ classname, img, title, price }) => {
+  const navigation = useNavigate();
+
   return (
-    <div className={`${s.slide} ${classname}`}>
+    <div
+      className={`${s.slide} ${classname}`}
+      onClick={() => {
+        navigation("../Car");
+      }}>
       <img className={s.img} src={img} />
       <div className={s.textWr}>
         <p className={s.title}>{title}</p>

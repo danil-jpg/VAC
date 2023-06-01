@@ -17,6 +17,7 @@ import Loan from "./components/templates/loan/Loan";
 import Inventory from "./components/templates/inventory/Inventory";
 import ModalContact from "./components/organisms/modalContact/ModalContact";
 import About from "./components/templates/aboutPage/About";
+import Car from "./components/templates/carPage/car";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="Inventory" element={<Inventory />}></Route>
         <Route path="About" element={<About />}></Route>
         <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
+        <Route path="Car" element={<Car />}></Route>
       </Routes>
       <Footer quiz={isQuiz} />
       <ModalMenu
