@@ -136,6 +136,7 @@ const Car = () => {
         title="Calculate the installment plan for this car."
         descr=""
         className={s.carRangeSl}
+        topTextsWr={s.topTextsWrRange}
         titleCl={s.titleCl}
         centerWr={s.sliderCenter}
         btnText="apply for this vehicle"

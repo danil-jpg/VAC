@@ -9,6 +9,7 @@ const RangeSliderSec = ({
   titleCl = "",
   centerWr = "",
   btnBottomCl = "",
+  topTextsWr = "",
   btnText = "Request a car",
   descr = "Before you start shopping, let’s figure out how much you can afford. Move the sliders to see how the loan duration and the total loan amount affect your monthly payments.",
 }) => {
@@ -16,7 +17,7 @@ const RangeSliderSec = ({
 
   return (
     <div className={`${s.sliderSection} ${className} container`}>
-      <div className={s.topTextsWr}>
+      <div className={`${s.topTextsWr} ${topTextsWr}`}>
         <p className={`${s.title} ${titleCl}`}>{title}</p>
         <p className={s.descr}>{descr}</p>
       </div>

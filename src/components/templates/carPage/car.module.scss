@@ -163,3 +163,39 @@
 .thumbImg {
   height: 92px !important;
 }
+
+@media screen and (max-width: 1200px) {
+  .topPage {
+    grid-template-columns: 100%;
+    padding: 0 60px;
+  }
+
+  .rightTop {
+    column-gap: 0;
+    margin-top: 153px;
+  }
+
+  .rightCenter {
+    column-gap: 0;
+  }
+
+  .carRangeSl {
+    margin-top: 162px;
+  }
+
+  .titleCl {
+    width: 100%;
+  }
+
+  .sliderCenter {
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+  }
+  .topTextsWrRange {
+    grid-template-columns: 1fr;
+  }
+
+  .sliderBtn {
+    width: 251px;
+  }
+}
