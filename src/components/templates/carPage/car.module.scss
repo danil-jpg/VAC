@@ -23,12 +23,12 @@
 // 	  <p className={s.textBold}>20 000</p>
 
 .carPage {
+}
+.topPage {
   display: grid;
-
   grid-template-columns: 54.1% 1fr;
   column-gap: 50px;
 }
-
 .rightTop {
   border-bottom: 1px solid #d7d7d7;
   margin-top: 140px;
@@ -64,4 +64,68 @@
   line-height: 140%;
   letter-spacing: 0.02em;
   color: #41456b;
+}
+
+.rightCenter {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 40px;
+}
+
+.centerLeft {
+}
+
+.blockTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 159%;
+  color: #606276;
+  grid-column: 1/3;
+  margin-bottom: 19px;
+}
+
+.centerText {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #41456b;
+  margin-bottom: 20px;
+}
+
+.rightBottom {
+  margin-top: 60px;
+}
+
+.bottomText {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+}
+
+.btn {
+  margin-top: 40px;
+  width: 280px;
+}
+
+.carRangeSl {
+  margin-top: 256px;
+}
+
+.titleCl {
+  width: 110%;
+}
+
+.sliderCenter {
+  gap: 51px;
+  grid-template-columns: 54% 1fr;
+}
+
+.sliderBtn {
+  width: 380px;
 }

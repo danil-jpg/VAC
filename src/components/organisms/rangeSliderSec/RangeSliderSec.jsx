@@ -3,19 +3,24 @@ import RangeSliderBlock from "../../molecules/rangeSlider/RangeSliderBlock";
 import s from "./rangeSliderSec.module.scss";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
 
-const RangeSliderSec = ({ className }) => {
+const RangeSliderSec = ({
+  className,
+  title = "Let’s figure out how much you can afford",
+  titleCl = "",
+  centerWr = "",
+  btnBottomCl = "",
+  btnText = "Request a car",
+  descr = "Before you start shopping, let’s figure out how much you can afford. Move the sliders to see how the loan duration and the total loan amount affect your monthly payments.",
+}) => {
   const [btnCl, setBtnCl] = useState([true, false, false]);
 
   return (
     <div className={`${s.sliderSection} ${className} container`}>
       <div className={s.topTextsWr}>
-        <p className={s.title}>Let’s figure out how much you can afford</p>
-        <p className={s.descr}>
-          Before you start shopping, let’s figure out how much you can afford. Move the sliders to
-          see how the loan duration and the total loan amount affect your monthly payments.
-        </p>
+        <p className={`${s.title} ${titleCl}`}>{title}</p>
+        <p className={s.descr}>{descr}</p>
       </div>
-      <div className={s.sliderCenterWr}>
+      <div className={`${s.sliderCenterWr} ${centerWr}`}>
         <div className={s.sliderLeftWr}>
           <ul className={s.tabIndexWr}>
             <li
@@ -64,7 +69,7 @@ const RangeSliderSec = ({ className }) => {
           <p className={s.leftNumber}>$ 966</p>
           <p className={`${s.leftText} ${s.leftText2}`}>Weekly Payment</p>
           <p className={`${s.leftNumber} ${s.leftNumber2}`}>$ 241</p>
-          <ButtonSolid className={s.btn} text="Request a car" />
+          <ButtonSolid className={`${s.btn} ${btnBottomCl}`} text={`${btnText}`} />
         </div>
       </div>
     </div>
