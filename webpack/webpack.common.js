@@ -21,6 +21,9 @@ module.exports = {
       {
         test: /\.(css|sass|scss)$/,
         exclude: /node_modules/,
+        generator: {
+          filename: `styles/[name][hash][ext]`
+        },
         use: ["style-loader", {
           loader: 'css-loader',
           options: {
@@ -33,6 +36,9 @@ module.exports = {
       {
         test: /\.(css|sass|scss)$/,
         exclude: /src/,
+        generator: {
+          filename: `styles/[name][hash][ext]`
+        },
         use: ["style-loader", {
           loader: 'css-loader',
           options: {
@@ -46,7 +52,7 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf|svg)$/i,
         type: "asset/resource",
         generator: {
-          filename: 'fonts/[hash][ext][query]'
+          filename: 'fonts/[name][hash][ext]'
         }
       },
     ]

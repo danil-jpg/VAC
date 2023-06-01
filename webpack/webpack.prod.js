@@ -9,39 +9,21 @@ const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
   mode: "production",
+
+  output: {
+    path: path.resolve(__dirname, "..", "docs/"),
+    filename: "scripts/bundle[hash].js",
+    clean: true,
+    publicPath: '/'
+  },
+
   plugins: [
     new CopyWebpackPlugin({
       patterns: [{
         from: path.resolve(__dirname, '../src/assets/img/'),
         to: path.resolve(__dirname, '../src/assets/img/')
-      }]
+      },]
     }),
-  ],
-  output: {
-    path: path.resolve(__dirname, "..", "docs/"),
-    filename: "bundle.js",
-    clean: true,
-    publicPath: '/'
-  },
-  module: {
-    rules: [
-      {
-        test: /\.(png|svg|jpg|jpeg|webp)$/i,
-        type: 'asset/resource',
-        generator: {
-          filename: 'image/[hash][ext][query]'
-        }
-      },
-    ]
-  },
-  optimization: {
-    minimize: true,
-    minimizer: [new TerserPlugin(
-      {
-        test: /\.(tsx|jsx|js)$/,
-        exclude: /node_modules/,
-      }
-    ),
     new ImageMinimizerPlugin({
       minimizer: {
         implementation: ImageMinimizerPlugin.imageminMinify,
@@ -72,9 +54,38 @@ module.exports = {
           ],
         },
       },
+      generator: [
+        {
+          preset: 'webp',
+          implementation: ImageMinimizerPlugin.imageminGenerate,
+          options: {
+            plugins: ['imagemin-webp']
+          }
+        }
+      ]
     }),
-    new ImageminWebpWebpackPlugin({
-    })
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.(png|svg|jpg|jpeg|webp)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: '[path]/[name][hash][ext]'
+        }
+      },
+    ]
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin(
+      {
+        test: /\.(tsx|jsx|js)$/,
+        exclude: /node_modules/,
+      }
+    ),
+      // new ImageminWebpWebpackPlugin({
+      // })
     ]
   }
 }
