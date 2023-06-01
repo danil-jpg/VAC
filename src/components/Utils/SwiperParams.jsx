@@ -77,12 +77,26 @@ export const params = {
 		}
 		.sliderInv {
 			padding-bottom: 27px;
-		  }
+		}
+
+
 
 		  @media screen and (max-width: 1200px) {
 			.sliderInv{
 				padding-bottom: 99px;
 			}
+		  }
+
+		  .my-thumbs{
+			margin-top: 20px;
+
+			img{
+				height: 92px;
+			}
+		  }
+
+		  .swiper-slide-thumb-active{
+			border: 2px solid  #7481FF;
 		  }
 			`,
   ],

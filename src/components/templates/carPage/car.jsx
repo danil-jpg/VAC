@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import s from "./car.module.scss";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
 import RangeSliderSec from "../../organisms/rangeSliderSec/rangeSliderSec";
@@ -6,27 +6,33 @@ import { register } from "swiper/element/bundle";
 import { params } from "../../Utils/SwiperParams";
 
 const Car = () => {
+  const swiperRefDef = useRef(null);
+  const swiperRefThumb = useRef(null);
   register();
-  //   const [swiper, updateSwiper] = useState(null);
-  //   const [swiperThumbs, updateSwiperThumbs] = useState(null);
 
-  //   useEffect(() => {
-  //     if (swiper && swiperThumbs) {
-  //       swiper.controller.control = swiperThumbs;
-  //       swiperThumbs.controller.control = swiper;
-  //     }
-  //   }, [swiper, swiperThumbs]);
+  useEffect(() => {
+    const swiperElThumb = swiperRefThumb.current;
+    const swiperElDef = swiperRefDef.current;
+    Object.assign(swiperElThumb, params);
+    Object.assign(swiperElDef, params);
+    swiperElDef.initialize();
+    swiperElThumb.initialize();
+  }, []);
 
   return (
     <div className={`${s.carPage} container`}>
       <div className={s.topPage}>
         <div className={s.left}>
+          <p className={s.carTitle}>Porsche Panamera 4S</p>
+          <p className={s.etc}>Watching now 8 people</p>
           <swiper-container
+            init="false"
             class="sliderCar"
+            ref={swiperRefDef}
             thumbs-swiper=".my-thumbs"
             controller-control=".my-thumbs">
             <swiper-slide>
-              <img src={require("../../../assets/img/components/cars/carSl.png")} />
+              <img src={require("../../../assets/img/components/cars/carSl1Big.png")} />
             </swiper-slide>
             <swiper-slide>
               <img src={require("../../../assets/img/components/cars/carSlBig2.jpg")} />
@@ -38,18 +44,39 @@ const Car = () => {
               <img src={require("../../../assets/img/components/cars/carSl4.png")} />
             </swiper-slide>
           </swiper-container>
-          <swiper-container class="my-thumbs" controller-control=".my-thumbs" slides-per-view="4">
+          <swiper-container
+            init="false"
+            ref={swiperRefThumb}
+            space-between="10"
+            navigation="true"
+            class="my-thumbs"
+            controller-control=".my-thumbs"
+            slides-per-view="3.9"
+            navig
+            center-slide="true">
             <swiper-slide>
-              <img src={require("../../../assets/img/components/cars/carSl.png")} />
+              <img
+                src={require("../../../assets/img/components/cars/carSl.png")}
+                className={s.thumbImg}
+              />
             </swiper-slide>
             <swiper-slide>
-              <img src={require("../../../assets/img/components/cars/carSlBig2.jpg")} />
+              <img
+                src={require("../../../assets/img/components/cars/carSlBig2.jpg")}
+                className={s.thumbImg}
+              />
             </swiper-slide>
             <swiper-slide>
-              <img src={require("../../../assets/img/components/cars/carSl3.png")} />
+              <img
+                src={require("../../../assets/img/components/cars/carSl3.png")}
+                className={s.thumbImg}
+              />
             </swiper-slide>
             <swiper-slide>
-              <img src={require("../../../assets/img/components/cars/carSl4.png")} />
+              <img
+                src={require("../../../assets/img/components/cars/carSl4.png")}
+                className={s.thumbImg}
+              />
             </swiper-slide>
           </swiper-container>
         </div>
