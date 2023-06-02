@@ -50,6 +50,26 @@ const About = () => {
             />
           </div>
         </div>
+        <div className={s.textsBlock}>
+          <div className={s.topBl}>
+            <div className={s.topLeft}>
+              <img src={require("../../../assets/img/components/cars/Nissan.png")} />
+            </div>
+            <div className={s.topRight}>
+              <p className={s.topTitle}>VAC is convenience and transparency</p>
+              <p className={`${s.topText} ${s.getCarDescr}`}>
+                We want to make simple for you to find the car you want. We also want to make sure
+                you are 100% comfortable with the terms of the conditions of your auto loan.
+              </p>
+              <p className={`${s.topText} ${s.getCarDescr}`}>
+                Buying a car has never been easier. You pick out the car you want on our website.
+                You work with one of our Qualified Agents to secure financing. Then we bring the car
+                to you—all before you sign anything. You test drive the vehicle, and if you like it,
+                you sign the loan documents right there and the car is yours.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

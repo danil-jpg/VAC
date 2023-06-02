@@ -27,6 +27,32 @@
   padding-top: 12px;
 }
 
+.textsBlock {
+}
+
+.topBl {
+  display: grid;
+  grid-template-columns: 1fr 46%;
+  margin-top: 128px;
+  align-items: end;
+}
+
+.topLeft {
+}
+
+.topRight {
+  width: 90%;
+}
+
+.topTitle {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
+}
+
+.topText {
+}
 @media screen and (max-width: 1200px) {
   .getCar {
     grid-template-columns: 1fr;
@@ -36,6 +62,24 @@
 
   .getCarRight {
     margin-top: 22px;
+  }
+
+  .topBl {
+    grid-template-columns: 1fr;
+    margin-top: 61px;
+    padding: 0 61px;
+  }
+  .topLeft {
+    order: 1;
+    margin-top: 47px;
+  }
+
+  .topRight {
+    width: 100%;
+  }
+
+  .topTitle {
+    width: 82%;
   }
 }
 
@@ -56,5 +100,27 @@
 
   .getCarRight {
     margin-top: 14px;
+  }
+
+  .topBl {
+    padding: 0;
+    margin-top: 45px;
+  }
+
+  .topTitle {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 140.5%;
+    font-size: 30px;
+    line-height: 140.5%;
+    width: 100%;
+  }
+
+  .getCarDescr {
+    width: 96%;
+  }
+
+  .topLeft {
+    margin-top: 0px;
   }
 }
