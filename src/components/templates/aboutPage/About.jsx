@@ -5,6 +5,7 @@ import s from "./about.module.scss";
 import Triangle from "../../organisms/triangle/Triangle";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
 import Slider2 from "../../organisms/slider2/Slider2";
+import Number from "../../molecules/numberBlock/number";
 
 const About = () => {
   return (
@@ -149,6 +150,27 @@ const About = () => {
               className={s.dynamicImg}
               src={require("../../../assets/img/components/about/table.png")}
             />
+          </div>
+        </div>
+        <div className={s.feature}>
+          <div className={s.left}>
+            <img src={require("../../../assets/img/components/about/meet.png")} />
+          </div>
+          <div className={s.right}>
+            <p className={s.rightTitle}>Main features</p>
+            <p className={s.rightDescr}>
+              We are your one stop shop. We believe that vehicle shopping should be a fun and
+              painless process and with years of experience, we make it just that.
+            </p>
+            <div className={s.rightCards}>
+              <Number
+                arr={[
+                  { number: "7,988+", descr: "Sold Cars" },
+                  { number: "123", descr: "Working Experts" },
+                  { number: "1560+", descr: "Happy Clients" },
+                ]}
+              />
+            </div>
           </div>
         </div>
       </div>

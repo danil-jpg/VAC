@@ -149,11 +149,41 @@
   padding-top: 17px;
 }
 
-.slider {
-  margin-top: 160px;
+.feature {
+  margin-top: 232px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rightTitle {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
+  margin-top: -11px;
+}
+
+.rightDescr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #606276;
+  margin-top: 19px;
+}
+
+.rightCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 38px;
+  row-gap: 42px;
+  column-gap: 40px;
 }
 
 @media screen and (max-width: 1200px) {
+  .slider {
+    margin-top: 160px;
+  }
   .getCar {
     grid-template-columns: 1fr;
     margin-top: 443px;
