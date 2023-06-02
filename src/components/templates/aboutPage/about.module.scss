@@ -1,0 +1,60 @@
+.getCar {
+  display: grid;
+  margin-top: 264px;
+  grid-template-columns: 1fr 46%;
+  column-gap: 76px;
+}
+.getCarLeft {
+}
+.getCarDescr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  margin-top: 22px;
+  color: #606276;
+}
+.getCarTitle {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 140.5%;
+  color: #41456b;
+}
+.getCarRight {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+  .getCar {
+    grid-template-columns: 1fr;
+    margin-top: 443px;
+    padding: 0 62px;
+  }
+
+  .getCarRight {
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .getCar {
+    margin-top: 237px;
+    padding: 0;
+  }
+
+  .getCarTitle {
+    font-size: 30px;
+    line-height: 140.5%;
+  }
+
+  .getCarDescr {
+    margin-top: 12px;
+  }
+
+  .getCarRight {
+    margin-top: 14px;
+  }
+}
