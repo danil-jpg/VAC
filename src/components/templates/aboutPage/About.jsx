@@ -6,6 +6,7 @@ import Triangle from "../../organisms/triangle/Triangle";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
 import Slider2 from "../../organisms/slider2/Slider2";
 import Number from "../../molecules/numberBlock/number";
+import RangeSliderSec from "../../organisms/rangeSliderSec/rangeSliderSec";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
           descr={
             "Our mission at VAC is to help you find the perfect car at the perfect price and with the perfect auto loan. We make buying a car simple. You can complete the entire process from home—we’ll even deliver the car to you!"
           }
-          img={require("../../../assets/img/components/cars/Kia.png")}
+          img={require("../../../assets/img/components/cars/Kia.webp")}
         />
         <div className={s.getCar}>
           <div className={s.getCarLeft}>
@@ -173,6 +174,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <RangeSliderSec className={s.rangeSl} />
       </div>
     </div>
   );

@@ -249,6 +249,22 @@
       object-fit: contain;
     }
   }
+
+  .feature {
+    grid-template-columns: 1fr;
+    margin-top: 171px;
+    padding: 0 60px;
+  }
+
+  .left {
+    order: 1;
+    margin-top: 41px;
+    width: 100%;
+    img {
+      height: 427px;
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -344,5 +360,39 @@
       height: 227px;
       width: 100%;
     }
+  }
+
+  .feature {
+    padding: 0;
+    grid-template-columns: 1fr;
+    margin-top: 90px;
+  }
+
+  .left {
+    margin-top: 20px;
+    img {
+      height: 228px;
+    }
+  }
+
+  .rightTitle {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140.5%;
+    color: #41456b;
+  }
+
+  .rightDescr {
+    margin-top: 12px;
+  }
+
+  .rightCards {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    row-gap: 10px;
+    column-gap: 40px;
+  }
+  .rangeSl {
+    margin-top: 80px;
   }
 }
