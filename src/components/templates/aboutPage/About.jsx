@@ -4,6 +4,7 @@ import CarDesr from "../../molecules/carDecr/CarDesr";
 import s from "./about.module.scss";
 import Triangle from "../../organisms/triangle/Triangle";
 import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
+import Slider2 from "../../organisms/slider2/Slider2";
 
 const About = () => {
   return (
@@ -96,6 +97,58 @@ const About = () => {
               </p>
               <ButtonSolid text="Request a Car" className={s.centerBtn} />
             </div>
+          </div>
+          <div className={s.bottomBl}>
+            <div className={s.bottomLeft}>
+              <div className={s.bottomLeftBlock}>
+                <p className={s.bottomLeftBlockText}>
+                  Contact us today and speak with one of our qualified agents
+                </p>
+                <ButtonSolid text="Contact Us Now" className={s.bottomBtn} />
+              </div>
+            </div>
+            <div className={s.bottomRight}>
+              <p className={s.topTitle}>Our qualified agents</p>
+              <p className={`${s.topText} ${s.getCarDescr}`}>
+                The true secret to success of VAC isn’t our streamlined purchasing and financing
+                processes. The real reason VAC is the easiest and best way to buy a car in Canada is
+                because of our outstanding Qualified Agents.
+              </p>
+              <p className={`${s.topText} ${s.getCarDescr}`}>
+                Our team provides you with the best customer experience in the automotive industry.
+                You work with a dedicated representative throughout the process. They are able to
+                answer any questions you have about any of our vehicles or the financing. Are you
+                interested in seeing pictures or videos of a car? Your qualified agent will send
+                them to you.
+              </p>
+            </div>
+          </div>
+        </div>
+        <Slider2 className={s.slider} />
+        <div className={s.dynamic}>
+          <div className={s.dynamicLeft}>
+            <p className={s.dynamicTitle}>
+              We're dynamic team of creative people with innovative mind
+            </p>
+            <p className={s.dynamicSubTitle}>Our History</p>
+            <p className={s.danamicDescr}>
+              We founded VAC because we hated how complicated it was to buy a car. You only have so
+              much free time in your life. You don’t want to waste it going to different car
+              dealerships every weekend for weeks and months trying to track down the right car.
+            </p>
+            <p className={s.dynamicSubTitle}>Our Goal</p>
+            <p className={s.danamicDescr}>
+              Buying a car has never been easier. You pick out the car you want on our website. You
+              work with one of our Qualified Agents to secure financing. Then we bring the car to
+              you—all before you sign anything. You test drive the vehicle, and if you like it, you
+              sign the loan documents right there and the car is yours.
+            </p>
+          </div>
+          <div className={s.dynamicRight}>
+            <img
+              className={s.dynamicImg}
+              src={require("../../../assets/img/components/about/table.png")}
+            />
           </div>
         </div>
       </div>

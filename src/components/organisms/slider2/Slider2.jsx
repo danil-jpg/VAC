@@ -3,7 +3,7 @@ import s from "./slider2.module.scss";
 import { register } from "swiper/element/bundle";
 import { params } from "../../Utils/SwiperParams";
 
-const Slider2 = () => {
+const Slider2 = ({ className = "" }) => {
   const swiperRef = useRef(null);
 
   register();
@@ -27,7 +27,7 @@ const Slider2 = () => {
   }, []);
 
   return (
-    <div className={`${s.section} container`}>
+    <div className={`${s.section} ${className} container`}>
       <p className={s.title}>What our client say about us!</p>
       <div className={s.sliderWr}>
         <swiper-container ref={swiperRef} init="false" class="slider2">
