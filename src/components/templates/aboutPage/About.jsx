@@ -3,6 +3,7 @@ import PageTitle from "../../molecules/pageTitle/PageTitle";
 import CarDesr from "../../molecules/carDecr/CarDesr";
 import s from "./about.module.scss";
 import Triangle from "../../organisms/triangle/Triangle";
+import ButtonSolid from "../../atoms/Buttons/ButtonSolid/ButtonSolid";
 
 const About = () => {
   return (
@@ -67,6 +68,33 @@ const About = () => {
                 to you—all before you sign anything. You test drive the vehicle, and if you like it,
                 you sign the loan documents right there and the car is yours.
               </p>
+            </div>
+          </div>
+          <div className={s.centerBl}>
+            <div className={s.centerLeft}>
+              <p className={s.topTitle}>Get a car at the best prices and conditions</p>
+              <p className={`${s.topText} ${s.getCarDescr}`}>
+                Not only is buying a car with VAC easy, it’s also the best way to save money. We
+                have partnerships with Canada’s largest lenders. That allows us to help you secure
+                loans at the best interest rates available.
+              </p>
+              <p className={`${s.topText} ${s.getCarDescr}`}>
+                Because convenience and transparency are our founding principles, we take the time
+                to answer all of your questions about the vehicle and the auto loan. We will send
+                you pictures and videos of any part of the car you like before you request a test
+                drive.
+              </p>
+            </div>
+            <div className={s.centerRight}>
+              <p className={`${s.centerSubTitle}`}>
+                We think that VAC is the best way to buy a car in Canada. Try it for yourself and
+                see how much time and money you can save.
+              </p>
+              <p className={`${s.topText} ${s.getCarDescr}`}>
+                There are never any hidden fees or costs. We never ask you to sign anything until we
+                have explained it clearly and you have had a chance to read it.
+              </p>
+              <ButtonSolid text="Request a Car" className={s.centerBtn} />
             </div>
           </div>
         </div>
