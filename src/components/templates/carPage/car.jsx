@@ -32,16 +32,16 @@ const Car = () => {
             thumbs-swiper=".my-thumbs"
             controller-control=".my-thumbs">
             <swiper-slide>
-              <img src={require("../../../assets/img/components/cars/carSl1Big.png")} />
+              <img src={require("../../../assets/img/components/cars/carSl1Big.webp")} />
             </swiper-slide>
             <swiper-slide>
               <img src={require("../../../assets/img/components/cars/carSlBig2.jpg")} />
             </swiper-slide>
             <swiper-slide>
-              <img src={require("../../../assets/img/components/cars/carSl3.png")} />
+              <img src={require("../../../assets/img/components/cars/carSl3.webp")} />
             </swiper-slide>
             <swiper-slide>
-              <img src={require("../../../assets/img/components/cars/carSl4.png")} />
+              <img src={require("../../../assets/img/components/cars/carSl4.webp")} />
             </swiper-slide>
           </swiper-container>
           <swiper-container
@@ -56,7 +56,7 @@ const Car = () => {
             center-slide="true">
             <swiper-slide>
               <img
-                src={require("../../../assets/img/components/cars/carSl.png")}
+                src={require("../../../assets/img/components/cars/carSl.webp")}
                 className={s.thumbImg}
               />
             </swiper-slide>
@@ -68,13 +68,13 @@ const Car = () => {
             </swiper-slide>
             <swiper-slide>
               <img
-                src={require("../../../assets/img/components/cars/carSl3.png")}
+                src={require("../../../assets/img/components/cars/carSl3.webp")}
                 className={s.thumbImg}
               />
             </swiper-slide>
             <swiper-slide>
               <img
-                src={require("../../../assets/img/components/cars/carSl4.png")}
+                src={require("../../../assets/img/components/cars/carSl4.webp")}
                 className={s.thumbImg}
               />
             </swiper-slide>

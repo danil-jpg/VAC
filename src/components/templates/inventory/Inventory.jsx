@@ -189,7 +189,7 @@ const Inventory = () => {
             onClick={() => {
               setFilter(true);
             }}>
-            <img src={require("../../../assets/img/components/inv/Filter icon.png")} />
+            <img src={require("../../../assets/img/components/inv/Filter icon.webp")} />
             <p className={s.filterText}>Search Filter</p>
           </div>
           <Input className={s.searchInput} placeholder={"Find a dream car..."} />
@@ -212,32 +212,32 @@ const Inventory = () => {
                 <InvCar
                   title={"Porsche Panamera II Turbo S E-Hybrid"}
                   price={"$ 150 000"}
-                  img={require("../../../assets/img/components/inv/car1.png")}
+                  img={require("../../../assets/img/components/inv/car1.webp")}
                 />
                 <InvCar
                   title={"Mitsubishi Outlander III Restyling 3 More datail information"}
                   price={"$ 23 500"}
-                  img={require("../../../assets/img/components/inv/car2.jpg")}
+                  img={require("../../../assets/img/components/inv/car2.webp")}
                 />
                 <InvCar
                   title={"Mercedes-Benz CLA I (C117, X117) 200More information"}
                   price={"$23 500"}
-                  img={require("../../../assets/img/components/inv/car3.jpg")}
+                  img={require("../../../assets/img/components/inv/car3.webp")}
                 />
                 <InvCar
                   title={"Mercedes-Benz W124 420"}
                   price={"$ 150 000"}
-                  img={require("../../../assets/img/components/inv/car1.png")}
+                  img={require("../../../assets/img/components/inv/car1.webp")}
                 />
                 <InvCar
                   title={"Mercedes-Benz CLA I (C117, X117) 200More information"}
                   price={"$23 500"}
-                  img={require("../../../assets/img/components/inv/car3.jpg")}
+                  img={require("../../../assets/img/components/inv/car3.webp")}
                 />
                 <InvCar
                   title={"Mercedes-Benz W124 420"}
                   price={"$ 150 000"}
-                  img={require("../../../assets/img/components/inv/car1.png")}
+                  img={require("../../../assets/img/components/inv/car1.webp")}
                 />
               </div>
             </swiper-slide>
@@ -246,32 +246,32 @@ const Inventory = () => {
                 <InvCar
                   title={"Porsche Panamera II Turbo S E-Hybrid"}
                   price={"$ 150 000"}
-                  img={require("../../../assets/img/components/inv/car1.png")}
+                  img={require("../../../assets/img/components/inv/car1.webp")}
                 />
                 <InvCar
                   title={"Mitsubishi Outlander III Restyling 3 More datail information"}
                   price={"$ 23 500"}
-                  img={require("../../../assets/img/components/inv/car2.jpg")}
+                  img={require("../../../assets/img/components/inv/car2.webp")}
                 />
                 <InvCar
                   title={"Mercedes-Benz CLA I (C117, X117) 200More information"}
                   price={"$23 500"}
-                  img={require("../../../assets/img/components/inv/car3.jpg")}
+                  img={require("../../../assets/img/components/inv/car3.webp")}
                 />
                 <InvCar
                   title={"Mercedes-Benz W124 420"}
                   price={"$ 150 000"}
-                  img={require("../../../assets/img/components/inv/car1.png")}
+                  img={require("../../../assets/img/components/inv/car1.webp")}
                 />
                 <InvCar
                   title={"Mercedes-Benz CLA I (C117, X117) 200More information"}
                   price={"$23 500"}
-                  img={require("../../../assets/img/components/inv/car3.jpg")}
+                  img={require("../../../assets/img/components/inv/car3.webp")}
                 />
                 <InvCar
                   title={"Mercedes-Benz W124 420"}
                   price={"$ 150 000"}
-                  img={require("../../../assets/img/components/inv/car1.png")}
+                  img={require("../../../assets/img/components/inv/car1.webp")}
                 />
               </div>
             </swiper-slide>
