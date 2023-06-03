@@ -29,7 +29,8 @@ const App = () => {
     <BrowserRouter basename="/">
       <Header setMenu={setMenu} setIsQuiz={setIsQuiz} />
       <Routes>
-        <Route element={<MainPage />}></Route>
+        <Route index element={<Inventory index />}></Route>
+        {/* <Route index element={<MainPage index />}></Route> */}
         <Route path="Terms" element={<TermsPage />}></Route>
         <Route path="Policy" element={<PolicyPage />}></Route>
         <Route path="Calculator" element={<CalculatorPage />}></Route>
@@ -38,7 +39,6 @@ const App = () => {
         <Route path="Article" element={<Article />}></Route>
         <Route path="404" element={<E400 />}></Route>
         <Route path="Loan" element={<Loan />}></Route>
-        <Route index path="/" element={<Inventory index />}></Route>
         <Route path="About" element={<About />}></Route>
         <Route path="Quiz/*" element={<Quiz setIsQuiz={setIsQuiz} />}></Route>
         <Route path="Car" element={<Car />}></Route>
