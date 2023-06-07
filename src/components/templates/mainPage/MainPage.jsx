@@ -10,10 +10,14 @@ import Slider2 from "../../organisms/slider2/Slider2";
 import RangeSliderSec from "../../organisms/rangeSliderSec/rangeSliderSec";
 import Slider3 from "../../organisms/slider3/Slider3";
 import ModalMenu from "../../organisms/modalMenu/ModalMenu";
+import imgPng from "../../../assets/img/components/cars/carSl.png";
+import imgWebp from "../../../assets/img/components/cars/carSl.png?as=webp";
 
 const MainPage = () => {
   return (
     <>
+      <img src={imgPng} />
+      <img src={imgWebp} />
       <Slider1 />
       <DescrCenterSec className={s.mainPageDescr} />
       <TriangleSec />
