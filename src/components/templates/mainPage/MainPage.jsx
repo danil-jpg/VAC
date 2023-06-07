@@ -16,8 +16,6 @@ import imgWebp from "../../../assets/img/components/cars/carSl.png?as=webp";
 const MainPage = () => {
   return (
     <>
-      <img src={imgPng} />
-      <img src={imgWebp} />
       <Slider1 />
       <DescrCenterSec className={s.mainPageDescr} />
       <TriangleSec />
