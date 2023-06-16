@@ -18,6 +18,7 @@ import Inventory from "./components/templates/inventory/Inventory";
 import ModalContact from "./components/organisms/modalContact/ModalContact";
 import About from "./components/templates/aboutPage/About";
 import Car from "./components/templates/carPage/car";
+import { createStore } from "redux";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
